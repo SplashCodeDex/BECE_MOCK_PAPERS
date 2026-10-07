@@ -95,3 +95,56 @@ def test_save_questions_batch(temp_extractor):
         assert rows[0]["id"] == "Math_2024_q1"
         assert rows[0]["correct_answer"] == "B"
         assert rows[1]["has_diagram"] == 1
+
+
+def test_table_to_markdown():
+    import docx
+    doc = docx.Document()
+    tbl = doc.add_table(rows=2, cols=3)
+    tbl.rows[0].cells[0].text = "Age"
+    tbl.rows[0].cells[1].text = "12"
+    tbl.rows[0].cells[2].text = "13"
+    tbl.rows[1].cells[0].text = "Freq"
+    tbl.rows[1].cells[1].text = "5"
+    tbl.rows[1].cells[2].text = "8"
+
+    md = QuestionExtractor.table_to_markdown(tbl)
+    assert "| Age | 12 | 13 |" in md
+    assert "| Freq | 5 | 8 |" in md
+    assert "---" in md
+
+
+def test_stimulus_pattern_matching():
+    from src.question_extractor import STIMULUS_PATTERNS
+    samples = [
+        "Figure I show the pictorial view of a block. Use it to answer questions 3 and 4.",
+        "Use the diagram below to answer questions 15 to 17.",
+        "Study the table below carefully and answer questions 32 and 33."
+    ]
+    for s in samples:
+        matched = any(p.search(s) for p in STIMULUS_PATTERNS)
+        assert matched is True
+
+
+def test_export_catalog(temp_extractor, tmp_path):
+    temp_extractor.save_question({
+        "id": "Math_2024_test_q1",
+        "subject": "Mathematics",
+        "year": 2024,
+        "paper_type": "Objective",
+        "question_number": 1,
+        "question_text": "Export test question",
+        "option_a": "A",
+        "option_b": "B",
+        "option_c": "C",
+        "option_d": "D",
+        "correct_answer": "A",
+        "has_diagram": 0,
+        "diagram_path": None,
+        "source_file": "test.docx"
+    })
+    # Export and verify
+    temp_extractor.export_catalog()
+    from src.question_extractor import JSON_EXPORT_PATH
+    assert JSON_EXPORT_PATH.exists()
+
