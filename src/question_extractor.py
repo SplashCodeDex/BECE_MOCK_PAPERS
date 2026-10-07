@@ -368,18 +368,44 @@ class QuestionExtractor:
         year_match = re.search(r"\b(199\d|20[0-2]\d)\b", file_stem)
         year = int(year_match.group(1)) if year_match else None
 
-        lines = [line.strip() for line in content.split("\n") if line.strip()]
+        # Parse answer key if present in text
+        answer_key: Dict[int, str] = {}
+        for ak in re.finditer(r"\b(\d{1,2})\s*[\.\-\)]\s*([A-D])\b", content):
+            answer_key[int(ak.group(1))] = ak.group(2).upper()
+
+        raw_lines = [l.strip() for l in content.splitlines()]
+        skip_phrases = [
+            "skip to content", "sign in to check your answer",
+            "free — see the marking scheme for every question",
+            "free — see the marking scheme",
+            "the west african examinations council",
+            "basic education certificate examination",
+            "follow the education news consult",
+            ">>join here:", "click here to download",
+            "click >>>", "education store", "get the full set",
+            "get other subjects", "over 2000 bece", "below are samples"
+        ]
+        filtered_lines = []
+        for l in raw_lines:
+            if not l:
+                continue
+            l_low = l.lower()
+            if any(sp in l_low for sp in skip_phrases):
+                continue
+            filtered_lines.append(l)
 
         current_paper_type = "Paper 1 - Objective"
-        current_q_num = None
+        current_q_num: Optional[int] = None
         current_q_text: List[str] = []
         current_options = {"A": "", "B": "", "C": "", "D": ""}
+        auto_num_counter = 0
 
         def save_current_txt_question() -> None:
             nonlocal current_q_num, current_q_text, current_options
             if current_q_num and (current_q_text or any(current_options.values())):
                 tag = "P1" if "Paper 1" in current_paper_type else "P2"
                 q_id = f"{subject}_{year or 'TXT'}_{file_hash}_{tag}_q{current_q_num}"
+                ans = answer_key.get(current_q_num, "")
                 questions.append({
                     "id": q_id,
                     "subject": subject,
@@ -391,7 +417,7 @@ class QuestionExtractor:
                     "option_b": current_options["B"],
                     "option_c": current_options["C"],
                     "option_d": current_options["D"],
-                    "correct_answer": "",
+                    "correct_answer": ans,
                     "has_diagram": 0,
                     "diagram_path": None,
                     "source_file": file_path.name
@@ -400,43 +426,96 @@ class QuestionExtractor:
             current_q_text = []
             current_options = {"A": "", "B": "", "C": "", "D": ""}
 
-        for line in lines:
+        i = 0
+        while i < len(filtered_lines):
+            line = filtered_lines[i]
             line_lower = line.lower()
 
-            # Transition to Paper 2 / Theory / Essay / Section B
-            if any(term in line_lower for term in ["section b", "paper two", "paper 2", "part ii", "part 2", "theory", "essay"]) and not any(p1 in line_lower for p1 in ["paper 1", "paper one"]):
+            # Section transitions
+            if any(term in line_lower for term in ["section b", "paper two", "paper 2", "part ii", "part 2", "theory", "essay"]) and not any(p1 in line_lower for p1 in ["paper 1", "paper one", "objective"]):
                 save_current_txt_question()
                 current_paper_type = "Paper 2 - Theory"
+                i += 1
                 continue
 
-            # Transition to Paper 1 / Objective Test / Section A
             if any(term in line_lower for term in ["paper one", "paper 1", "objective test", "part i", "part 1"]) and not any(p2 in line_lower for p2 in ["paper 2", "paper two"]):
                 save_current_txt_question()
                 current_paper_type = "Paper 1 - Objective"
+                i += 1
                 continue
 
-            q_match = re.match(r"^(?:Question\s+)?(\d{1,2})\s*[\.\)]\s*(.*)", line, re.I)
-            if q_match:
+            # BECEzone style: 'Question' \n '1'
+            if line_lower == "question" and i + 1 < len(filtered_lines) and re.match(r"^\d{1,2}$", filtered_lines[i + 1]):
                 save_current_txt_question()
-                current_q_num = int(q_match.group(1))
-                q_body = q_match.group(2).strip()
-                current_q_text = [q_body] if q_body else []
+                current_q_num = int(filtered_lines[i + 1])
+                i += 2
                 continue
 
+            # GhLearner style: '1.' or '1' followed by '[1]' or 'BECE mock...'
+            gh_match = re.match(r"^(\d{1,2})\s*\.?$", line)
+            if gh_match and i + 1 < len(filtered_lines) and (filtered_lines[i + 1].startswith("[") or "bece" in filtered_lines[i + 1].lower() or "paper" in filtered_lines[i + 1].lower()):
+                save_current_txt_question()
+                current_q_num = int(gh_match.group(1))
+                i += 1
+                if i < len(filtered_lines) and filtered_lines[i].startswith("["):
+                    i += 1
+                if i < len(filtered_lines) and ("bece" in filtered_lines[i].lower() or "paper" in filtered_lines[i].lower()):
+                    i += 1
+                continue
+
+            # Standard Question match: '1. What is...' or 'Question 1: ...' or 'QUESTION 1'
+            std_match = re.match(r"^(?:(?:QUESTION\s+)?(\d{1,2})\s*[\.\)]?|\bQUESTION\s+(\d{1,2}))\s*(.*)", line, re.I)
+            if std_match and not re.match(r"^[A-D]\s*[\.\)]", line):
+                save_current_txt_question()
+                q_num_str = std_match.group(1) or std_match.group(2)
+                current_q_num = int(q_num_str)
+                q_body = std_match.group(3).strip()
+                current_q_text = [q_body] if q_body else []
+                i += 1
+                continue
+
+            # Options for Paper 1
             if "Paper 1" in current_paper_type:
+                # Inline options: A. Foo B. Bar C. Baz D. Qux
                 opt_matches = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D\n]+)", line)
-                if opt_matches and current_q_num:
-                    for opt_letter, opt_text in opt_matches:
-                        current_options[opt_letter] = opt_text.strip()
+                if len(opt_matches) >= 2:
+                    for opt_let, opt_txt in opt_matches:
+                        current_options[opt_let] = opt_txt.strip()
+                    i += 1
                     continue
 
-                single_opt = re.match(r"^([A-D])\s*[\.\)]\s*(.*)", line)
-                if single_opt and current_q_num:
+                # Single line option: A. Foo or A) Foo
+                single_opt = re.match(r"^([A-D])\s*[\.\)]\s*(.+)", line)
+                if single_opt:
+                    if not current_q_num:
+                        auto_num_counter += 1
+                        current_q_num = auto_num_counter
                     current_options[single_opt.group(1)] = single_opt.group(2).strip()
+                    i += 1
                     continue
 
+                # Standalone option letter: 'A' or 'A.'
+                standalone_opt = re.match(r"^([A-D])\s*[\.\)]?$", line)
+                if standalone_opt:
+                    if not current_q_num:
+                        auto_num_counter += 1
+                        current_q_num = auto_num_counter
+                    opt_letter = standalone_opt.group(1)
+                    i += 1
+                    if i < len(filtered_lines) and filtered_lines[i] == ".":
+                        i += 1
+                    if i < len(filtered_lines):
+                        current_options[opt_letter] = filtered_lines[i].strip()
+                        i += 1
+                    continue
+
+            # If we have an active question, append text
             if current_q_num:
                 current_q_text.append(line)
+            else:
+                current_q_text.append(line)
+
+            i += 1
 
         save_current_txt_question()
         return questions

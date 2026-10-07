@@ -9,7 +9,8 @@
     "file_size": 1014402,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2024_COMPUTING-FOUNDATION-MOCK-1-B-EDUCATION-_5a301239.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:11:13.944211"
+    "created_at": "2026-10-07T18:11:13.944211",
+    "is_marking_scheme": false
   },
   {
     "id": 2,
@@ -21,79 +22,8 @@
     "file_size": 970081,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2024_4TH-B-9-COMPUTING-MOCK-QUESTIONS_a8f2a307.pdf",
     "source_domain": "ghanaeducationnews.org",
-    "created_at": "2026-10-07T18:11:15.973543"
-  },
-  {
-    "id": 3,
-    "sha256": "466ff9b0a015aed9b0e51abe04d8c9d1033529683e37917a67808ade92ef8d21",
-    "original_url": "https://mickinetsystems.com/bece-past-questions/",
-    "file_name": "CDT_CAD_General_Unclassified_BECE_past_questions_466ff9b0.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 5041,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_BECE_past_questions_466ff9b0.txt",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:13:18.880538"
-  },
-  {
-    "id": 4,
-    "sha256": "bdee1b8f2d910fb258bb823de6b79ceeb81bf3cf7dbb0a835bd78e58cae84e96",
-    "original_url": "https://ghlearner.com/mock-exams",
-    "file_name": "Mathematics_General_Unclassified_Home_GhLearner_bdee_bdee1b8f.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 3302,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_General_Unclassified_Home_GhLearner_bdee_bdee1b8f.txt",
-    "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:13:19.245992"
-  },
-  {
-    "id": 5,
-    "sha256": "98ecfbbec7ffa4974c045bbca7d4e921ffc3f32c5c522873b022313034239436",
-    "original_url": "https://ghlearner.com/bece",
-    "file_name": "CDT_CAD_General_Unclassified_GhLearner_Download__98ecfbbe.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 1194,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_GhLearner_Download__98ecfbbe.txt",
-    "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:13:19.840461"
-  },
-  {
-    "id": 6,
-    "sha256": "17cb4546fd40194a3e7ecef844610e1c9253eefee8f9a26d4e5bfb2a20c0b025",
-    "original_url": "https://ghanaeducation.org/category/bece-questions/",
-    "file_name": "CDT_CAD_General_Unclassified_Ghana_Education_New_17cb4546.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 6279,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_Ghana_Education_New_17cb4546.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:13:20.183451"
-  },
-  {
-    "id": 8,
-    "sha256": "1b4312ac89294b41d0d5ed5f1f4f3f5dc073ae7d6c86f5d3730fb344d56e6506",
-    "original_url": "https://ghlearner.com/bece/topics",
-    "file_name": "CDT_CAD_General_Unclassified_Topics_for_BECE_202_1b4312ac.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 1424,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_Topics_for_BECE_202_1b4312ac.txt",
-    "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:13:20.406423"
-  },
-  {
-    "id": 9,
-    "sha256": "96410c4625a4398e492d7ad4b1ad95b3995c588f3f843c1de0c4f40771e91350",
-    "original_url": "https://ghlearner.com/wassce",
-    "file_name": "Mathematics_General_Unclassified_GhLearner_Download__96410c46.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 1086,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_General_Unclassified_GhLearner_Download__96410c46.txt",
-    "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:13:20.572192"
+    "created_at": "2026-10-07T18:11:15.973543",
+    "is_marking_scheme": false
   },
   {
     "id": 10,
@@ -105,7 +35,8 @@
     "file_size": 366592,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\doc\\Computing_ICT_2022_ICT_2014_Qu_and_Ans_f8c560fb.doc",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:13:22.112881"
+    "created_at": "2026-10-07T18:13:22.112881",
+    "is_marking_scheme": false
   },
   {
     "id": 11,
@@ -117,7 +48,8 @@
     "file_size": 332388,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2019_file_d3cecf02.pdf",
     "source_domain": "www.mediafire.com",
-    "created_at": "2026-10-07T18:13:22.836972"
+    "created_at": "2026-10-07T18:13:22.836972",
+    "is_marking_scheme": false
   },
   {
     "id": 12,
@@ -129,7 +61,8 @@
     "file_size": 22464,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\docx\\Computing_ICT_2021_ICT-2019_f2cdf945.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:13:23.606520"
+    "created_at": "2026-10-07T18:13:23.606520",
+    "is_marking_scheme": false
   },
   {
     "id": 13,
@@ -141,31 +74,8 @@
     "file_size": 2749336,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2021_BECE-ICT-2020-QUESTIONS_e1044fc8.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:13:26.224450"
-  },
-  {
-    "id": 27,
-    "sha256": "ca652f3e708f1ad9683fb13c163ac91b4059b752870b6c2404f861dfef64f415",
-    "original_url": "https://ghanaeducation.org/bece/",
-    "file_name": "CDT_CAD_General_Unclassified_BECE_-_Ghana_Educat_ca652f3e.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 4354,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_BECE_-_Ghana_Educat_ca652f3e.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:43.327373"
-  },
-  {
-    "id": 34,
-    "sha256": "cddd0640f437d9f7c9a1d70cbaab3bb298e9677db935ca0758a4876bbfe9b06b",
-    "original_url": "https://ghanaeducation.org/bece-home-mock-information-session-october-4-2026/",
-    "file_name": "CDT_CAD_General_Unclassified_2026_Join_the_2027__cddd0640.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 9833,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_2026_Join_the_2027__cddd0640.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:43.632068"
+    "created_at": "2026-10-07T18:13:26.224450",
+    "is_marking_scheme": false
   },
   {
     "id": 38,
@@ -177,19 +87,8 @@
     "file_size": 125759,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2015_7b0037ff.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.837313"
-  },
-  {
-    "id": 47,
-    "sha256": "0d9cd4bb3dd62e69140a013f82dcfc04936b5d4547b645c01264fa614c775a3c",
-    "original_url": "https://ghanaeducation.org/october-2026-bece-home-mock/",
-    "file_name": "CDT_CAD_General_Unclassified_2026_October_BECE_H_0d9cd4bb.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 10080,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_2026_October_BECE_H_0d9cd4bb.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:44.461086"
+    "created_at": "2026-10-07T18:15:43.837313",
+    "is_marking_scheme": false
   },
   {
     "id": 48,
@@ -201,31 +100,8 @@
     "file_size": 164950,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\docx\\CDT_CAD_2021_Home-Econs-2019_d809470d.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:44.481200"
-  },
-  {
-    "id": 49,
-    "sha256": "e9f064cbd39c7edcf4bfb1c2f6f57a8aac201267b57008da2f5027ab26cd04e0",
-    "original_url": "https://ghanaeducation.org/bece-home-mock-september-results-2027-registration-skulmanager/",
-    "file_name": "Mathematics_General_Unclassified_2027_September_BECE_e9f064cb.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 6566,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_General_Unclassified_2027_September_BECE_e9f064cb.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:44.572174"
-  },
-  {
-    "id": 53,
-    "sha256": "1340b1a9b6fc2c29a22d9bfccb4fd9b4ae6c6f2e7745c3a33682d9db1fa5e829",
-    "original_url": "https://ghanaeducation.org/free-august-2026-bece-social-studies-mock-questions-pdf/",
-    "file_name": "Computing_ICT_General_Unclassified_Free_August_2026_BE_1340b1a9.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 6366,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_General_Unclassified_Free_August_2026_BE_1340b1a9.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:45.012570"
+    "created_at": "2026-10-07T18:15:44.481200",
+    "is_marking_scheme": false
   },
   {
     "id": 54,
@@ -237,43 +113,8 @@
     "file_size": 271792,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\docx\\CDT_CAD_2021_Pre-Tech-2019_9e82be62.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.037645"
-  },
-  {
-    "id": 56,
-    "sha256": "60bf110ba3a3c6f783d64b9a43723651e42e26d0b62e8161c8c042622a6fa2fc",
-    "original_url": "https://ghanaeducation.org/2027-bece-integrated-science-mock-questions-topics/",
-    "file_name": "CDT_CAD_General_Unclassified_2027_BECE_Integrate_60bf110b.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 5394,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_2027_BECE_Integrate_60bf110b.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:45.117969"
-  },
-  {
-    "id": 58,
-    "sha256": "78580b27de02356fd73ac6eb1d1eb2efde422668aad0111f64923844da60d244",
-    "original_url": "https://ghanaeducation.org/free-bece-mathematics-mock-questions-pdf/",
-    "file_name": "Mathematics_Free_2026_BECE_Mathematics_Mock_Question_78580b27.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 8046,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Free_2026_BECE_Mathematics_Mock_Question_78580b27.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:45.198957"
-  },
-  {
-    "id": 60,
-    "sha256": "25a6d98ba8e11dd2942fed6345ed1cbb10c08a42f9571d4fedc62ac39234043d",
-    "original_url": "https://ghanaeducation.org/ghana-best-bece-mocks-schools-homes/",
-    "file_name": "Computing_ICT_General_Unclassified_Ghana’s_Best_BECE_M_25a6d98b.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 7000,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_General_Unclassified_Ghana’s_Best_BECE_M_25a6d98b.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:45.396512"
+    "created_at": "2026-10-07T18:15:45.037645",
+    "is_marking_scheme": false
   },
   {
     "id": 61,
@@ -285,31 +126,8 @@
     "file_size": 343096,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2017_72689baa.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.446485"
-  },
-  {
-    "id": 62,
-    "sha256": "03af74b8cb08941cd554ee674a1c18c8d870df34efbb19485f4bcbd0c335b731",
-    "original_url": "https://ghanaeducation.org/bece-mock-questions-for-2026-october-mock-out/",
-    "file_name": "Computing_ICT_General_Unclassified_2026_BECE_Mock_Ques_03af74b8.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 4394,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_General_Unclassified_2026_BECE_Mock_Ques_03af74b8.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:45.508491"
-  },
-  {
-    "id": 64,
-    "sha256": "6263bc6ec191a0c1ad45384c1c9a9ec633f975d4a61793a4cb854210fa3a8593",
-    "original_url": "https://ghanaeducation.org/grab-full-october-2026-bece-mock-papers-to-schools-for-gh%e2%82%b5150/",
-    "file_name": "CDT_CAD_General_Unclassified_October_2026_BECE_M_6263bc6e.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 6135,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_October_2026_BECE_M_6263bc6e.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:45.595648"
+    "created_at": "2026-10-07T18:15:45.446485",
+    "is_marking_scheme": false
   },
   {
     "id": 70,
@@ -321,7 +139,8 @@
     "file_size": 755117,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2018_245a275d.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:46.280319"
+    "created_at": "2026-10-07T18:15:46.280319",
+    "is_marking_scheme": false
   },
   {
     "id": 73,
@@ -333,19 +152,8 @@
     "file_size": 876641,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2011_3de74a71.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:46.535542"
-  },
-  {
-    "id": 74,
-    "sha256": "93a27c84b2c19a095cfbb6ec4b3d223aa78a34f31135d2d2fffe366e65fcf1b3",
-    "original_url": "https://ghanaeducation.org/buy-january-2025-bece-mock-questions-and-answers-here/",
-    "file_name": "Mathematics_General_Unclassified_Buy_January_2025_BE_93a27c84.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 4148,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_General_Unclassified_Buy_January_2025_BE_93a27c84.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:46.675211"
+    "created_at": "2026-10-07T18:15:46.535542",
+    "is_marking_scheme": false
   },
   {
     "id": 75,
@@ -357,7 +165,8 @@
     "file_size": 1062215,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2012_00134e46.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:46.810865"
+    "created_at": "2026-10-07T18:15:46.810865",
+    "is_marking_scheme": false
   },
   {
     "id": 77,
@@ -369,7 +178,8 @@
     "file_size": 801284,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2016_176088cd.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:47.017638"
+    "created_at": "2026-10-07T18:15:47.017638",
+    "is_marking_scheme": false
   },
   {
     "id": 79,
@@ -381,7 +191,8 @@
     "file_size": 315171,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_General_Unclassified_ADMISSION_REQUIREME_5443465f.pdf",
     "source_domain": "admission.coeportal.edu.gh",
-    "created_at": "2026-10-07T18:15:47.909359"
+    "created_at": "2026-10-07T18:15:47.909359",
+    "is_marking_scheme": false
   },
   {
     "id": 80,
@@ -393,7 +204,8 @@
     "file_size": 770316,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2010_e43b3934.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:48.067550"
+    "created_at": "2026-10-07T18:15:48.067550",
+    "is_marking_scheme": false
   },
   {
     "id": 88,
@@ -405,7 +217,8 @@
     "file_size": 572108,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_BECE-MATHS-MOCK-AUGUST-2026-MOCK-Qs-Only_a756f9e1.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:49.337095"
+    "created_at": "2026-10-07T18:15:49.337095",
+    "is_marking_scheme": false
   },
   {
     "id": 89,
@@ -417,7 +230,8 @@
     "file_size": 569001,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_BECE-MATHS-MOCK-AUGUST-2026-MOCK-Scheme-_96ee93f1.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:49.353514"
+    "created_at": "2026-10-07T18:15:49.353514",
+    "is_marking_scheme": true
   },
   {
     "id": 91,
@@ -429,19 +243,8 @@
     "file_size": 1057339,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2022_2021-BECE-MATHEMATICS_b2f5e05a.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:49.437944"
-  },
-  {
-    "id": 92,
-    "sha256": "69820ecb331e87fa5f5af81434ffea1adef85af1162b643cbfc6a6b802862ad5",
-    "original_url": "https://waecgh.org/history/",
-    "file_name": "Mathematics_General_Unclassified_WAEC_History_–_The__69820ecb.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 9286,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_General_Unclassified_WAEC_History_–_The__69820ecb.txt",
-    "source_domain": "waecgh.org",
-    "created_at": "2026-10-07T18:15:49.593498"
+    "created_at": "2026-10-07T18:15:49.437944",
+    "is_marking_scheme": false
   },
   {
     "id": 93,
@@ -453,7 +256,8 @@
     "file_size": 2766620,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2022_2010-2017-home-economics_9d380a01.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:49.631588"
+    "created_at": "2026-10-07T18:15:49.631588",
+    "is_marking_scheme": false
   },
   {
     "id": 100,
@@ -465,7 +269,8 @@
     "file_size": 1252864,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\doc\\Mathematics_2022_Maths-2014_40198cbb.doc",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:50.674326"
+    "created_at": "2026-10-07T18:15:50.674326",
+    "is_marking_scheme": false
   },
   {
     "id": 102,
@@ -477,7 +282,8 @@
     "file_size": 1297308,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2022_2021-BECE-ICT_16039b45.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:51.970596"
+    "created_at": "2026-10-07T18:15:51.970596",
+    "is_marking_scheme": false
   },
   {
     "id": 103,
@@ -489,7 +295,8 @@
     "file_size": 4171028,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_maths-BECE-private-2021-15-Apr-2021-14-5_d53165bb.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:52.570901"
+    "created_at": "2026-10-07T18:15:52.570901",
+    "is_marking_scheme": false
   },
   {
     "id": 104,
@@ -501,7 +308,8 @@
     "file_size": 13955358,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2022_BECE-MATHEMATICS-1990-2013_ee6bb659.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:53.054376"
+    "created_at": "2026-10-07T18:15:53.054376",
+    "is_marking_scheme": false
   },
   {
     "id": 106,
@@ -513,7 +321,8 @@
     "file_size": 2078268,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2013_3dbdf9b1.docx",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:55.637152"
+    "created_at": "2026-10-07T18:15:55.637152",
+    "is_marking_scheme": false
   },
   {
     "id": 107,
@@ -525,7 +334,8 @@
     "file_size": 1960633,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2023_PTS-BECE-2022_b0e2cae6.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:56.407794"
+    "created_at": "2026-10-07T18:15:56.407794",
+    "is_marking_scheme": false
   },
   {
     "id": 110,
@@ -537,7 +347,8 @@
     "file_size": 2716232,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2023_Home-Econs-2022-BECE_e4b0cc6d.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:58.953175"
+    "created_at": "2026-10-07T18:15:58.953175",
+    "is_marking_scheme": false
   },
   {
     "id": 111,
@@ -549,7 +360,8 @@
     "file_size": 2956683,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2023_Mathematics-BECE-2022_86d397b4.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:59.881362"
+    "created_at": "2026-10-07T18:15:59.881362",
+    "is_marking_scheme": false
   },
   {
     "id": 112,
@@ -561,7 +373,8 @@
     "file_size": 3011118,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2023_ICT-BECE-2022_6c7dde33.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:16:01.646039"
+    "created_at": "2026-10-07T18:16:01.646039",
+    "is_marking_scheme": false
   },
   {
     "id": 113,
@@ -573,7 +386,8 @@
     "file_size": 4388714,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2022_2010-2017-pretech-skills_973876d3.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:16:01.815235"
+    "created_at": "2026-10-07T18:16:01.815235",
+    "is_marking_scheme": false
   },
   {
     "id": 117,
@@ -585,7 +399,8 @@
     "file_size": 7205419,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_ICT-BECE-private-2021_735229ee.pdf",
     "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:16:10.681209"
+    "created_at": "2026-10-07T18:16:10.681209",
+    "is_marking_scheme": false
   },
   {
     "id": 121,
@@ -597,7 +412,8 @@
     "file_size": 29442,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_PROVISIONAL_FEES_FOR_FOREIGN_GRADUATE_ST_b79df102.pdf",
     "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:48.406532"
+    "created_at": "2026-10-07T18:26:48.406532",
+    "is_marking_scheme": false
   },
   {
     "id": 123,
@@ -609,7 +425,8 @@
     "file_size": 1924294,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2020_Physical-and-health-education_7dc7e983.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:49.897181"
+    "created_at": "2026-10-07T18:26:49.897181",
+    "is_marking_scheme": false
   },
   {
     "id": 128,
@@ -621,7 +438,8 @@
     "file_size": 2721827,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2020_Career-technology_e33ca224.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:50.398577"
+    "created_at": "2026-10-07T18:26:50.398577",
+    "is_marking_scheme": false
   },
   {
     "id": 129,
@@ -633,7 +451,8 @@
     "file_size": 5106439,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2021_Maths-Teachers-Resource-Pack-Corrected_c3959a4c.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:51.146964"
+    "created_at": "2026-10-07T18:26:51.146964",
+    "is_marking_scheme": false
   },
   {
     "id": 130,
@@ -645,7 +464,8 @@
     "file_size": 390123,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_GENERAL_PAPERS_SECOND_SEMESTER_2017_2018_4ab967ff.pdf",
     "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:51.206286"
+    "created_at": "2026-10-07T18:26:51.206286",
+    "is_marking_scheme": false
   },
   {
     "id": 133,
@@ -657,7 +477,8 @@
     "file_size": 6377483,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2021_CAD-Teachers-Resource-Pack-Corrected_6b9894a1.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:51.925515"
+    "created_at": "2026-10-07T18:26:51.925515",
+    "is_marking_scheme": false
   },
   {
     "id": 138,
@@ -669,7 +490,8 @@
     "file_size": 39575,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_PROVISIONAL_FEES_FOR_FOREIGN_GRADUATE_ST_279d118d.pdf",
     "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:52.678375"
+    "created_at": "2026-10-07T18:26:52.678375",
+    "is_marking_scheme": false
   },
   {
     "id": 141,
@@ -681,7 +503,8 @@
     "file_size": 1848629,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2020_Creative-art-and-design_fc65d685.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:54.142470"
+    "created_at": "2026-10-07T18:26:54.142470",
+    "is_marking_scheme": false
   },
   {
     "id": 142,
@@ -693,7 +516,8 @@
     "file_size": 3699910,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2021_Computing-Learners-Resource-Pack-Correct_52f2d1eb.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:54.189480"
+    "created_at": "2026-10-07T18:26:54.189480",
+    "is_marking_scheme": false
   },
   {
     "id": 144,
@@ -705,7 +529,8 @@
     "file_size": 6150622,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2021_T1-B3-Copy_451d9349.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:56.705580"
+    "created_at": "2026-10-07T18:26:56.705580",
+    "is_marking_scheme": false
   },
   {
     "id": 145,
@@ -717,19 +542,8 @@
     "file_size": 7188170,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2021_Career-Technology-Learners-Resource-Pack_7761ce29.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:56.946424"
-  },
-  {
-    "id": 146,
-    "sha256": "d7abee014dc1512bd2b0f686b6386399db6602d86e60d16c77799b6ce5ea2481",
-    "original_url": "https://passco.com.gh/past-questions/bece-passco/2025/maths",
-    "file_name": "Mathematics_BECE_Passco_2025_Maths_Free_Past_Questio_d7abee01.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 1229,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_BECE_Passco_2025_Maths_Free_Past_Questio_d7abee01.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:26:57.599981"
+    "created_at": "2026-10-07T18:26:56.946424",
+    "is_marking_scheme": false
   },
   {
     "id": 147,
@@ -741,7 +555,8 @@
     "file_size": 13077,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Solve_BECE_Mathematics_Questions_&_Answe_372ba1b1.txt",
     "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:26:57.844784"
+    "created_at": "2026-10-07T18:26:57.844784",
+    "is_marking_scheme": false
   },
   {
     "id": 148,
@@ -753,31 +568,21 @@
     "file_size": 5509,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Download_Computing_Questions_and_Answers_b9c5bf93.txt",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:57.903610"
-  },
-  {
-    "id": 149,
-    "sha256": "a779ac203916d8423702c0da0067940dedf19f9524c0a36119bcaeb7412daf04",
-    "original_url": "https://passco.com.gh/past-questions/bece-passco/2019-2021/maths/maths-2019-2021-bece-qna",
-    "file_name": "Mathematics_Maths_2019_2021_BECE_QnA_BECE_Passco_201_a779ac20.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 1024,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Maths_2019_2021_BECE_QnA_BECE_Passco_201_a779ac20.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:26:58.385990"
+    "created_at": "2026-10-07T18:26:57.903610",
+    "is_marking_scheme": true
   },
   {
     "id": 150,
     "sha256": "2963267c9563f7b9ec4d54917353c5d7b42efd11ed4efe65fad755ce837f94df",
     "original_url": "https://becezone.com/mathematics/2022/",
-    "file_name": "Mathematics_Mathematics_2022_—_BECE_Past_Questions_B_2963267c.txt",
+    "file_name": "Mathematics_Mathematics_2022_\u2014_BECE_Past_Questions_B_2963267c.txt",
     "file_type": "txt",
     "subject": "Mathematics",
     "file_size": 5595,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Mathematics_2022_—_BECE_Past_Questions_B_2963267c.txt",
+    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Mathematics_2022_\u2014_BECE_Past_Questions_B_2963267c.txt",
     "source_domain": "becezone.com",
-    "created_at": "2026-10-07T18:26:58.888485"
+    "created_at": "2026-10-07T18:26:58.888485",
+    "is_marking_scheme": false
   },
   {
     "id": 151,
@@ -789,19 +594,8 @@
     "file_size": 8344,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_2023_Likely_BECE_ICT_Questions_And_Answe_d7b8b699.txt",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:59.067410"
-  },
-  {
-    "id": 152,
-    "sha256": "4842381285296d253bb24657ebb4cfe2232ddb125c044d01d8f4fcf22b101341",
-    "original_url": "https://ghanaeducation.org/20223-bece-mathematics-super-mock-questions-answers-free-and-paid-version/",
-    "file_name": "Mathematics_2023_BECE_Mathematics_Super_Mock_Questio_48423812.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 5275,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_2023_BECE_Mathematics_Super_Mock_Questio_48423812.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:59.114569"
+    "created_at": "2026-10-07T18:26:59.067410",
+    "is_marking_scheme": false
   },
   {
     "id": 153,
@@ -813,91 +607,34 @@
     "file_size": 7965,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_2023_BECE_ICT_Objective_Test_Questions_a_e5e552b7.txt",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:59.189035"
-  },
-  {
-    "id": 155,
-    "sha256": "b4af6d288772ecd2e629b2686925e9e387c76098bed92f7d3bccd0437f754354",
-    "original_url": "https://passco.com.gh/past-questions/bece-passco/2019-2021/ict/ict-2019-2021-bece-qna",
-    "file_name": "Computing_ICT_ICT_2019_2021_BECE_QnA_BECE_Passco_2019__b4af6d28.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 1039,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_ICT_2019_2021_BECE_QnA_BECE_Passco_2019__b4af6d28.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:26:59.519124"
+    "created_at": "2026-10-07T18:26:59.189035",
+    "is_marking_scheme": false
   },
   {
     "id": 156,
     "sha256": "3963716f19209a6ef0444a2609dfddb2a5153243eb091c29663aaad487aed827",
     "original_url": "https://becezone.com/computing/2021/",
-    "file_name": "Computing_ICT_Computing_2021_—_BECE_Past_Questions_BEC_3963716f.txt",
+    "file_name": "Computing_ICT_Computing_2021_\u2014_BECE_Past_Questions_BEC_3963716f.txt",
     "file_type": "txt",
     "subject": "Computing_ICT",
     "file_size": 8585,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Computing_2021_—_BECE_Past_Questions_BEC_3963716f.txt",
+    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Computing_2021_\u2014_BECE_Past_Questions_BEC_3963716f.txt",
     "source_domain": "becezone.com",
-    "created_at": "2026-10-07T18:26:59.600067"
-  },
-  {
-    "id": 157,
-    "sha256": "ee48e595ee24dbe2ef862e8286ad02347f9c84bee3a966665c1aa5b55d228602",
-    "original_url": "https://ghlearner.com/bece/computing",
-    "file_name": "Computing_ICT_GhLearner_Download_BECE_Computing_Past_Questions_&_ee48e595.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 965,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_GhLearner_Download_BECE_Computing_Past_Questions_&_ee48e595.txt",
-    "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:27:00.033310"
+    "created_at": "2026-10-07T18:26:59.600067",
+    "is_marking_scheme": false
   },
   {
     "id": 158,
     "sha256": "9a6c9f0bb4c7d47cdb11de2e7a38520ef22161f8ca37572f2d58ada16b2f293f",
     "original_url": "https://becezone.com/mathematics/2017/",
-    "file_name": "Mathematics_Mathematics_2017_—_BECE_Past_Questions_B_9a6c9f0b.txt",
+    "file_name": "Mathematics_Mathematics_2017_\u2014_BECE_Past_Questions_B_9a6c9f0b.txt",
     "file_type": "txt",
     "subject": "Mathematics",
     "file_size": 6776,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Mathematics_2017_—_BECE_Past_Questions_B_9a6c9f0b.txt",
+    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Mathematics_2017_\u2014_BECE_Past_Questions_B_9a6c9f0b.txt",
     "source_domain": "becezone.com",
-    "created_at": "2026-10-07T18:27:00.150761"
-  },
-  {
-    "id": 159,
-    "sha256": "0dbf83cebd08d9b1adeaf616d746274091add0375afd0f34d144c6ba6dca5af9",
-    "original_url": "https://ghanaeducation.org/2023-bece-sure-topics-to-watch-out-on-thursday-mathematics-and-ict/",
-    "file_name": "Mathematics_2023_BECE_Sure_Topics_To_Watch_Out_On_Th_0dbf83ce.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 3532,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_2023_BECE_Sure_Topics_To_Watch_Out_On_Th_0dbf83ce.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:00.317916"
-  },
-  {
-    "id": 162,
-    "sha256": "47e263d69d48c6611291e6df6a577f653ef369901d84e960a9586dd9a7aa6946",
-    "original_url": "https://ghanaeducation.org/2026-bece-mathematics-official-marking-scheme/",
-    "file_name": "Mathematics_2026_BECE_Mathematics_Official_Marking_S_47e263d6.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 5225,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_2026_BECE_Mathematics_Official_Marking_S_47e263d6.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:00.611702"
-  },
-  {
-    "id": 163,
-    "sha256": "9cc632fe91377a53cbb136773cc1e2348f6685629f4b8cebe56380b109b38d7f",
-    "original_url": "https://passco.com.gh/past-questions/bece-passco/2025/computing/bece-2025-computing-qna",
-    "file_name": "Computing_ICT_BECE-2025-Computing-QnA_BECE_Passco_2025_9cc632fe.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 1034,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BECE-2025-Computing-QnA_BECE_Passco_2025_9cc632fe.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:27:00.655560"
+    "created_at": "2026-10-07T18:27:00.150761",
+    "is_marking_scheme": false
   },
   {
     "id": 165,
@@ -909,31 +646,8 @@
     "file_size": 10399,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_GhLearner_Download_2022_BECE_Computing_Questions_&_b6754594.txt",
     "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:27:01.139337"
-  },
-  {
-    "id": 166,
-    "sha256": "d8da7d4cda89401e53869cbc8660cb57d7c4cdef1b9662494c0baae050ed7358",
-    "original_url": "https://ghanaeducation.org/2026-bece-projected-mathematics-topics-and-formulas/",
-    "file_name": "Mathematics_2026_BECE_Projected_Mathematics_Topics,__d8da7d4c.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 5774,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_2026_BECE_Projected_Mathematics_Topics,__d8da7d4c.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:01.219812"
-  },
-  {
-    "id": 167,
-    "sha256": "fafe821cd08b5fda7c1225b6fb63fd83da23d5c994072c756abfe144bb6d396f",
-    "original_url": "https://passco.com.gh/past-questions/jhs-latest-mock/best-brain-jan-2026/computing",
-    "file_name": "Computing_ICT_BestBrain_JHS_Mocks_Best_Brain_-_Jan_2026_Computin_fafe821c.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 1349,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BestBrain_JHS_Mocks_Best_Brain_-_Jan_2026_Computin_fafe821c.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:27:01.394190"
+    "created_at": "2026-10-07T18:27:01.139337",
+    "is_marking_scheme": false
   },
   {
     "id": 168,
@@ -945,55 +659,21 @@
     "file_size": 11783,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_&_Answe_fdda30c6.txt",
     "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:27:01.822661"
-  },
-  {
-    "id": 169,
-    "sha256": "308ac7131b30cfb0f4580ea736d3e19de278e1e4bf35d26d1911109fbf27498a",
-    "original_url": "https://ghanaeducation.org/solve-these-elective-mathematics-questions-for-wassce/",
-    "file_name": "Mathematics_Solve_These_Elective_Mathematics_Questio_308ac713.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 3418,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Solve_These_Elective_Mathematics_Questio_308ac713.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:02.078285"
-  },
-  {
-    "id": 170,
-    "sha256": "a02f84925b5a977b595286b701b257af980b6bf43c7d04217e16335e485580b3",
-    "original_url": "https://ghanaeducation.org/term-1-exam-questions-and-answers-for-2024-2025-academic-year/",
-    "file_name": "CDT_CAD_Term_1_Exam_Questions_and_Answers_for_20_a02f8492.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 4359,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_Term_1_Exam_Questions_and_Answers_for_20_a02f8492.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:02.123730"
-  },
-  {
-    "id": 171,
-    "sha256": "c1ea8a57b9fdb43782848adf229c6a9be5761fdb59aceae19e957ae2895b6f9c",
-    "original_url": "https://ghanaeducation.org/download-2026-bece-home-mock-marked-scripts-here/",
-    "file_name": "CDT_CAD_Download_2026_BECE_Home_Mock_Marked_Scri_c1ea8a57.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 4042,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_Download_2026_BECE_Home_Mock_Marked_Scri_c1ea8a57.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:02.166830"
+    "created_at": "2026-10-07T18:27:01.822661",
+    "is_marking_scheme": false
   },
   {
     "id": 173,
     "sha256": "95d92336ebfa47ec4f51fb0d3b7da32d32911847618b361eb3c9940b12070b64",
     "original_url": "https://becezone.com/computing/2015/",
-    "file_name": "Computing_ICT_Computing_2015_—_BECE_Past_Questions_BEC_95d92336.txt",
+    "file_name": "Computing_ICT_Computing_2015_\u2014_BECE_Past_Questions_BEC_95d92336.txt",
     "file_type": "txt",
     "subject": "Computing_ICT",
     "file_size": 8096,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Computing_2015_—_BECE_Past_Questions_BEC_95d92336.txt",
+    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Computing_2015_\u2014_BECE_Past_Questions_BEC_95d92336.txt",
     "source_domain": "becezone.com",
-    "created_at": "2026-10-07T18:27:02.311333"
+    "created_at": "2026-10-07T18:27:02.311333",
+    "is_marking_scheme": false
   },
   {
     "id": 175,
@@ -1005,31 +685,8 @@
     "file_size": 15124,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BestBrain_Solve_BECE_Computing_Questions_&_Answers_29e249ff.txt",
     "source_domain": "ghlearner.com",
-    "created_at": "2026-10-07T18:27:02.676046"
-  },
-  {
-    "id": 177,
-    "sha256": "d3aee0979a73bbd6a79f8bd8b065572f32a895685114bd7db40c8a12a0990310",
-    "original_url": "https://passco.com.gh/past-questions/shs-school-mocks/accra-academy/core-maths",
-    "file_name": "Mathematics_Passco_SHS_School_Mocks_Accra_Academy_Core_Math_d3aee097.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 1316,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Passco_SHS_School_Mocks_Accra_Academy_Core_Math_d3aee097.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:27:02.760822"
-  },
-  {
-    "id": 178,
-    "sha256": "f7d48c2bb9ab04a935c3cecc130233af12144b6192ee49ae9155119c26cbf675",
-    "original_url": "https://ghanaeducation.org/la-district-junior-youth-2024-bece-mock-ghana-education-news-partners-the-presbyterian-church-2/",
-    "file_name": "Computing_ICT_Presbyterian_Church_-_La_District_Junior_f7d48c2b.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 4785,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Presbyterian_Church_-_La_District_Junior_f7d48c2b.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:03.773375"
+    "created_at": "2026-10-07T18:27:02.676046",
+    "is_marking_scheme": true
   },
   {
     "id": 179,
@@ -1041,19 +698,8 @@
     "file_size": 8765,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_2012_BECE_ICT_Pasco_questions_with_answe_fae362a3.txt",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:03.852043"
-  },
-  {
-    "id": 180,
-    "sha256": "a109e15d88d484a741f60ef7aacc406c4a4aafa086d2596525f260b592dc165b",
-    "original_url": "https://ghanaeducation.org/trial-test-bdt-core-skills-questions-for-2022-bece-candidates/",
-    "file_name": "CDT_CAD_Trial_Test_BDT_Core_Skills_Questions_for_a109e15d.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 3999,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_Trial_Test_BDT_Core_Skills_Questions_for_a109e15d.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:04.005212"
+    "created_at": "2026-10-07T18:27:03.852043",
+    "is_marking_scheme": false
   },
   {
     "id": 181,
@@ -1065,31 +711,8 @@
     "file_size": 4600,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_2022_BECE_Home_Economics_Booster_Mock_Qu_4243d0ec.txt",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:04.347766"
-  },
-  {
-    "id": 182,
-    "sha256": "4e4d340c900cf5a678e258d441c287ba759cc31caee0c673dde9bb72071c486e",
-    "original_url": "https://ghanaeducation.org/bece-solve-these-25-ict-questions-on-ms-word-as-revision-part-2/",
-    "file_name": "Computing_ICT_BECE_Solve_These_25_ICT_Questions_On_MS-_4e4d340c.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 3143,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BECE_Solve_These_25_ICT_Questions_On_MS-_4e4d340c.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:04.400755"
-  },
-  {
-    "id": 183,
-    "sha256": "a9bdb3fc86bd13512dc982dd861ff7b72b3b6bb97b851614daee72d122baf8a8",
-    "original_url": "https://passco.com.gh/past-questions/bece-passco/2025/maths/2025-bece-mathematics",
-    "file_name": "Mathematics_2025-BECE-Mathematics_BECE_Passco_2025_M_a9bdb3fc.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 1018,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_2025-BECE-Mathematics_BECE_Passco_2025_M_a9bdb3fc.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:27:04.473297"
+    "created_at": "2026-10-07T18:27:04.347766",
+    "is_marking_scheme": false
   },
   {
     "id": 184,
@@ -1101,55 +724,34 @@
     "file_size": 5291,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Likely_Mathematics_Questions_for_2022_BE_e4e20d32.txt",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:04.541883"
+    "created_at": "2026-10-07T18:27:04.541883",
+    "is_marking_scheme": false
   },
   {
     "id": 185,
     "sha256": "15e6f5deb024fc716f463af8e8e188020e61a1de574906de104f189cbb4d11fc",
     "original_url": "https://becezone.com/computing/2013/",
-    "file_name": "Computing_ICT_Computing_2013_—_BECE_Past_Questions_BEC_15e6f5de.txt",
+    "file_name": "Computing_ICT_Computing_2013_\u2014_BECE_Past_Questions_BEC_15e6f5de.txt",
     "file_type": "txt",
     "subject": "Computing_ICT",
     "file_size": 9466,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Computing_2013_—_BECE_Past_Questions_BEC_15e6f5de.txt",
+    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_Computing_2013_\u2014_BECE_Past_Questions_BEC_15e6f5de.txt",
     "source_domain": "becezone.com",
-    "created_at": "2026-10-07T18:27:04.632639"
-  },
-  {
-    "id": 186,
-    "sha256": "b427ea6d366b7d32c70126beb6eb7bbb945500fe3eb63db1803122892f9bf64d",
-    "original_url": "https://ghanaeducation.org/2022-likely-bece-sample-ict-questions-answers-best-brain-gen/",
-    "file_name": "Computing_ICT_BestBrain_2022_Likely_BECE_Sample_ICT_Questions_&__b427ea6d.txt",
-    "file_type": "txt",
-    "subject": "Computing_ICT",
-    "file_size": 2940,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BestBrain_2022_Likely_BECE_Sample_ICT_Questions_&__b427ea6d.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:05.043541"
-  },
-  {
-    "id": 187,
-    "sha256": "32e9fb7ceccc7529cba84edcf50ad04c2e754b7f38b9cce722af7fe8aac83ec3",
-    "original_url": "https://ghanaeducation.org/2023-bece-mathematics-june-super-mock-2-questions-and-answers/",
-    "file_name": "Mathematics_2023_BECE_Mathematics_Super_Mock_Questio_32e9fb7c.txt",
-    "file_type": "txt",
-    "subject": "Mathematics",
-    "file_size": 6599,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_2023_BECE_Mathematics_Super_Mock_Questio_32e9fb7c.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:05.124942"
+    "created_at": "2026-10-07T18:27:04.632639",
+    "is_marking_scheme": false
   },
   {
     "id": 188,
     "sha256": "e1fc9a98f865d687c95cf6b3856c7069c60ae3ff3cc78e08f2eb3fff6e929fe3",
     "original_url": "https://becezone.com/mathematics/2015/",
-    "file_name": "Mathematics_Mathematics_2015_—_BECE_Past_Questions_B_e1fc9a98.txt",
+    "file_name": "Mathematics_Mathematics_2015_\u2014_BECE_Past_Questions_B_e1fc9a98.txt",
     "file_type": "txt",
     "subject": "Mathematics",
     "file_size": 5820,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Mathematics_2015_—_BECE_Past_Questions_B_e1fc9a98.txt",
+    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Mathematics_2015_\u2014_BECE_Past_Questions_B_e1fc9a98.txt",
     "source_domain": "becezone.com",
-    "created_at": "2026-10-07T18:27:05.420356"
+    "created_at": "2026-10-07T18:27:05.420356",
+    "is_marking_scheme": false
   },
   {
     "id": 189,
@@ -1161,7 +763,8 @@
     "file_size": 616237,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2025_SUPER-MOCK-B-COMPUTING-QUESTIONS_ae128d7d.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:06.296914"
+    "created_at": "2026-10-07T18:27:06.296914",
+    "is_marking_scheme": false
   },
   {
     "id": 190,
@@ -1173,7 +776,8 @@
     "file_size": 2247192,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_BECE-2026-MATHEMATICS-QUESTIONS_6f2a94b5.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:07.104928"
+    "created_at": "2026-10-07T18:27:07.104928",
+    "is_marking_scheme": false
   },
   {
     "id": 191,
@@ -1185,7 +789,8 @@
     "file_size": 566397,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2025_SUPER-MOCK-B-COMPUTING-MARKING-SCHEME_01ac21ac.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:08.005414"
+    "created_at": "2026-10-07T18:27:08.005414",
+    "is_marking_scheme": true
   },
   {
     "id": 192,
@@ -1197,7 +802,8 @@
     "file_size": 436750,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_13a23797.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:08.834942"
+    "created_at": "2026-10-07T18:27:08.834942",
+    "is_marking_scheme": false
   },
   {
     "id": 193,
@@ -1209,7 +815,8 @@
     "file_size": 1756093,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2026-BECE-MATHEMATICS-MARKING-SCHEME_ad2f2014.pdf",
     "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:10.406624"
+    "created_at": "2026-10-07T18:27:10.406624",
+    "is_marking_scheme": true
   },
   {
     "id": 194,
@@ -1221,7 +828,8 @@
     "file_size": 1421674,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_5703e827.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:11.705142"
+    "created_at": "2026-10-07T18:27:11.705142",
+    "is_marking_scheme": false
   },
   {
     "id": 195,
@@ -1233,7 +841,8 @@
     "file_size": 207255,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_c43e1959.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:13.156812"
+    "created_at": "2026-10-07T18:27:13.156812",
+    "is_marking_scheme": false
   },
   {
     "id": 196,
@@ -1245,7 +854,8 @@
     "file_size": 327434,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_f7c5c685.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:16.209243"
+    "created_at": "2026-10-07T18:27:16.209243",
+    "is_marking_scheme": false
   },
   {
     "id": 197,
@@ -1257,7 +867,8 @@
     "file_size": 994281,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_3582a795.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:20.718861"
+    "created_at": "2026-10-07T18:27:20.718861",
+    "is_marking_scheme": false
   },
   {
     "id": 198,
@@ -1269,7 +880,8 @@
     "file_size": 585881,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_d45488d0.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:24.861944"
+    "created_at": "2026-10-07T18:27:24.861944",
+    "is_marking_scheme": false
   },
   {
     "id": 199,
@@ -1281,6 +893,7 @@
     "file_size": 564950,
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_9956ee66.pdf",
     "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:31.653143"
+    "created_at": "2026-10-07T18:27:31.653143",
+    "is_marking_scheme": false
   }
 ]
