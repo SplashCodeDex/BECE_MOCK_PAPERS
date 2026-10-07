@@ -72,18 +72,6 @@
     "created_at": "2026-10-07T18:13:20.183451"
   },
   {
-    "id": 7,
-    "sha256": "8af0f2a32cf5bcd65d16cd4f56b4e6bb6dbfa3b18d2fe32bff8db9719bb8d32a",
-    "original_url": "https://www.mediafire.com/file/js16dp039bvtbfr/BECE+2021+-FEB1.pdf/file",
-    "file_name": "General_Unclassified_2021_file_8af0f2a3.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 332100,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2021_file_8af0f2a3.pdf",
-    "source_domain": "www.mediafire.com",
-    "created_at": "2026-10-07T18:13:20.209138"
-  },
-  {
     "id": 8,
     "sha256": "1b4312ac89294b41d0d5ed5f1f4f3f5dc073ae7d6c86f5d3730fb344d56e6506",
     "original_url": "https://ghlearner.com/bece/topics",
@@ -156,162 +144,6 @@
     "created_at": "2026-10-07T18:13:26.224450"
   },
   {
-    "id": 14,
-    "sha256": "c1021fd0530cb97315c4b990de62951dfb68e6762f59b2ec56fb576a56f49dd4",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2021/05/English-2019.docx",
-    "file_name": "General_Unclassified_2021_English-2019_c1021fd0.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 20367,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2021_English-2019_c1021fd0.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:42.806059"
-  },
-  {
-    "id": 15,
-    "sha256": "6675041229deac074c8bc7f59438b62b8cc2b4b5b6937066371da32c99b32c72",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2016.docx",
-    "file_name": "General_Unclassified_2022_English-2016_66750412.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 20238,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2016_66750412.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:42.970833"
-  },
-  {
-    "id": 16,
-    "sha256": "8949562d827924a0eade4b2dca21d182b969d65ce1f57b56789a2bac349804d1",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2012.docx",
-    "file_name": "General_Unclassified_2022_English-2012_8949562d.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 20183,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2012_8949562d.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:42.988282"
-  },
-  {
-    "id": 17,
-    "sha256": "577c76ecb0c98459112b8889b859f6aeefe3a341c19b771104075f0f39a645ae",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2015.docx",
-    "file_name": "General_Unclassified_2022_English-2015_577c76ec.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 22119,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2015_577c76ec.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.026455"
-  },
-  {
-    "id": 18,
-    "sha256": "824cae861e53739e5a5bd265bbf029549c0b05f2320a9e18de54560fa4b742b3",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2011.docx",
-    "file_name": "General_Unclassified_2022_English-2011_824cae86.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 18096,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2011_824cae86.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.091288"
-  },
-  {
-    "id": 19,
-    "sha256": "84569cbe8fc6c9697a4dad5591faf565fd3ee7f5fcc6129966c76dec8e8b43e9",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2013.docx",
-    "file_name": "General_Unclassified_2022_RME-2013_84569cbe.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 22837,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_RME-2013_84569cbe.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.123690"
-  },
-  {
-    "id": 20,
-    "sha256": "4e355e76eb08c73d29e9e0acbe9fbe4386d8e5caec6c04c401035fefbb042f90",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2013.docx",
-    "file_name": "General_Unclassified_2022_English-2013_4e355e76.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 19879,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2013_4e355e76.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.145735"
-  },
-  {
-    "id": 21,
-    "sha256": "4df42cd9092db753cf4294b0999046785fd5f92128ff6f1f576583199b05d44d",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2015.docx",
-    "file_name": "Mathematics_General_Unclassified_2022_RME-2015_4df42_4df42cd9.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 23755,
-    "local_path": "data\\harvested\\General_Unclassified\\docx\\Mathematics_General_Unclassified_2022_RME-2015_4df42_4df42cd9.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.163760"
-  },
-  {
-    "id": 22,
-    "sha256": "106ef1931861f79ed7c653084df839e095353c33b4332ad57694064a5787d407",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2017.docx",
-    "file_name": "Computing_ICT_General_Unclassified_2022_English-2017_1_106ef193.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 21451,
-    "local_path": "data\\harvested\\General_Unclassified\\docx\\Computing_ICT_General_Unclassified_2022_English-2017_1_106ef193.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.181874"
-  },
-  {
-    "id": 23,
-    "sha256": "8688a67ac2d4128465d4712f8a3cc5ad78e3217732411f8dcb64d5863380e87b",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2021/05/RME-2019.docx",
-    "file_name": "General_Unclassified_2021_RME-2019_8688a67a.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 25004,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2021_RME-2019_8688a67a.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.209222"
-  },
-  {
-    "id": 24,
-    "sha256": "38c2dde33b90854083f8019e87d289af28a068386520407944603404711ca195",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2018.docx",
-    "file_name": "General_Unclassified_2022_English-2018_38c2dde3.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 21199,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2018_38c2dde3.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.228455"
-  },
-  {
-    "id": 25,
-    "sha256": "60337d5d2a75515ce2ae1ac0e6d40c7f8db34e039e744feeabe20085e3624e14",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2016.docx",
-    "file_name": "Mathematics_General_Unclassified_2022_RME-2016_60337_60337d5d.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 27133,
-    "local_path": "data\\harvested\\General_Unclassified\\docx\\Mathematics_General_Unclassified_2022_RME-2016_60337_60337d5d.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.246935"
-  },
-  {
-    "id": 26,
-    "sha256": "df5325be4b12b9ab25e2db407be202a568a621d3d797af90ef0bd46f060b4b22",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2011.docx",
-    "file_name": "General_Unclassified_2022_RME-2011_df5325be.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 24705,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_RME-2011_df5325be.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.265501"
-  },
-  {
     "id": 27,
     "sha256": "ca652f3e708f1ad9683fb13c163ac91b4059b752870b6c2404f861dfef64f415",
     "original_url": "https://ghanaeducation.org/bece/",
@@ -322,78 +154,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_BECE_-_Ghana_Educat_ca652f3e.txt",
     "source_domain": "ghanaeducation.org",
     "created_at": "2026-10-07T18:15:43.327373"
-  },
-  {
-    "id": 28,
-    "sha256": "2cf3bb26e4304851a9fae8933323fcc03b027d81f9b61220ab815574420707a8",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2010.docx",
-    "file_name": "General_Unclassified_2022_English-2010_2cf3bb26.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 48127,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_English-2010_2cf3bb26.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.389991"
-  },
-  {
-    "id": 29,
-    "sha256": "d3737f83ca8a5a0b4470b0e6e7d59f9a3bca9e2155fe96403dba709ef9c143c8",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2012.docx",
-    "file_name": "General_Unclassified_2022_RME-2012_d3737f83.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 29112,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_RME-2012_d3737f83.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.408679"
-  },
-  {
-    "id": 30,
-    "sha256": "f5b33efe19ccb79ffc35935294bd3d160d51f88885d8f898f0d73d394c4f4d05",
-    "original_url": "https://ghanaeducation.org/bece-home-mock-chief-examiner-report-august-september/",
-    "file_name": "CDT_CAD_General_Unclassified_August_and_Sept_f5b_f5b33efe.txt",
-    "file_type": "txt",
-    "subject": "CDT_CAD",
-    "file_size": 15378,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\txt\\CDT_CAD_General_Unclassified_August_and_Sept_f5b_f5b33efe.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:43.480968"
-  },
-  {
-    "id": 31,
-    "sha256": "20c354fa5cf0226d4beebe238c3646082050ae4be0367f4ad653da3b342c7162",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Asante_2017_Questions.doc.docx",
-    "file_name": "General_Unclassified_2022_Asante_2017_Questions.doc_20c354fa.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 64596,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Asante_2017_Questions.doc_20c354fa.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.502879"
-  },
-  {
-    "id": 32,
-    "sha256": "8f8e31d036f593ea1765e529dbaec8dda992b508692fe61a48fd37eda7482024",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Akuapem_2017_Questions.doc.docx",
-    "file_name": "General_Unclassified_2022_Akuapem_2017_Questions.doc_8f8e31d0.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 67066,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Akuapem_2017_Questions.doc_8f8e31d0.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.521412"
-  },
-  {
-    "id": 33,
-    "sha256": "e1fd22f774565e23fde82b0ca2c122169f4ea8b07a8ef7e31eafddfa21b2a107",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Science-2011.docx",
-    "file_name": "General_Unclassified_2022_Science-2011_e1fd22f7.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 57060,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2011_e1fd22f7.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.548455"
   },
   {
     "id": 34,
@@ -408,42 +168,6 @@
     "created_at": "2026-10-07T18:15:43.632068"
   },
   {
-    "id": 35,
-    "sha256": "906da2a75ed321569ddef5822d0edde151c86d33a8fa73b3f6f883f26a18e280",
-    "original_url": "https://ghanaeducation.org/ghana-teacher-prize-2026-abigail-agyeiwaa-wins/",
-    "file_name": "General_Unclassified_Ghana_Teacher_Prize_2026_Abigail_Agyeiwa_906da2a7.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 18241,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\txt\\General_Unclassified_Ghana_Teacher_Prize_2026_Abigail_Agyeiwa_906da2a7.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:43.695436"
-  },
-  {
-    "id": 36,
-    "sha256": "c398ebd169aee90eef1511b5d8f365b0cc46bd4ccaba166e75ae9d632e9ef02b",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/English-2014.doc",
-    "file_name": "General_Unclassified_2022_English-2014_c398ebd1.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 91648,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_English-2014_c398ebd1.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.712838"
-  },
-  {
-    "id": 37,
-    "sha256": "7be98e7b93727c17a35ea7afb612e30d2549645bfedd6a125c2ad61d7f767254",
-    "original_url": "https://ghanaeducation.org/2026-2027-colleges-of-education-admission-list/",
-    "file_name": "General_Unclassified_2026_2027_Colleges_of_Education_Admission_Rel_7be98e7b.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 16014,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\txt\\General_Unclassified_2026_2027_Colleges_of_Education_Admission_Rel_7be98e7b.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:43.814787"
-  },
-  {
     "id": 38,
     "sha256": "7b0037fff3531b45360bfa18a0513a5ec5292816bd9ef334da4ca57c84abff66",
     "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Maths-2015.docx",
@@ -454,102 +178,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2015_7b0037ff.docx",
     "source_domain": "mickinetsystems.com",
     "created_at": "2026-10-07T18:15:43.837313"
-  },
-  {
-    "id": 39,
-    "sha256": "01035cf6d57f61664e20eb58f9431e320ac667fe8eb87e558d482d0848518d0a",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2010.docx",
-    "file_name": "General_Unclassified_2022_RME-2010_01035cf6.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 109005,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_RME-2010_01035cf6.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.851286"
-  },
-  {
-    "id": 40,
-    "sha256": "6c6d30f612e760239ff24bc586085f9834d343690a58e94e7abfef711a903f8b",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/RME-2014.doc",
-    "file_name": "General_Unclassified_2022_RME-2014_6c6d30f6.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 120832,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_RME-2014_6c6d30f6.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.892025"
-  },
-  {
-    "id": 41,
-    "sha256": "aea3764502f21c2da50110ede53a9a174dd319eb44c0d19686f42feadadf511c",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Fante_2014_Questions.doc",
-    "file_name": "General_Unclassified_2022_Fante_2014_Questions_aea37645.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 129024,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_Fante_2014_Questions_aea37645.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.912530"
-  },
-  {
-    "id": 42,
-    "sha256": "a3b530e3b4768a31eb3a06feb20ac3c0c75e35a0de7e2e8f038fd1b76f423f2e",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Science-2018.docx",
-    "file_name": "General_Unclassified_2022_Science-2018_a3b530e3.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 121170,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2018_a3b530e3.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.925981"
-  },
-  {
-    "id": 43,
-    "sha256": "150323a7fc0d90c276fe4e37f4c926e40f32a0ffe7c619691c88fdb5c4912389",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Asante_2014_Questions.doc",
-    "file_name": "General_Unclassified_2022_Asante_2014_Questions_150323a7.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 130560,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_Asante_2014_Questions_150323a7.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.947261"
-  },
-  {
-    "id": 44,
-    "sha256": "7ca167aaac916af920d579c9b7d5fe20f1aa128cc7354a57584580e570c5732f",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Ga_June_2014_Questions.doc",
-    "file_name": "General_Unclassified_2022_Ga_June_2014_Questions_7ca167aa.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 125952,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_Ga_June_2014_Questions_7ca167aa.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.968979"
-  },
-  {
-    "id": 45,
-    "sha256": "3e04b8ebf0826d463d3f08f16d80d4403a9b5b9dbf86bbb3d359a3c2bc542609",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Akuapem_2014_Questions.doc",
-    "file_name": "General_Unclassified_2022_Akuapem_2014_Questions_3e04b8eb.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 126464,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_Akuapem_2014_Questions_3e04b8eb.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:43.987027"
-  },
-  {
-    "id": 46,
-    "sha256": "615431e91608f3b9f3188dadb76c63ee13434efff541159aa986c2ae0d0ceaf2",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2021/05/Social-2019.docx",
-    "file_name": "General_Unclassified_2021_Social-2019_615431e9.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 105507,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2021_Social-2019_615431e9.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:44.002343"
   },
   {
     "id": 47,
@@ -588,42 +216,6 @@
     "created_at": "2026-10-07T18:15:44.572174"
   },
   {
-    "id": 50,
-    "sha256": "6ce8bca7966355e2306475fec7322fe536867c3e2d28315811d7b298d713c318",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Science-2015.docx",
-    "file_name": "General_Unclassified_2022_Science-2015_6ce8bca7.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 188189,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2015_6ce8bca7.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:44.630988"
-  },
-  {
-    "id": 51,
-    "sha256": "2c518e7f4c32ee657332f2694cac0eb69bdad5c7f47510f58c95585ace4f2068",
-    "original_url": "https://ghanaeducation.org/october-2026-bece-school-mock-registration/",
-    "file_name": "General_Unclassified_October_2026_BECE_School_Mock_Dates,_Pac_2c518e7f.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 7725,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\txt\\General_Unclassified_October_2026_BECE_School_Mock_Dates,_Pac_2c518e7f.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:44.676496"
-  },
-  {
-    "id": 52,
-    "sha256": "eab6cc571047582d046343d32772155db59e99e54643c8207bdcc440100e33f7",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/sCIENCE-20121.docx",
-    "file_name": "General_Unclassified_2022_sCIENCE-20121_eab6cc57.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 193323,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_sCIENCE-20121_eab6cc57.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:44.691600"
-  },
-  {
     "id": 53,
     "sha256": "1340b1a9b6fc2c29a22d9bfccb4fd9b4ae6c6f2e7745c3a33682d9db1fa5e829",
     "original_url": "https://ghanaeducation.org/free-august-2026-bece-social-studies-mock-questions-pdf/",
@@ -648,18 +240,6 @@
     "created_at": "2026-10-07T18:15:45.037645"
   },
   {
-    "id": 55,
-    "sha256": "dffa65eb53af5a7dc758c6a061692cb6fb80defd47a2cebeed2676d905328137",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Science-2013.docx",
-    "file_name": "General_Unclassified_2022_Science-2013_dffa65eb.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 274195,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2013_dffa65eb.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.064209"
-  },
-  {
     "id": 56,
     "sha256": "60bf110ba3a3c6f783d64b9a43723651e42e26d0b62e8161c8c042622a6fa2fc",
     "original_url": "https://ghanaeducation.org/2027-bece-integrated-science-mock-questions-topics/",
@@ -672,18 +252,6 @@
     "created_at": "2026-10-07T18:15:45.117969"
   },
   {
-    "id": 57,
-    "sha256": "a382a0c7c532a7cc1dd65127e77fe5d9ab18c215c41fd87b4699ab0777153894",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Science-2010-Copy.docx",
-    "file_name": "General_Unclassified_2022_Science-2010-Copy_a382a0c7.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 351487,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2010-Copy_a382a0c7.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.140451"
-  },
-  {
     "id": 58,
     "sha256": "78580b27de02356fd73ac6eb1d1eb2efde422668aad0111f64923844da60d244",
     "original_url": "https://ghanaeducation.org/free-bece-mathematics-mock-questions-pdf/",
@@ -694,18 +262,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Free_2026_BECE_Mathematics_Mock_Question_78580b27.txt",
     "source_domain": "ghanaeducation.org",
     "created_at": "2026-10-07T18:15:45.198957"
-  },
-  {
-    "id": 59,
-    "sha256": "101457d5f064dab3d74fc5477a6aefe2606d23f671bc0a3a154419013aed0fc2",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Science-2016.docx",
-    "file_name": "General_Unclassified_2022_Science-2016_101457d5.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 303112,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2016_101457d5.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.294641"
   },
   {
     "id": 60,
@@ -744,18 +300,6 @@
     "created_at": "2026-10-07T18:15:45.508491"
   },
   {
-    "id": 63,
-    "sha256": "0b7829543456f9db1fd631560419c98a14342da932c3d19e30a4ff900922ed93",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2013.docx",
-    "file_name": "Computing_ICT_General_Unclassified_2022_French-2013_0b_0b782954.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 447661,
-    "local_path": "data\\harvested\\General_Unclassified\\docx\\Computing_ICT_General_Unclassified_2022_French-2013_0b_0b782954.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.545369"
-  },
-  {
     "id": 64,
     "sha256": "6263bc6ec191a0c1ad45384c1c9a9ec633f975d4a61793a4cb854210fa3a8593",
     "original_url": "https://ghanaeducation.org/grab-full-october-2026-bece-mock-papers-to-schools-for-gh%e2%82%b5150/",
@@ -768,66 +312,6 @@
     "created_at": "2026-10-07T18:15:45.595648"
   },
   {
-    "id": 65,
-    "sha256": "32327d2c0d92ed5b9b417507a4d0cb9365c1e807f47a2afef3da722afa23fbac",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Science-2017.docx",
-    "file_name": "General_Unclassified_2022_Science-2017_32327d2c.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 466607,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_Science-2017_32327d2c.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.623733"
-  },
-  {
-    "id": 66,
-    "sha256": "2d4944bb84cc79b6aa7383cf234582dab38f1eb598308cf0872b0e16dcd16380",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Science-2014.doc",
-    "file_name": "General_Unclassified_2022_Science-2014_2d4944bb.doc",
-    "file_type": "doc",
-    "subject": "General_Unclassified",
-    "file_size": 424448,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\doc\\General_Unclassified_2022_Science-2014_2d4944bb.doc",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.720007"
-  },
-  {
-    "id": 67,
-    "sha256": "6f5f34e668448021ff4aef86cdb291de5f9233a297d5561ebe0967bebc2e9eec",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2012.docx",
-    "file_name": "General_Unclassified_2022_French-2012_6f5f34e6.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 370111,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_French-2012_6f5f34e6.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:45.746053"
-  },
-  {
-    "id": 68,
-    "sha256": "3decfbf33e99c466fd786413500f908195dbfc6660c8356d5b2423b16b3557cc",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/10/August_BECE_Examiners_Report_Education_News_Consult.pdf",
-    "file_name": "Mathematics_General_Unclassified_2026_August_BECE_Ex_3decfbf3.pdf",
-    "file_type": "pdf",
-    "subject": "Mathematics",
-    "file_size": 115463,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_General_Unclassified_2026_August_BECE_Ex_3decfbf3.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:46.243142"
-  },
-  {
-    "id": 69,
-    "sha256": "104b5a3aed933d70a17d63053391051a429c0d9463c9856a30773185c5361425",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/10/September_BECE_Examiners_Report_Education_News_Consult.pdf",
-    "file_name": "Mathematics_General_Unclassified_2026_September_BECE_104b5a3a.pdf",
-    "file_type": "pdf",
-    "subject": "Mathematics",
-    "file_size": 115503,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_General_Unclassified_2026_September_BECE_104b5a3a.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:46.263303"
-  },
-  {
     "id": 70,
     "sha256": "245a275d144230b32f1cabbabe900b0761fac058b61a6f2e5f461635ae6f8d1d",
     "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Maths-2018.docx",
@@ -838,30 +322,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2018_245a275d.docx",
     "source_domain": "mickinetsystems.com",
     "created_at": "2026-10-07T18:15:46.280319"
-  },
-  {
-    "id": 71,
-    "sha256": "f61dad95ce47e62eb7bc090aa7bf9173d3eaf7d0537568870a3be2ed008261c2",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2011.docx",
-    "file_name": "General_Unclassified_2022_French-2011_f61dad95.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 470360,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_French-2011_f61dad95.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:46.307954"
-  },
-  {
-    "id": 72,
-    "sha256": "02884c81fd280ee8fe8205544c9bd6922ea3eee2c76e5d6d8500a9e5331cdf64",
-    "original_url": "https://ghanaeducation.org/see-how-to-answer-bece-social-studies-questions-on-weather-climate-climatic-zones-and-challenges-with-military-regimes/",
-    "file_name": "General_Unclassified_BECE_Social_Studies_questions_Weather,_c_02884c81.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 6848,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\txt\\General_Unclassified_BECE_Social_Studies_questions_Weather,_c_02884c81.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:46.492969"
   },
   {
     "id": 73,
@@ -900,18 +360,6 @@
     "created_at": "2026-10-07T18:15:46.810865"
   },
   {
-    "id": 76,
-    "sha256": "96f5d9283129ecb86ad23fb239c35276b935240df8403fb178a0cf4df65fe632",
-    "original_url": "https://ghanaeducation.org/integrated-science-trial-test-for-jh3-students-bece-trial-test/",
-    "file_name": "General_Unclassified_Integrated_Science_Trial_Test_for_JH3_st_96f5d928.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 8352,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\txt\\General_Unclassified_Integrated_Science_Trial_Test_for_JH3_st_96f5d928.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:46.976006"
-  },
-  {
     "id": 77,
     "sha256": "176088cd7133640bc19ba45d973802a6028ef58dadc3ab2e3cfffb8cfab60bbb",
     "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/Maths-2016.docx",
@@ -922,18 +370,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\docx\\Mathematics_2022_Maths-2016_176088cd.docx",
     "source_domain": "mickinetsystems.com",
     "created_at": "2026-10-07T18:15:47.017638"
-  },
-  {
-    "id": 78,
-    "sha256": "f13eb4d0224df2004e760cf8006e13f0ba5a5af01924d8810eaec65e2d277892",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2010.docx",
-    "file_name": "General_Unclassified_2022_French-2010_f13eb4d0.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 707054,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_French-2010_f13eb4d0.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:47.828399"
   },
   {
     "id": 79,
@@ -960,90 +396,6 @@
     "created_at": "2026-10-07T18:15:48.067550"
   },
   {
-    "id": 81,
-    "sha256": "3cf86b683603ec8c6b4577aa442c6b48cac9128178efb3f083d759b7ac41bccd",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2023/02/Social-Studies-BECE-2022.pdf",
-    "file_name": "General_Unclassified_2023_Social-Studies-BECE-2022_3cf86b68.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 1950278,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2023_Social-Studies-BECE-2022_3cf86b68.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:48.102163"
-  },
-  {
-    "id": 82,
-    "sha256": "3d9a6e4d4066630740a09a3533949ce027f02d209ebb8bb5a90195820b4137eb",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2015.docx",
-    "file_name": "General_Unclassified_2022_French-2015_3d9a6e4d.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 734207,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_French-2015_3d9a6e4d.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:48.167003"
-  },
-  {
-    "id": 83,
-    "sha256": "a94dd304a553bc3781e42ee72bcaf3ae89344cdcdc06b1bde53f15d5fbe0e15b",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-FRENCH.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-FRENCH_a94dd304.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 1747372,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-FRENCH_a94dd304.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:48.237407"
-  },
-  {
-    "id": 84,
-    "sha256": "d77ad1b76529da86d66b5608a9e771886f8a3184ad1e39729eb48f0e0f8a3ca8",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2016.docx",
-    "file_name": "General_Unclassified_2022_French-2016_d77ad1b7.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 1023475,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_French-2016_d77ad1b7.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:48.337267"
-  },
-  {
-    "id": 85,
-    "sha256": "ee5f34e261582692746dc96c5f424c526f67491e2d83e571775547b723aebaee",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/09/BECE-SOCIAL-MOCK-AUGUST-2026-MOCK-Qs-Only.pdf",
-    "file_name": "CDT_CAD_General_Unclassified_BECE-SOCIAL-MOCK-AU_ee5f34e2.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 439299,
-    "local_path": "data\\harvested\\General_Unclassified\\pdf\\CDT_CAD_General_Unclassified_BECE-SOCIAL-MOCK-AU_ee5f34e2.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:49.053513"
-  },
-  {
-    "id": 86,
-    "sha256": "c92d992581959b3d19c4a3f2eaecc6ee35689f4c3a7ab5f288779d08b019fb57",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/09/BECE-SOCIAL-MOCK-AUGUST-2026-MOCK-Scheme-Only.pdf",
-    "file_name": "Computing_ICT_General_Unclassified_BECE-SOCIAL-MOCK-AU_c92d9925.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 518477,
-    "local_path": "data\\harvested\\General_Unclassified\\pdf\\Computing_ICT_General_Unclassified_BECE-SOCIAL-MOCK-AU_c92d9925.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:49.183453"
-  },
-  {
-    "id": 87,
-    "sha256": "aacdb3687299f98c106d25139fa229141d11e73551107e993663736370d40b69",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/09/BECE-SCIENCE-MOCK-AUGUST-2026-MOCK-Qs-Only.pdf",
-    "file_name": "General_Unclassified_BECE-SCIENCE-MOCK-AUGUST-2026-MOCK-Qs-On_aacdb368.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 569249,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_BECE-SCIENCE-MOCK-AUGUST-2026-MOCK-Qs-On_aacdb368.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:49.321112"
-  },
-  {
     "id": 88,
     "sha256": "a756f9e12531ccbe491ec3314f397e32bc9f77aff8291ed4414b22e826729d67",
     "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/09/BECE-MATHS-MOCK-AUGUST-2026-MOCK-Qs-Only.pdf",
@@ -1066,18 +418,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_BECE-MATHS-MOCK-AUGUST-2026-MOCK-Scheme-_96ee93f1.pdf",
     "source_domain": "ghanaeducation.org",
     "created_at": "2026-10-07T18:15:49.353514"
-  },
-  {
-    "id": 90,
-    "sha256": "a5c54a80a94f72eab00ed77fa86ec1305acc050f24769700d253cedb69867b30",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2026/09/BECE-SCIENCE-MOCK-AUGUST-2026-MOCK-Scheme-Only.pdf",
-    "file_name": "General_Unclassified_BECE-SCIENCE-MOCK-AUGUST-2026-MOCK-Schem_a5c54a80.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 626049,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_BECE-SCIENCE-MOCK-AUGUST-2026-MOCK-Schem_a5c54a80.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:15:49.401670"
   },
   {
     "id": 91,
@@ -1116,78 +456,6 @@
     "created_at": "2026-10-07T18:15:49.631588"
   },
   {
-    "id": 94,
-    "sha256": "e0d5591da187c3815d7227beb220ef453820282cbfef5ada2a7ed41a2e546c62",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-ENGLISH-LANGUAGE.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-ENGLISH-LANGUAGE_e0d5591d.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 914725,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-ENGLISH-LANGUAGE_e0d5591d.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:49.662889"
-  },
-  {
-    "id": 95,
-    "sha256": "71be3013647e8069960376354e9cf4a0c5063eacef07c4daea3f691910719d03",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-SOCIAL-STUDIES.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-SOCIAL-STUDIES_71be3013.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 1004848,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-SOCIAL-STUDIES_71be3013.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:49.682916"
-  },
-  {
-    "id": 96,
-    "sha256": "e0b1eadf348a5f4c93eff0fb13a12c5f3262f490523fcc9ebaecddebc262669f",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-ASANTE-TWI.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-ASANTE-TWI_e0b1eadf.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 1022402,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-ASANTE-TWI_e0b1eadf.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:49.920072"
-  },
-  {
-    "id": 97,
-    "sha256": "03958a79d276ecb2fe927df29d599bc9556843431123a1a40186790641a860ee",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-AKUAPEM-TWI.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-AKUAPEM-TWI_03958a79.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 979849,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-AKUAPEM-TWI_03958a79.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:50.046351"
-  },
-  {
-    "id": 98,
-    "sha256": "2ecc8bb6fa3492bf764c79443253dce18a6a4416b306dfd886df80aadfee4cf4",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-RME.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-RME_2ecc8bb6.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 926284,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-RME_2ecc8bb6.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:50.178156"
-  },
-  {
-    "id": 99,
-    "sha256": "93ffd0537200fce2dc2c87c77f1ed1f186478972cfb3334a3c92402e688f8436",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-GA-CULTURE.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-GA-CULTURE_93ffd053.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 918899,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-GA-CULTURE_93ffd053.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:50.524754"
-  },
-  {
     "id": 100,
     "sha256": "40198cbbda3a627952d15ffe9074282d113d49e5f07444b509f4bc55aaf5d79d",
     "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Maths-2014.doc",
@@ -1198,18 +466,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\doc\\Mathematics_2022_Maths-2014_40198cbb.doc",
     "source_domain": "mickinetsystems.com",
     "created_at": "2026-10-07T18:15:50.674326"
-  },
-  {
-    "id": 101,
-    "sha256": "092433efb51e6a73a45a9594f34adc0e1cb13918f25e905bdd9fe9300a6ba80e",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/French-2014.docx",
-    "file_name": "General_Unclassified_2022_French-2014_092433ef.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 1341973,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2022_French-2014_092433ef.docx",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:51.687379"
   },
   {
     "id": 102,
@@ -1248,18 +504,6 @@
     "created_at": "2026-10-07T18:15:53.054376"
   },
   {
-    "id": 105,
-    "sha256": "adde98143d513fb9f31a9706e2c4dee4aaec9e18feaf70923b119dcdb4304162",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/05/2021-BECE-INT.-SCIENCE.pdf",
-    "file_name": "General_Unclassified_2022_2021-BECE-INT.-SCIENCE_adde9814.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 1831101,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_2021-BECE-INT.-SCIENCE_adde9814.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:53.286487"
-  },
-  {
     "id": 106,
     "sha256": "3dbdf9b1acabbf1cd7637f24f90071a3ffb695ad84c478e584c854eac2e8f6d2",
     "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/08/Maths-2013.docx",
@@ -1282,30 +526,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2023_PTS-BECE-2022_b0e2cae6.pdf",
     "source_domain": "mickinetsystems.com",
     "created_at": "2026-10-07T18:15:56.407794"
-  },
-  {
-    "id": 108,
-    "sha256": "f43416f71df099566b8473dc3a91ca72514ef80813952e3e019cde2ca4b80835",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2023/02/Int.-Science.pdf",
-    "file_name": "General_Unclassified_2023_Int.-Science_f43416f7.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 3326868,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2023_Int.-Science_f43416f7.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:58.877568"
-  },
-  {
-    "id": 109,
-    "sha256": "d4a544a173627ab54826316d593cd1aed1e4a14af05f65cec4ea5f4830b58c9a",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/09/BECE-ENGLISH-1990-2013.pdf",
-    "file_name": "General_Unclassified_2022_BECE-ENGLISH-1990-2013_d4a544a1.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 2976660,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_BECE-ENGLISH-1990-2013_d4a544a1.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:15:58.904291"
   },
   {
     "id": 110,
@@ -1356,42 +576,6 @@
     "created_at": "2026-10-07T18:16:01.815235"
   },
   {
-    "id": 114,
-    "sha256": "d1edefc855994628cd51db28561f66b95b836df5edca9a8181a2f92d94a96d03",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/09/RME-1990-2013.pdf",
-    "file_name": "General_Unclassified_2022_RME-1990-2013_d1edefc8.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 3083641,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_RME-1990-2013_d1edefc8.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:16:02.053009"
-  },
-  {
-    "id": 115,
-    "sha256": "11c7a3dbd5ae3735e8a5d4110a8ebdfc577a4a3edf2240a499da2aa85c2381be",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/09/1990-2013integratedscience-1.pdf",
-    "file_name": "General_Unclassified_2022_1990-2013integratedscience-1_11c7a3db.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 7429459,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_1990-2013integratedscience-1_11c7a3db.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:16:06.042706"
-  },
-  {
-    "id": 116,
-    "sha256": "8b27f27f47e937f5ea4b1b860a862724515f2dadd82a6d7adcba91b441461fd2",
-    "original_url": "https://mickinetsystems.com/wp-content/uploads/2022/09/BECE-1990-2013-SOCIAL-STUDIES.pdf",
-    "file_name": "General_Unclassified_2022_BECE-1990-2013-SOCIAL-STUDIES_8b27f27f.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 8974482,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_BECE-1990-2013-SOCIAL-STUDIES_8b27f27f.pdf",
-    "source_domain": "mickinetsystems.com",
-    "created_at": "2026-10-07T18:16:09.718266"
-  },
-  {
     "id": 117,
     "sha256": "735229ee042f09758de541fbcb1fc93412f8f1effd32f327070a316112a7ac3b",
     "original_url": "https://mickinetsystems.com/wp-content/uploads/2021/05/ICT-BECE-private-2021.pdf",
@@ -1402,42 +586,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_ICT-BECE-private-2021_735229ee.pdf",
     "source_domain": "mickinetsystems.com",
     "created_at": "2026-10-07T18:16:10.681209"
-  },
-  {
-    "id": 118,
-    "sha256": "8c76b64e39ced0fd83b7de7e122b86c98b371cdb618002099c9f8f6d15945a5b",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/TERM-ONE-SCHEME-OF-LEARNING-2021-BASIC-FOUR-1.docx",
-    "file_name": "General_Unclassified_TERM-ONE-SCHEME-OF-LEARNING-2021-BASIC-F_8c76b64e.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 42419,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_TERM-ONE-SCHEME-OF-LEARNING-2021-BASIC-F_8c76b64e.docx",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:47.863148"
-  },
-  {
-    "id": 119,
-    "sha256": "9cdfd079e720d515d250ddb7b61b1e5f982f45003ef2333bd90aa220350d588c",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2019/08/PROVISIONAL_FEES_FOR_GRADUATE_STUDENTS_FIRST_YEARS_AND_CONTINUING_STUDENTS.pdf-2.png",
-    "file_name": "General_Unclassified_2019_PROVISIONAL_FEES_FOR_GRADUATE_STUDENTS_F_9cdfd079.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 43733,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2019_PROVISIONAL_FEES_FOR_GRADUATE_STUDENTS_F_9cdfd079.pdf",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:48.176381"
-  },
-  {
-    "id": 120,
-    "sha256": "7b1e7f7032c7be38e676ab1851f9b3435724b9b54c91f3bd342f89f5a5433be6",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx-4.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-4_7b1e7f70.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 60725,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-4_7b1e7f70.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:48.203801"
   },
   {
     "id": 121,
@@ -1452,18 +600,6 @@
     "created_at": "2026-10-07T18:26:48.406532"
   },
   {
-    "id": 122,
-    "sha256": "f375e93d13d05637c64851be8152a78c7b849e1cb6390adaf33e97b27ed6b808",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx_f375e93d.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 147294,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx_f375e93d.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:48.425663"
-  },
-  {
     "id": 123,
     "sha256": "7dc7e98313e4d7355816cc828f8f401b68be3b70e6b90c7defd3c2aa95f58832",
     "original_url": "https://ghanaeducation.org/wp-content/uploads/2020/12/Physical-and-health-education.pdf",
@@ -1474,54 +610,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2020_Physical-and-health-education_7dc7e983.pdf",
     "source_domain": "ghanaeducation.org",
     "created_at": "2026-10-07T18:26:49.897181"
-  },
-  {
-    "id": 124,
-    "sha256": "43187bfba64b5d442f815cfa702a0aa18b607f84d28ac0a5058a61f87c2a8f3d",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx-1.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-1_43187bfb.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 42246,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-1_43187bfb.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:50.135519"
-  },
-  {
-    "id": 125,
-    "sha256": "48f223d5ae7a61864fb6fc148e79daf9d4cc01e2104f317e9e60ac1234e75fa9",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx-3.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-3_48f223d5.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 56699,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-3_48f223d5.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:50.205001"
-  },
-  {
-    "id": 126,
-    "sha256": "1ca85005cff60fb022157684c951101d4742e7113c3cd7d0fa86786b80dc2be7",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx-5.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-5_1ca85005.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 111443,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-5_1ca85005.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:50.280501"
-  },
-  {
-    "id": 127,
-    "sha256": "063329fbff6f1e1004604e124457003c6ad4b2becff4e136f18062cdaa8a246d",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/RME-Teachers-Resource-Pack-Corrected.pdf",
-    "file_name": "CDT_CAD_2021_RME-Teachers-Resource-Pack-Corrected_063329fb.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 2398191,
-    "local_path": "data\\harvested\\General_Unclassified\\pdf\\CDT_CAD_2021_RME-Teachers-Resource-Pack-Corrected_063329fb.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:50.352971"
   },
   {
     "id": 128,
@@ -1560,30 +648,6 @@
     "created_at": "2026-10-07T18:26:51.206286"
   },
   {
-    "id": 131,
-    "sha256": "b98a5b2b21612686adb37b412853e9fa2b1ff71d2ed823f72916ac6729f22dc6",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/JHS-RME-SOL.docx",
-    "file_name": "General_Unclassified_2021_JHS-RME-SOL_b98a5b2b.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 25268,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2021_JHS-RME-SOL_b98a5b2b.docx",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:51.392007"
-  },
-  {
-    "id": 132,
-    "sha256": "8b050912da39dc48060b521c6296da785a3e1474c13e5921293346971a997524",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/05/2021-TERM-TWO-SCHEME-OF-LEARNING-BASIC-TWO.docx",
-    "file_name": "General_Unclassified_2021-TERM-TWO-SCHEME-OF-LEARNING-BASIC-T_8b050912.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 38479,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2021-TERM-TWO-SCHEME-OF-LEARNING-BASIC-T_8b050912.docx",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:51.484641"
-  },
-  {
     "id": 133,
     "sha256": "6b9894a14f11ffe9ad46c652bc1db48d6648b254d2872fedc7f02a9c3a087174",
     "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/CAD-Teachers-Resource-Pack-Corrected.pdf",
@@ -1596,54 +660,6 @@
     "created_at": "2026-10-07T18:26:51.925515"
   },
   {
-    "id": 134,
-    "sha256": "8c1f4c89f698f90acb6a17e967bbe204453a888780a2609cc5bcfa71eec7cada",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx-6.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-6_8c1f4c89.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 101676,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-6_8c1f4c89.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:51.959725"
-  },
-  {
-    "id": 135,
-    "sha256": "c8a8915b24d4d424c310acd10a302a7276240cea24816a6120cb7abe69f33870",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2019/08/PROVISIONAL_FEES_FOR_GRADUATE_STUDENTS_FIRST_YEARS_AND_CONTINUING_STUDENTS.pdf-1.png",
-    "file_name": "General_Unclassified_2019_PROVISIONAL_FEES_FOR_GRADUATE_STUDENTS_F_c8a8915b.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 49872,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2019_PROVISIONAL_FEES_FOR_GRADUATE_STUDENTS_F_c8a8915b.pdf",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:52.008197"
-  },
-  {
-    "id": 136,
-    "sha256": "54b5c7399b1ff1e5375676bd4bbba088dbe9b5f14a4cd0564de5594e3542b3e5",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/CCP-TEACHER-RESOURCE-PACK-BASIC-7-FRENCH_New.pdf",
-    "file_name": "Computing_ICT_2021_CCP-TEACHER-RESOURCE-PACK-BASIC-7-FRENCH_54b5c739.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 2549046,
-    "local_path": "data\\harvested\\General_Unclassified\\pdf\\Computing_ICT_2021_CCP-TEACHER-RESOURCE-PACK-BASIC-7-FRENCH_54b5c739.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:52.279369"
-  },
-  {
-    "id": 137,
-    "sha256": "661fa43b867d4ca29dbf119c4f1547a87eba88965198bff09ed42c6eeb6d7289",
-    "original_url": "https://ghstudents.com/wp-content/uploads/2018/11/Microsoft-Word-MIS_Web-Script1.docx-2.png",
-    "file_name": "General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-2_661fa43b.docx",
-    "file_type": "docx",
-    "subject": "General_Unclassified",
-    "file_size": 75095,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\docx\\General_Unclassified_2018_Microsoft-Word-MIS_Web-Script1.docx-2_661fa43b.docx",
-    "source_domain": "ghstudents.com",
-    "created_at": "2026-10-07T18:26:52.585011"
-  },
-  {
     "id": 138,
     "sha256": "279d118d6e05342afdffd074cfdbc3004ddf8da15278cc7e25fc4b9d29f163df",
     "original_url": "https://ghstudents.com/wp-content/uploads/2019/08/PROVISIONAL_FEES_FOR_FOREIGN_GRADUATE_STUDENTS_FIRST_YEARS_AND_CONTINUING_STUDENTS_2019_2020_ACADEMIC_YEAR.docx.pdf-1.png",
@@ -1654,30 +670,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_PROVISIONAL_FEES_FOR_FOREIGN_GRADUATE_ST_279d118d.pdf",
     "source_domain": "ghstudents.com",
     "created_at": "2026-10-07T18:26:52.678375"
-  },
-  {
-    "id": 139,
-    "sha256": "5ea0c2334602c715e6034454bbc022f9393de6f84d22f1f86f3aaba759658f4d",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/ICT-SCHEME-OF-WORK-FOR-SEMESTER-ONE-1ST.pdf",
-    "file_name": "Computing_ICT_2021_ICT-SCHEME-OF-WORK-FOR-SEMESTER-ONE-1ST_5ea0c233.pdf",
-    "file_type": "pdf",
-    "subject": "Computing_ICT",
-    "file_size": 588783,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2021_ICT-SCHEME-OF-WORK-FOR-SEMESTER-ONE-1ST_5ea0c233.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:52.879122"
-  },
-  {
-    "id": 140,
-    "sha256": "eb050ac09f02cf13a3ef648d9024a165978b4d927a2d779cc811cb7360a38340",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/GH-Language-Learners-Resource-Pack-Corrected.pdf",
-    "file_name": "General_Unclassified_2021_GH-Language-Learners-Resource-Pack-Corre_eb050ac0.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 1303964,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2021_GH-Language-Learners-Resource-Pack-Corre_eb050ac0.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:53.132756"
   },
   {
     "id": 141,
@@ -1702,18 +694,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2021_Computing-Learners-Resource-Pack-Correct_52f2d1eb.pdf",
     "source_domain": "ghanaeducation.org",
     "created_at": "2026-10-07T18:26:54.189480"
-  },
-  {
-    "id": 143,
-    "sha256": "429bbf46b754a1b4ce6cb21e68088acf6890fe8d02ac653913ea7b92016eb490",
-    "original_url": "https://ghanaeducation.org/wp-content/uploads/2021/01/BASIC-7-SCHEME-OF-WORK..pdf",
-    "file_name": "CDT_CAD_2021_BASIC-7-SCHEME-OF-WORK._429bbf46.pdf",
-    "file_type": "pdf",
-    "subject": "CDT_CAD",
-    "file_size": 969548,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2021_BASIC-7-SCHEME-OF-WORK._429bbf46.pdf",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:54.314539"
   },
   {
     "id": 144,
@@ -1836,18 +816,6 @@
     "created_at": "2026-10-07T18:26:59.189035"
   },
   {
-    "id": 154,
-    "sha256": "528296df8246ef2dc92ea45220c286722930b9f1677d4fea24cc964d76049cf5",
-    "original_url": "https://ghanaeducation.org/2023-wassce-elective-mathematics-july-elective-trial-mock-questions/",
-    "file_name": "Mathematics_2023_WASSCE_Elective_Mathematics_-_July__528296df.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 12883,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Mathematics_2023_WASSCE_Elective_Mathematics_-_July__528296df.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:26:59.463786"
-  },
-  {
     "id": 155,
     "sha256": "b4af6d288772ecd2e629b2686925e9e387c76098bed92f7d3bccd0437f754354",
     "original_url": "https://passco.com.gh/past-questions/bece-passco/2019-2021/ict/ict-2019-2021-bece-qna",
@@ -1908,30 +876,6 @@
     "created_at": "2026-10-07T18:27:00.317916"
   },
   {
-    "id": 160,
-    "sha256": "4556b2bb960d6748e4113eeb7f2a9a829d68d4f1f16dca7abbc7c2356c1ab90d",
-    "original_url": "https://passco.com.gh/past-questions/shs-school-mocks/super-mock-i-with-answers/core-maths-finalmock/super-mock-3-core-maths-wassce-2024-qna-pdf",
-    "file_name": "Mathematics_Passco_Super_Mock_3_Core_Maths_Wassce_2024_QnA__4556b2bb.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 1356,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Mathematics_Passco_Super_Mock_3_Core_Maths_Wassce_2024_QnA__4556b2bb.txt",
-    "source_domain": "passco.com.gh",
-    "created_at": "2026-10-07T18:27:00.512893"
-  },
-  {
-    "id": 161,
-    "sha256": "e74655d1669ccb0c05661277afb870449225c38010097b9651c3d0c70b7a7570",
-    "original_url": "https://ghanaeducation.org/no-maths-no-english-no-shs-after-2026-bece/",
-    "file_name": "Mathematics_No_Maths,_No_English,_No_SHS_After_2026__e74655d1.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 4470,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Mathematics_No_Maths,_No_English,_No_SHS_After_2026__e74655d1.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:00.555817"
-  },
-  {
     "id": 162,
     "sha256": "47e263d69d48c6611291e6df6a577f653ef369901d84e960a9586dd9a7aa6946",
     "original_url": "https://ghanaeducation.org/2026-bece-mathematics-official-marking-scheme/",
@@ -1954,18 +898,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BECE-2025-Computing-QnA_BECE_Passco_2025_9cc632fe.txt",
     "source_domain": "passco.com.gh",
     "created_at": "2026-10-07T18:27:00.655560"
-  },
-  {
-    "id": 164,
-    "sha256": "9252fbdb46c92ff35128efe74362a83beb4c522ac0cdb55857e10d4ea77ca30e",
-    "original_url": "https://ghanaeducation.org/wassce-2026-elective-ict-essential-questions/",
-    "file_name": "Computing_ICT_Master_These_WASSCE_2026_Elective_ICT_Qu_9252fbdb.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 6026,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Computing_ICT_Master_These_WASSCE_2026_Elective_ICT_Qu_9252fbdb.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:00.766095"
   },
   {
     "id": 165,
@@ -2052,18 +984,6 @@
     "created_at": "2026-10-07T18:27:02.166830"
   },
   {
-    "id": 172,
-    "sha256": "ca184a1c695753eb178968cb8e10a0b3df7b8e23b93d479242734a97f87e8afd",
-    "original_url": "https://ghanaeducation.org/wassce-2022-questions-to-watch-maths-english-e-maths-accounting-science/",
-    "file_name": "Mathematics_WASSCE_2022_Trial_Questions_(Maths,_Engl_ca184a1c.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 21632,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Mathematics_WASSCE_2022_Trial_Questions_(Maths,_Engl_ca184a1c.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:02.224459"
-  },
-  {
     "id": 173,
     "sha256": "95d92336ebfa47ec4f51fb0d3b7da32d32911847618b361eb3c9940b12070b64",
     "original_url": "https://becezone.com/computing/2015/",
@@ -2076,18 +996,6 @@
     "created_at": "2026-10-07T18:27:02.311333"
   },
   {
-    "id": 174,
-    "sha256": "80ad3b5698db3a914ae74d4bb43040fb1f9fbcb58a15649aa596415031193461",
-    "original_url": "https://ghanaeducation.org/2025-bece-social-studies-1st-predicted-section-b-questions/",
-    "file_name": "Computing_ICT_2025_BECE_SOCIAL_STUDIES_–1st_predicted__80ad3b56.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 4857,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Computing_ICT_2025_BECE_SOCIAL_STUDIES_–1st_predicted__80ad3b56.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:02.365350"
-  },
-  {
     "id": 175,
     "sha256": "29e249ff26b5217a0ea0cab58ca85cd04040eafcfd0d8498be49bf3407701f29",
     "original_url": "https://ghlearner.com/bece/computing/exams/best-brain-feb-2026-computing",
@@ -2098,18 +1006,6 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BestBrain_Solve_BECE_Computing_Questions_&_Answers_29e249ff.txt",
     "source_domain": "ghlearner.com",
     "created_at": "2026-10-07T18:27:02.676046"
-  },
-  {
-    "id": 176,
-    "sha256": "4586cb5984446b412b4b567865221583ce0ec0560333ff04b623c130c8e90791",
-    "original_url": "https://ghanaeducation.org/2023-wassce-final-predicted-government-questions-to-help-you-get-grade-a/",
-    "file_name": "Computing_ICT_2023_WASSCE_Final_Predicted_Government_Q_4586cb59.txt",
-    "file_type": "txt",
-    "subject": "General_Unclassified",
-    "file_size": 4165,
-    "local_path": "data\\harvested\\General_Unclassified\\txt\\Computing_ICT_2023_WASSCE_Final_Predicted_Government_Q_4586cb59.txt",
-    "source_domain": "ghanaeducation.org",
-    "created_at": "2026-10-07T18:27:02.723855"
   },
   {
     "id": 177,
@@ -2386,17 +1282,5 @@
     "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_9956ee66.pdf",
     "source_domain": "drive.google.com",
     "created_at": "2026-10-07T18:27:31.653143"
-  },
-  {
-    "id": 200,
-    "sha256": "a6d089e3ee11cc100ce8c58ebfe9ba0063bda3ddf2ad9fc56803e07a9cbea6eb",
-    "original_url": "https://drive.google.com/uc?export=download&id=1hmq9SUH2b1eh7ik7ZttVPdoVmgRWQGpg",
-    "file_name": "General_Unclassified_uc_a6d089e3.pdf",
-    "file_type": "pdf",
-    "subject": "General_Unclassified",
-    "file_size": 235920,
-    "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_uc_a6d089e3.pdf",
-    "source_domain": "drive.google.com",
-    "created_at": "2026-10-07T18:27:35.424526"
   }
 ]

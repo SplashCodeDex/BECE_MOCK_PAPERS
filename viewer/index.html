@@ -279,37 +279,42 @@
 
         <div class="stats-bar" id="statsBar">
             <div class="stat-card">
-                <div class="stat-value" id="statTotalPapers">200</div>
-                <div class="stat-label">Total Exam Papers</div>
+                <div class="stat-value" id="statTotalPapers">107</div>
+                <div class="stat-label">Target Exam Papers</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="statMaths">22</div>
+                <div class="stat-value" id="statMaths">42</div>
                 <div class="stat-label">Mathematics Papers</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="statComp">14</div>
+                <div class="stat-value" id="statComp">39</div>
                 <div class="stat-label">Computing / ICT Papers</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="statCDT">16</div>
+                <div class="stat-value" id="statCDT">26</div>
                 <div class="stat-label">CDT / CAD Papers</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="statQuestions">557</div>
-                <div class="stat-label">Itemized Questions (17 Diagrams)</div>
+                <div class="stat-value" id="statQuestions">886</div>
+                <div class="stat-label">Questions (809 P1 &bull; 77 P2)</div>
             </div>
         </div>
 
         <div class="controls">
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search papers, years, topics, markings..." oninput="handleSearch()">
+                <input type="text" id="searchInput" placeholder="Search questions, topics, marking schemes, formulas..." oninput="handleSearch()">
             </div>
             <div class="filter-group" id="subjectFilters">
                 <button class="pill-btn active" onclick="setSubject('ALL', event)">All Subjects</button>
                 <button class="pill-btn" onclick="setSubject('Mathematics', event)">Mathematics</button>
                 <button class="pill-btn" onclick="setSubject('Computing_ICT', event)">Computing/ICT</button>
                 <button class="pill-btn" onclick="setSubject('CDT_CAD', event)">CDT / CAD</button>
-                <button class="pill-btn" onclick="setSubject('General_Unclassified', event)">General / Other</button>
+            </div>
+            <div class="filter-group" id="paperTypeFilters" style="margin-top: 10px;">
+                <button class="pill-btn active" onclick="setPaperType('ALL', event)">All Papers</button>
+                <button class="pill-btn" onclick="setPaperType('Paper 1 - Objective', event)">Paper 1 (Objective)</button>
+                <button class="pill-btn" onclick="setPaperType('Paper 2 - Theory', event)">Paper 2 (Theory / Essay)</button>
+                <button class="pill-btn" onclick="setPaperType('SCHEME', event)">Marking Schemes Only</button>
             </div>
         </div>
 
@@ -326,6 +331,7 @@
         let papersData = [];
         let questionsData = [];
         let currentSubject = 'ALL';
+        let currentPaperType = 'ALL';
         let searchQuery = '';
         let activeTab = 'library';
 
@@ -335,7 +341,7 @@
                 papersData = await resCatalog.json();
                 if (papersData.length) {
                     document.getElementById('statTotalPapers').textContent = papersData.length;
-                    document.getElementById('tabLibBtn').textContent = `Resource Library (${papersData.length} Papers)`;
+                    document.getElementById('tabLibBtn').textContent = `Resource Library (${papersData.length} Papers & Schemes)`;
                     document.getElementById('statMaths').textContent = papersData.filter(p => p.subject === 'Mathematics').length;
                     document.getElementById('statComp').textContent = papersData.filter(p => p.subject === 'Computing_ICT').length;
                     document.getElementById('statCDT').textContent = papersData.filter(p => p.subject === 'CDT_CAD').length;
@@ -348,9 +354,10 @@
                 const resQuestions = await fetch('../data/extracted_questions/questions_bank.json');
                 questionsData = await resQuestions.json();
                 if (questionsData.length) {
-                    const withFigs = questionsData.filter(q => q.has_diagram).length;
+                    const p1 = questionsData.filter(q => q.paper_type === 'Paper 1 - Objective').length;
+                    const p2 = questionsData.filter(q => q.paper_type === 'Paper 2 - Theory').length;
                     document.getElementById('statQuestions').textContent = questionsData.length;
-                    document.getElementById('tabCbtBtn').textContent = `Question Bank & CBT Quiz (${questionsData.length} Questions)`;
+                    document.getElementById('tabCbtBtn').textContent = `Question Bank (${questionsData.length} Questions: ${p1} P1 &bull; ${p2} P2)`;
                 }
             } catch(e) {
                 console.error("Could not load questions_bank.json", e);
@@ -384,6 +391,16 @@
             renderQuestions();
         }
 
+        function setPaperType(pt, ev) {
+            currentPaperType = pt;
+            document.querySelectorAll('#paperTypeFilters .pill-btn').forEach(b => b.classList.remove('active'));
+            if (ev && ev.currentTarget) {
+                ev.currentTarget.classList.add('active');
+            }
+            renderPapers();
+            renderQuestions();
+        }
+
         function handleSearch() {
             searchQuery = document.getElementById('searchInput').value.toLowerCase();
             renderPapers();
@@ -394,26 +411,32 @@
             const container = document.getElementById('papersContainer');
             const filtered = papersData.filter(p => {
                 const matchSubj = (currentSubject === 'ALL') || (p.subject === currentSubject);
+                let matchType = true;
+                if (currentPaperType === 'SCHEME') {
+                    matchType = p.is_marking_scheme === 1 || p.file_name.toLowerCase().includes('scheme') || p.file_name.toLowerCase().includes('marking');
+                }
                 const matchSearch = !searchQuery || p.file_name.toLowerCase().includes(searchQuery) || (p.original_url && p.original_url.toLowerCase().includes(searchQuery));
-                return matchSubj && matchSearch;
+                return matchSubj && matchType && matchSearch;
             });
 
             container.innerHTML = filtered.map(p => {
                 const kb = Math.round(p.file_size / 1024);
                 const relPath = '../data/harvested/' + p.subject + '/' + p.file_type + '/' + p.file_name;
+                const isScheme = p.is_marking_scheme === 1 || p.file_name.toLowerCase().includes('scheme') || p.file_name.toLowerCase().includes('marking');
                 return `
                 <div class="paper-card">
                     <div>
                         <div class="card-top">
                             <span class="subject-badge badge-${p.subject}">${p.subject.replace('_', ' ')}</span>
                             <span class="format-badge">${p.file_type}</span>
+                            ${isScheme ? '<span style="font-size:11px;font-weight:700;padding:2px 6px;border-radius:4px;background:#dcfce7;color:#166534;margin-left:auto;">Marking Scheme</span>' : ''}
                         </div>
                         <div class="paper-title">${p.file_name}</div>
                         <div class="paper-meta">${kb} KB &bull; Source: ${p.source_domain || 'WAEC / GES Hub'}</div>
                     </div>
                     <div class="card-bottom">
                         <span style="font-size:12px;color:var(--text-muted);">${p.created_at ? p.created_at.split('T')[0] : ''}</span>
-                        <a href="${relPath}" target="_blank" class="btn-download">Open / Download</a>
+                        <a href="${relPath}" target="_blank" class="btn-download" style="${isScheme ? 'background:#16a34a;' : ''}">${isScheme ? 'View Scheme / Key' : 'Open / Download'}</a>
                     </div>
                 </div>`;
             }).join('');
@@ -423,19 +446,26 @@
             const container = document.getElementById('questionsContainer');
             const filtered = questionsData.filter(q => {
                 const matchSubj = (currentSubject === 'ALL') || (q.subject === currentSubject);
+                let matchType = true;
+                if (currentPaperType === 'Paper 1 - Objective') {
+                    matchType = q.paper_type === 'Paper 1 - Objective';
+                } else if (currentPaperType === 'Paper 2 - Theory') {
+                    matchType = q.paper_type === 'Paper 2 - Theory';
+                }
                 const matchSearch = !searchQuery || q.question_text.toLowerCase().includes(searchQuery);
-                return matchSubj && matchSearch;
+                return matchSubj && matchType && matchSearch;
             });
 
             container.innerHTML = filtered.map((q, idx) => {
+                const isP2 = q.paper_type === 'Paper 2 - Theory';
                 const hasOpts = q.option_a || q.option_b;
                 return `
                 <div class="q-card">
                     <div class="q-header">
-                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; Question ${q.question_number || (idx + 1)}</span>
+                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; <span style="font-weight:600;color:${isP2 ? '#b45309' : '#0284c7'};">${q.paper_type}</span> &bull; Question ${q.question_number || (idx + 1)}</span>
                         <span>Source: ${q.source_file}</span>
                     </div>
-                    <div class="q-text">${q.question_text}</div>
+                    <div class="q-text" style="white-space: pre-line;">${q.question_text}</div>
                     ${q.diagram_path ? `<img src="../data/${q.diagram_path}" class="diagram-preview" alt="Exam Diagram">` : ''}
                     ${hasOpts ? `
                     <div class="options-grid">

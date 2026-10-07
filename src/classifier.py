@@ -9,8 +9,24 @@ class FileClassifier:
     """Classifies files by examination subject, organizes target directory paths, and cleans filenames."""
 
     @staticmethod
-    def detect_subject(text_context: str) -> str:
+    def is_exam_paper_or_scheme(text_context: str) -> bool:
+        """Verifies that document is an exam paper (Paper 1/2) or marking scheme, and not notes/textbooks/reports."""
+        text = text_context.lower()
+        unwanted = [
+            "examiner report", "examiners report", "chief examiner", "examiner remarks",
+            "scheme of work", "scheme of learning", "schemes of work", "schemes of learning",
+            "lesson plan", "lesson notes", "lesson note", "scheme of learning",
+            "curriculum guide", "teaching syllabus", "textbook", "teachers guide",
+            "termly scheme"
+        ]
+        return not any(u in text for u in unwanted)
+
+    @classmethod
+    def detect_subject(cls, text_context: str) -> str:
         """Determines subject based on text context (URL path, title, anchor text, headers)."""
+        if not cls.is_exam_paper_or_scheme(text_context):
+            return "General_Unclassified"
+
         text = text_context.lower()
 
         # Score matching
@@ -60,11 +76,6 @@ class FileClassifier:
         text_context: str = ""
     ) -> str:
         """Inspects internal document text using PyMuPDF / python-docx to classify subject accurately."""
-        # Check text_context first
-        subject = cls.detect_subject(text_context)
-        if subject != "General_Unclassified":
-            return subject
-
         extracted_sample = ""
         ext = extension.lower()
 
@@ -97,7 +108,8 @@ class FileClassifier:
             if detected != "General_Unclassified":
                 return detected
 
-        return "General_Unclassified"
+        # Fallback to URL/filename text context if bytes yielded no text layer
+        return cls.detect_subject(text_context)
 
     @staticmethod
     def extract_metadata_hints(text: str) -> Tuple[Optional[str], Optional[str]]:

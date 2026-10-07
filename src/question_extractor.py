@@ -6,7 +6,7 @@ import re
 import sqlite3
 import zipfile
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set
 import docx
 from PIL import Image
 from src.config import DATABASE_PATH, HARVESTED_DIR
@@ -27,7 +27,7 @@ STIMULUS_PATTERNS = [
 
 
 class QuestionExtractor:
-    """Extracts itemized questions, options, marking schemes, and diagrams from harvested papers."""
+    """Extracts itemized Paper 1 (Objective) and Paper 2 (Theory) questions, marking schemes, and diagrams."""
 
     def __init__(self, db_path: Path = DATABASE_PATH):
         self.db_path = db_path
@@ -64,6 +64,9 @@ class QuestionExtractor:
             conn.execute(
                 "CREATE INDEX IF NOT EXISTS idx_questions_year ON extracted_questions(year);"
             )
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_questions_type ON extracted_questions(paper_type);"
+            )
 
     @staticmethod
     def get_paragraph_text(p) -> str:
@@ -93,11 +96,9 @@ class QuestionExtractor:
     def extract_image_from_element(self, elem, doc: docx.Document, file_stem: str, q_num: int) -> Optional[str]:
         """
         Extracts embedded diagram/figure image associated with an OpenXML element.
-        Supports both DrawingML (a:blip) and VML (imagedata).
-        Filters micro-icons (<70x70 px) and converts WMF/EMF/ms-photo directly to PNG.
+        Supports DrawingML (a:blip) and VML (imagedata). Filters micro-icons and converts WMF to PNG.
         """
         try:
-            # Query DrawingML (a:blip) and VML (imagedata) relationships
             r_ids = elem.xpath(".//a:blip/@r:embed | .//*[local-name()='imagedata']/@*[local-name()='id']")
             for r_id in r_ids:
                 if r_id not in doc.part.related_parts:
@@ -114,17 +115,14 @@ class QuestionExtractor:
                 try:
                     im = Image.open(io.BytesIO(raw_bytes))
                     w, h = im.size
-                    # Filter: skip micro-images (bullet points, decorative icons, spacers)
                     if w < 70 or h < 70 or (w * h) < 5000:
                         continue
 
-                    # Save as PNG
                     img_name = f"{file_stem}_q{q_num}_{r_id}.png"
                     out_path = IMAGES_DIR / img_name
                     im.save(out_path, "PNG")
                     return str(out_path.relative_to(EXTRACTED_DIR.parent))
                 except Exception:
-                    # If Pillow fails to decode vector or proprietary format, check if raw raster
                     if any(t in content_type for t in ["jpeg", "jpg", "png", "webp"]):
                         ext = "jpg" if "jpeg" in content_type else "png"
                         img_name = f"{file_stem}_q{q_num}_{r_id}.{ext}"
@@ -136,11 +134,10 @@ class QuestionExtractor:
         return None
 
     def extract_image_from_paragraph(self, p, doc: docx.Document, file_stem: str, q_num: int) -> Optional[str]:
-        """Backwards-compatible wrapper calling extract_image_from_element."""
         return self.extract_image_from_element(p._p, doc, file_stem, q_num)
 
     def parse_docx(self, file_path: Path, subject: str) -> List[Dict[str, Any]]:
-        """Parses objective and theory questions from a DOCX file with stimulus context and equations."""
+        """Parses both Paper 1 (Objective) and Paper 2 (Theory) questions from a DOCX file."""
         questions: List[Dict[str, Any]] = []
         try:
             doc = docx.Document(file_path)
@@ -162,30 +159,31 @@ class QuestionExtractor:
             for num_str, opt in ak_matches:
                 answer_key[int(num_str)] = opt
 
-        # Document flow traversal
+        current_paper_type = "Paper 1 - Objective"
         current_q_num: Optional[int] = None
         current_q_text: List[str] = []
         current_options = {"A": "", "B": "", "C": "", "D": ""}
         current_diagram: Optional[str] = None
-        in_objective_section = True
         active_stimulus: Optional[Dict[str, Any]] = None
+        auto_num_counter = 0
 
         def save_current_question() -> None:
             nonlocal current_q_num, current_q_text, current_options, current_diagram
             if current_q_num and (current_q_text or any(current_options.values())):
-                q_id = f"{subject}_{year or 'GEN'}_{file_hash}_q{current_q_num}"
+                tag = "P1" if "Paper 1" in current_paper_type else "P2"
+                q_id = f"{subject}_{year or 'GEN'}_{file_hash}_{tag}_q{current_q_num}"
                 questions.append({
                     "id": q_id,
                     "subject": subject,
                     "year": year,
-                    "paper_type": "Objective",
+                    "paper_type": current_paper_type,
                     "question_number": current_q_num,
                     "question_text": " ".join(current_q_text).strip(),
                     "option_a": current_options["A"],
                     "option_b": current_options["B"],
                     "option_c": current_options["C"],
                     "option_d": current_options["D"],
-                    "correct_answer": answer_key.get(current_q_num, ""),
+                    "correct_answer": answer_key.get(current_q_num, "") if "Paper 1" in current_paper_type else "",
                     "has_diagram": 1 if current_diagram else 0,
                     "diagram_path": current_diagram,
                     "source_file": file_path.name
@@ -199,17 +197,32 @@ class QuestionExtractor:
             if child.tag.endswith("p"):
                 p = docx.text.paragraph.Paragraph(child, doc)
                 p_text = self.get_paragraph_text(p)
+                if not p_text:
+                    continue
+
                 p_text_lower = p_text.lower()
 
-                # Check Section B / Theory transition
-                if any(term in p_text_lower for term in ["section b", "paper two", "paper 2", "part ii", "theory"]):
-                    in_objective_section = False
+                # Transition to Paper 2 / Theory / Essay / Section B
+                if any(term in p_text_lower for term in ["section b", "paper two", "paper 2", "part ii", "part 2", "theory", "essay"]) and not any(p1 in p_text_lower for p1 in ["paper 1", "paper one"]):
+                    save_current_question()
+                    current_paper_type = "Paper 2 - Theory"
+                    active_stimulus = None
+                    auto_num_counter = 0
+                    continue
 
-                # Check for Stimulus / Context Block (e.g. "Figure 1 shows... Use to answer Q3 and Q4")
+                # Transition to Paper 1 / Objective Test / Section A
+                if any(term in p_text_lower for term in ["paper one", "paper 1", "objective test", "part i", "part 1"]) and not any(p2 in p_text_lower for p2 in ["paper 2", "paper two"]):
+                    save_current_question()
+                    current_paper_type = "Paper 1 - Objective"
+                    active_stimulus = None
+                    auto_num_counter = 0
+                    continue
+
+                # Stimulus block detection (e.g. "Figure 1 shows... Use to answer Questions 3 and 4")
                 is_stimulus = False
                 for pat in STIMULUS_PATTERNS:
                     m = pat.search(p_text)
-                    if m and in_objective_section:
+                    if m:
                         save_current_question()
                         g = m.groups()
                         digits = [int(d) for d in g if d and d.isdigit()]
@@ -229,50 +242,66 @@ class QuestionExtractor:
                 if is_stimulus:
                     continue
 
-                # Check if paragraph starts a new question: e.g. "1.", "2.", "15."
-                q_start_match = re.match(r"^(\d{1,2})\s*[\.\)]\s*(.*)", p_text)
-                if q_start_match and in_objective_section:
-                    save_current_question()
+                # Check if paragraph starts a new question
+                # Pattern A: Explicit number prefix (e.g., "1.", "Question 1", "1)")
+                q_start_match = re.match(r"^(?:Question\s+)?(\d{1,2})\s*[\.\)]\s*(.*)", p_text, re.I)
+                # Pattern B: Automatic Word list (<w:numPr> with ilvl=0)
+                has_numpr = bool(child.xpath(".//*[local-name()='ilvl' and @*[local-name()='val']='0']"))
+                is_option = bool(re.match(r"^[A-D]\s*[\.\)]", p_text))
 
+                if q_start_match:
+                    save_current_question()
                     current_q_num = int(q_start_match.group(1))
                     q_body = q_start_match.group(2).strip()
                     current_q_text = [q_body] if q_body else []
 
-                    # Inherit active stimulus if target question
                     if active_stimulus and current_q_num in active_stimulus["target_questions"]:
                         current_diagram = active_stimulus["diagram"]
                         current_q_text.insert(0, f"[{active_stimulus['text']}]")
 
-                    # Check for direct image in this paragraph
+                    direct_img = self.extract_image_from_element(child, doc, file_stem, current_q_num)
+                    if direct_img:
+                        current_diagram = direct_img
+                    continue
+                elif has_numpr and not is_option:
+                    save_current_question()
+                    auto_num_counter += 1
+                    current_q_num = auto_num_counter
+                    current_q_text = [p_text]
+
+                    if active_stimulus and current_q_num in active_stimulus["target_questions"]:
+                        current_diagram = active_stimulus["diagram"]
+                        current_q_text.insert(0, f"[{active_stimulus['text']}]")
+
                     direct_img = self.extract_image_from_element(child, doc, file_stem, current_q_num)
                     if direct_img:
                         current_diagram = direct_img
                     continue
 
-                # Check if paragraph contains an image for the current question
+                # Check intermediate image attachment
                 if current_q_num:
                     intermediate_img = self.extract_image_from_element(child, doc, file_stem, current_q_num)
                     if intermediate_img and not current_diagram:
                         current_diagram = intermediate_img
 
-                # Check for options: "A. ...", "B. ...", "C. ...", "D. ..."
-                opt_matches = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D\n]+)", p_text)
-                if opt_matches and current_q_num:
-                    for opt_letter, opt_text in opt_matches:
-                        current_options[opt_letter] = opt_text.strip()
-                    continue
+                # Options for Paper 1
+                if "Paper 1" in current_paper_type:
+                    opt_matches = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D\n]+)", p_text)
+                    if opt_matches and current_q_num:
+                        for opt_letter, opt_text in opt_matches:
+                            current_options[opt_letter] = opt_text.strip()
+                        continue
 
-                single_opt = re.match(r"^([A-D])\s*[\.\)]\s*(.*)", p_text)
-                if single_opt and current_q_num:
-                    current_options[single_opt.group(1)] = single_opt.group(2).strip()
-                    continue
+                    single_opt = re.match(r"^([A-D])\s*[\.\)]\s*(.*)", p_text)
+                    if single_opt and current_q_num:
+                        current_options[single_opt.group(1)] = single_opt.group(2).strip()
+                        continue
 
-                # Continuation of question text
-                if current_q_num and in_objective_section and not any(current_options.values()) and p_text:
+                # Continuation of question text or Paper 2 sub-parts e.g. (a), (b), [4 marks]
+                if current_q_num:
                     current_q_text.append(p_text)
 
             elif child.tag.endswith("tbl"):
-                # Handle Table in document flow
                 tbl = docx.table.Table(child, doc)
                 tbl_md = self.table_to_markdown(tbl)
                 if not tbl_md:
@@ -286,50 +315,48 @@ class QuestionExtractor:
                         continue
                     first_cell = row_cells[0]
                     tq_match = re.match(r"^(\d{1,2})\s*[\.\)]\s*(.*)", first_cell)
-                    if tq_match and in_objective_section:
+                    if tq_match:
                         table_has_questions = True
                         save_current_question()
                         t_q_num = int(tq_match.group(1))
                         t_text = tq_match.group(2) or (row_cells[1] if len(row_cells) > 1 else "")
                         t_opts = {"A": "", "B": "", "C": "", "D": ""}
-                        # Try parsing options from remaining cells
-                        for cell_val in row_cells[1:]:
-                            c_opts = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D]+)", cell_val)
-                            for o_let, o_txt in c_opts:
-                                t_opts[o_let] = o_txt.strip()
+                        if "Paper 1" in current_paper_type:
+                            for cell_val in row_cells[1:]:
+                                c_opts = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D]+)", cell_val)
+                                for o_let, o_txt in c_opts:
+                                    t_opts[o_let] = o_txt.strip()
 
-                        t_q_id = f"{subject}_{year or 'GEN'}_{file_hash}_q{t_q_num}"
+                        tag = "P1" if "Paper 1" in current_paper_type else "P2"
+                        t_q_id = f"{subject}_{year or 'GEN'}_{file_hash}_{tag}_q{t_q_num}"
                         questions.append({
                             "id": t_q_id,
                             "subject": subject,
                             "year": year,
-                            "paper_type": "Objective",
+                            "paper_type": current_paper_type,
                             "question_number": t_q_num,
                             "question_text": t_text.strip(),
                             "option_a": t_opts["A"],
                             "option_b": t_opts["B"],
                             "option_c": t_opts["C"],
                             "option_d": t_opts["D"],
-                            "correct_answer": answer_key.get(t_q_num, ""),
+                            "correct_answer": answer_key.get(t_q_num, "") if "Paper 1" in current_paper_type else "",
                             "has_diagram": 0,
                             "diagram_path": None,
                             "source_file": file_path.name
                         })
 
                 if not table_has_questions:
-                    # Append data table markdown to ongoing question or active stimulus
-                    if current_q_num and not any(current_options.values()):
+                    if current_q_num:
                         current_q_text.append(f"\n{tbl_md}\n")
                     elif active_stimulus:
                         active_stimulus["text"] += f"\n{tbl_md}\n"
 
-        # Save trailing question
         save_current_question()
-
         return questions
 
     def parse_txt(self, file_path: Path, subject: str) -> List[Dict[str, Any]]:
-        """Parses questions from a clean text exam paper."""
+        """Parses both Paper 1 (Objective) and Paper 2 (Theory) questions from a clean text exam paper."""
         questions: List[Dict[str, Any]] = []
         try:
             content = file_path.read_text(encoding="utf-8", errors="ignore")
@@ -343,6 +370,7 @@ class QuestionExtractor:
 
         lines = [line.strip() for line in content.split("\n") if line.strip()]
 
+        current_paper_type = "Paper 1 - Objective"
         current_q_num = None
         current_q_text: List[str] = []
         current_options = {"A": "", "B": "", "C": "", "D": ""}
@@ -350,12 +378,13 @@ class QuestionExtractor:
         def save_current_txt_question() -> None:
             nonlocal current_q_num, current_q_text, current_options
             if current_q_num and (current_q_text or any(current_options.values())):
-                q_id = f"{subject}_{year or 'TXT'}_{file_hash}_q{current_q_num}"
+                tag = "P1" if "Paper 1" in current_paper_type else "P2"
+                q_id = f"{subject}_{year or 'TXT'}_{file_hash}_{tag}_q{current_q_num}"
                 questions.append({
                     "id": q_id,
                     "subject": subject,
                     "year": year,
-                    "paper_type": "Objective",
+                    "paper_type": current_paper_type,
                     "question_number": current_q_num,
                     "question_text": " ".join(current_q_text).strip(),
                     "option_a": current_options["A"],
@@ -372,7 +401,21 @@ class QuestionExtractor:
             current_options = {"A": "", "B": "", "C": "", "D": ""}
 
         for line in lines:
-            q_match = re.match(r"^(\d{1,2})\s*[\.\)]\s*(.*)", line)
+            line_lower = line.lower()
+
+            # Transition to Paper 2 / Theory / Essay / Section B
+            if any(term in line_lower for term in ["section b", "paper two", "paper 2", "part ii", "part 2", "theory", "essay"]) and not any(p1 in line_lower for p1 in ["paper 1", "paper one"]):
+                save_current_txt_question()
+                current_paper_type = "Paper 2 - Theory"
+                continue
+
+            # Transition to Paper 1 / Objective Test / Section A
+            if any(term in line_lower for term in ["paper one", "paper 1", "objective test", "part i", "part 1"]) and not any(p2 in line_lower for p2 in ["paper 2", "paper two"]):
+                save_current_txt_question()
+                current_paper_type = "Paper 1 - Objective"
+                continue
+
+            q_match = re.match(r"^(?:Question\s+)?(\d{1,2})\s*[\.\)]\s*(.*)", line, re.I)
             if q_match:
                 save_current_txt_question()
                 current_q_num = int(q_match.group(1))
@@ -380,25 +423,26 @@ class QuestionExtractor:
                 current_q_text = [q_body] if q_body else []
                 continue
 
-            opt_matches = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D\n]+)", line)
-            if opt_matches and current_q_num:
-                for opt_letter, opt_text in opt_matches:
-                    current_options[opt_letter] = opt_text.strip()
-                continue
+            if "Paper 1" in current_paper_type:
+                opt_matches = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D\n]+)", line)
+                if opt_matches and current_q_num:
+                    for opt_letter, opt_text in opt_matches:
+                        current_options[opt_letter] = opt_text.strip()
+                    continue
 
-            single_opt = re.match(r"^([A-D])\s*[\.\)]\s*(.*)", line)
-            if single_opt and current_q_num:
-                current_options[single_opt.group(1)] = single_opt.group(2).strip()
-                continue
+                single_opt = re.match(r"^([A-D])\s*[\.\)]\s*(.*)", line)
+                if single_opt and current_q_num:
+                    current_options[single_opt.group(1)] = single_opt.group(2).strip()
+                    continue
 
-            if current_q_num and not any(current_options.values()):
+            if current_q_num:
                 current_q_text.append(line)
 
         save_current_txt_question()
         return questions
 
     def run_batch_extraction(self) -> int:
-        """Runs the complete extraction across all harvested papers with a clean slate."""
+        """Runs the complete extraction across all retained exam papers with a clean slate."""
         total_extracted = 0
 
         # Reset database table for clean, deduplicated indexing
@@ -476,7 +520,7 @@ class QuestionExtractor:
         """Exports extracted questions to JSON and JSONL."""
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
-            rows = conn.execute("SELECT * FROM extracted_questions ORDER BY subject, year, question_number;").fetchall()
+            rows = conn.execute("SELECT * FROM extracted_questions ORDER BY subject, year, paper_type, question_number;").fetchall()
             data = [dict(r) for r in rows]
 
         with open(JSON_EXPORT_PATH, "w", encoding="utf-8") as f:
