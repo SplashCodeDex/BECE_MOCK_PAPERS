@@ -1,7 +1,8 @@
 import asyncio
 import logging
 import re
-from typing import Dict, List, Set, Tuple
+import ssl
+from typing import Dict, List, Optional, Set, Tuple
 from urllib.parse import parse_qs, urljoin, urlparse
 import httpx
 from bs4 import BeautifulSoup
@@ -36,6 +37,22 @@ class SitemapHarvester:
         self.pipeline = DownloadPipeline(database=self.db)
         self.headers = {"User-Agent": USER_AGENT}
 
+    async def _safe_get(self, client: httpx.AsyncClient, url: str, timeout: float = 15.0) -> Optional[httpx.Response]:
+        """Performs GET with SSL verification, falling back to unverified on certificate errors."""
+        try:
+            return await client.get(url, timeout=timeout)
+        except (httpx.ConnectError, ssl.SSLError) as ssl_err:
+            logger.warning(f"SSL error for {url} ({ssl_err}); falling back to unverified request.")
+            try:
+                async with httpx.AsyncClient(headers=self.headers, verify=False, follow_redirects=True) as fallback:
+                    return await fallback.get(url, timeout=timeout)
+            except Exception as e:
+                logger.debug(f"Unverified fetch also failed for {url}: {e}")
+                return None
+        except Exception as e:
+            logger.debug(f"Request failed for {url}: {e}")
+            return None
+
     @staticmethod
     def resolve_external_storage_url(url: str) -> str:
         """Converts Google Drive / Docs view links to direct downloadable streams."""
@@ -60,8 +77,8 @@ class SitemapHarvester:
     async def fetch_xml(self, client: httpx.AsyncClient, url: str) -> List[str]:
         """Fetches an XML sitemap and returns all <loc> values."""
         try:
-            r = await client.get(url, timeout=15.0)
-            if r.status_code != 200:
+            r = await self._safe_get(client, url, timeout=15.0)
+            if not r or r.status_code != 200:
                 return []
             soup = BeautifulSoup(r.text, "xml")
             return [loc.text.strip() for loc in soup.find_all("loc") if loc.text]
@@ -122,9 +139,10 @@ class SitemapHarvester:
         """Extracts direct PDF/DOCX and cloud storage links embedded in an article."""
         found_links: List[str] = []
         try:
-            r = await client.get(article_url, timeout=12.0)
-            if r.status_code != 200:
-                self.db.record_url_visited(article_url, r.status_code)
+            r = await self._safe_get(client, article_url, timeout=12.0)
+            if not r or r.status_code != 200:
+                if r:
+                    self.db.record_url_visited(article_url, r.status_code)
                 return []
 
             self.db.record_url_visited(article_url, 200)
@@ -165,7 +183,7 @@ class SitemapHarvester:
         downloaded_count = 0
         semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
 
-        async with httpx.AsyncClient(headers=self.headers, verify=False, follow_redirects=True) as client:
+        async with httpx.AsyncClient(headers=self.headers, verify=True, follow_redirects=True) as client:
             direct_docs, target_articles = await self.get_all_target_urls(client)
             logger.info(f"Sitemap analysis found {len(direct_docs)} direct documents and {len(target_articles)} target articles.")
 

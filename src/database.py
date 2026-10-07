@@ -1,6 +1,6 @@
 import json
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from src.config import CATALOG_JSON_PATH, DATABASE_PATH, METADATA_DIR
@@ -85,7 +85,7 @@ class CatalogDatabase:
                 INSERT OR IGNORE INTO visited_urls (url, status_code, discovered_at)
                 VALUES (?, ?, ?);
                 """,
-                (url, status_code, datetime.utcnow().isoformat()),
+                (url, status_code, datetime.now(timezone.utc).isoformat()),
             )
 
     def save_harvested_file(
@@ -121,7 +121,7 @@ class CatalogDatabase:
                         file_size,
                         str(local_path),
                         source_domain,
-                        datetime.utcnow().isoformat(),
+                        datetime.now(timezone.utc).isoformat(),
                     ),
                 )
                 return True
@@ -153,7 +153,8 @@ class CatalogDatabase:
             "visited_urls": visited_urls,
         }
 
-    def export_catalog_json(self) -> Path:
+    def export_catalog_json(self, export_path: Optional[Path] = None) -> List[Dict[str, Any]]:
+        target_path = Path(export_path) if export_path else CATALOG_JSON_PATH
         with self.get_connection() as conn:
             cur = conn.execute(
                 """
@@ -164,8 +165,8 @@ class CatalogDatabase:
             )
             rows = [dict(r) for r in cur.fetchall()]
 
-        CATALOG_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
-        with open(CATALOG_JSON_PATH, "w", encoding="utf-8") as f:
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(target_path, "w", encoding="utf-8") as f:
             json.dump(rows, f, indent=2, ensure_ascii=False)
 
-        return CATALOG_JSON_PATH
+        return rows

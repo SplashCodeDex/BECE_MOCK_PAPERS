@@ -140,8 +140,8 @@ class FileClassifier:
         raw_name = raw_name.split("?")[0].split("#")[0]
         base_name = Path(raw_name).stem
 
-        # Remove illegal Windows filename characters
-        clean_base = re.sub(r'[\\/*?:"<>|]', "", base_name)
+        # Remove illegal Windows filename characters and noisy punctuation
+        clean_base = re.sub(r'[^\w\-.]', "_", base_name)
         clean_base = re.sub(r"[\s_]+", "_", clean_base).strip("_")
 
         # Extract year and provider hints

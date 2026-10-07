@@ -25,7 +25,7 @@ class DorkDiscoveryEngine:
         """Executes a single search query against DuckDuckGo Lite and returns extracted results."""
         discovered = []
         try:
-            async with httpx.AsyncClient(headers=self.headers, timeout=20.0, verify=False) as client:
+            async with httpx.AsyncClient(headers=self.headers, timeout=20.0, verify=True) as client:
                 response = await client.post(self.endpoint, data={"q": query})
                 if response.status_code != 200:
                     return []

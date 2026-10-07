@@ -273,8 +273,8 @@
         </header>
 
         <div class="nav-tabs">
-            <button class="nav-tab active" onclick="switchView('library')">Resource Library (200 Papers)</button>
-            <button class="nav-tab" onclick="switchView('cbt')">Question Bank & CBT Quiz (257 Questions)</button>
+            <button class="nav-tab active" id="tabLibBtn" onclick="switchView('library')">Resource Library (200 Papers)</button>
+            <button class="nav-tab" id="tabCbtBtn" onclick="switchView('cbt')">Question Bank & CBT Quiz (811 Questions)</button>
         </div>
 
         <div class="stats-bar" id="statsBar">
@@ -295,8 +295,8 @@
                 <div class="stat-label">CDT / CAD Papers</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="statQuestions">257</div>
-                <div class="stat-label">Itemized Questions (459 Figs)</div>
+                <div class="stat-value" id="statQuestions">811</div>
+                <div class="stat-label">Itemized Questions (62 Figs)</div>
             </div>
         </div>
 
@@ -305,11 +305,11 @@
                 <input type="text" id="searchInput" placeholder="Search papers, years, topics, markings..." oninput="handleSearch()">
             </div>
             <div class="filter-group" id="subjectFilters">
-                <button class="pill-btn active" onclick="setSubject('ALL')">All Subjects</button>
-                <button class="pill-btn" onclick="setSubject('Mathematics')">Mathematics</button>
-                <button class="pill-btn" onclick="setSubject('Computing_ICT')">Computing/ICT</button>
-                <button class="pill-btn" onclick="setSubject('CDT_CAD')">CDT / CAD</button>
-                <button class="pill-btn" onclick="setSubject('General_Unclassified')">General / Other</button>
+                <button class="pill-btn active" onclick="setSubject('ALL', event)">All Subjects</button>
+                <button class="pill-btn" onclick="setSubject('Mathematics', event)">Mathematics</button>
+                <button class="pill-btn" onclick="setSubject('Computing_ICT', event)">Computing/ICT</button>
+                <button class="pill-btn" onclick="setSubject('CDT_CAD', event)">CDT / CAD</button>
+                <button class="pill-btn" onclick="setSubject('General_Unclassified', event)">General / Other</button>
             </div>
         </div>
 
@@ -333,6 +333,13 @@
             try {
                 const resCatalog = await fetch('../data/metadata/catalog.json');
                 papersData = await resCatalog.json();
+                if (papersData.length) {
+                    document.getElementById('statTotalPapers').textContent = papersData.length;
+                    document.getElementById('tabLibBtn').textContent = `Resource Library (${papersData.length} Papers)`;
+                    document.getElementById('statMaths').textContent = papersData.filter(p => p.subject === 'Mathematics').length;
+                    document.getElementById('statComp').textContent = papersData.filter(p => p.subject === 'Computing_ICT').length;
+                    document.getElementById('statCDT').textContent = papersData.filter(p => p.subject === 'CDT_CAD').length;
+                }
             } catch(e) {
                 console.error("Could not load catalog.json", e);
             }
@@ -340,6 +347,11 @@
             try {
                 const resQuestions = await fetch('../data/extracted_questions/questions_bank.json');
                 questionsData = await resQuestions.json();
+                if (questionsData.length) {
+                    const withFigs = questionsData.filter(q => q.has_diagram).length;
+                    document.getElementById('statQuestions').textContent = questionsData.length;
+                    document.getElementById('tabCbtBtn').textContent = `Question Bank & CBT Quiz (${questionsData.length} Questions)`;
+                }
             } catch(e) {
                 console.error("Could not load questions_bank.json", e);
             }
@@ -362,10 +374,12 @@
             }
         }
 
-        function setSubject(subj) {
+        function setSubject(subj, ev) {
             currentSubject = subj;
             document.querySelectorAll('#subjectFilters .pill-btn').forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
+            if (ev && ev.currentTarget) {
+                ev.currentTarget.classList.add('active');
+            }
             renderPapers();
             renderQuestions();
         }

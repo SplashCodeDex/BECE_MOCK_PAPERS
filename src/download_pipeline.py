@@ -1,7 +1,9 @@
 import hashlib
+import logging
 import re
+import ssl
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Optional, Set, Tuple
 from urllib.parse import urlparse
 import httpx
 from bs4 import BeautifulSoup
@@ -14,17 +16,47 @@ from src.config import (
 )
 from src.database import CatalogDatabase
 
+logger = logging.getLogger("DownloadPipeline")
+
 
 class DownloadPipeline:
     """Asynchronous downloading, deduplication, content extraction, and file saving pipeline."""
 
     def __init__(self, database: Optional[CatalogDatabase] = None):
         self.db = database or CatalogDatabase()
+        self.in_flight_urls: Set[str] = set()
         self.headers = {
             "User-Agent": USER_AGENT,
             "Accept": "text/html,application/xhtml+xml,application/xml,application/pdf,*/*",
             "Accept-Language": "en-US,en;q=0.9",
         }
+
+    async def _fetch_url(self, url: str) -> Optional[httpx.Response]:
+        """Fetches URL with standard SSL verification first, falling back to unverified if SSL handshake fails."""
+        try:
+            async with httpx.AsyncClient(
+                headers=self.headers,
+                timeout=REQUEST_TIMEOUT_SECONDS,
+                follow_redirects=True,
+                verify=True,
+            ) as client:
+                return await client.get(url)
+        except (httpx.ConnectError, ssl.SSLError) as ssl_err:
+            logger.warning(f"SSL verification failed for {url} ({ssl_err}); falling back to unverified request.")
+            try:
+                async with httpx.AsyncClient(
+                    headers=self.headers,
+                    timeout=REQUEST_TIMEOUT_SECONDS,
+                    follow_redirects=True,
+                    verify=False,
+                ) as fallback_client:
+                    return await fallback_client.get(url)
+            except Exception as e:
+                logger.debug(f"Unverified fetch also failed for {url}: {e}")
+                return None
+        except Exception as e:
+            logger.debug(f"Failed to fetch {url}: {e}")
+            return None
 
     async def download_file(
         self,
@@ -37,95 +69,95 @@ class DownloadPipeline:
         organizes into subject directory, and logs into database.
         Returns (saved_path, subject, sha256) or None if skipped/failed.
         """
-        parsed = urlparse(url)
-        path_lower = parsed.path.lower()
-        domain = parsed.netloc
+        if url in self.in_flight_urls or self.db.is_url_visited(url):
+            return None
 
-        # Determine file extension
-        extension = None
-        for ext in TARGET_EXTENSIONS:
-            if path_lower.endswith(ext):
-                extension = ext
-                break
+        self.in_flight_urls.add(url)
+        try:
+            parsed = urlparse(url)
+            path_lower = parsed.path.lower()
+            domain = parsed.netloc
 
-        if not extension:
-            # Check query params for extension if dynamic download URL
+            # Determine file extension
+            extension = None
             for ext in TARGET_EXTENSIONS:
-                if ext in url.lower():
+                if path_lower.endswith(ext):
                     extension = ext
                     break
 
-        if not extension:
-            extension = ".pdf"  # default document assumption if routed here
+            if not extension:
+                for ext in TARGET_EXTENSIONS:
+                    if ext in url.lower():
+                        extension = ext
+                        break
 
-        try:
-            async with httpx.AsyncClient(
-                headers=self.headers,
-                timeout=REQUEST_TIMEOUT_SECONDS,
-                follow_redirects=True,
-                verify=False
-            ) as client:
-                response = await client.get(url)
-                if response.status_code != 200:
+            if not extension:
+                extension = ".pdf"  # default document assumption if routed here
+
+            response = await self._fetch_url(url)
+            if not response or response.status_code != 200:
+                if response:
                     self.db.record_url_visited(url, response.status_code)
-                    return None
+                return None
 
-                content = response.content
-                if not content or len(content) > MAX_DOWNLOAD_SIZE_BYTES:
-                    return None
+            content = response.content
+            if not content or len(content) > MAX_DOWNLOAD_SIZE_BYTES:
+                return None
 
-                # Calculate SHA-256 Hash
-                sha256 = hashlib.sha256(content).hexdigest()
+            # Calculate SHA-256 Hash
+            sha256 = hashlib.sha256(content).hexdigest()
 
-                # Deduplication Check
-                if self.db.is_hash_seen(sha256):
-                    self.db.record_url_visited(url, 200)
-                    return None
-
-                # Detect subject (via URL context + deep document byte inspection)
-                subject = forced_subject or FileClassifier.detect_subject_from_bytes(
-                    content=content,
-                    extension=extension,
-                    text_context=f"{url} {context_text}"
-                )
-
-                # Extract raw file name
-                raw_filename = Path(parsed.path).name or f"document{extension}"
-                clean_filename = FileClassifier.sanitize_filename(
-                    raw_name=raw_filename,
-                    subject=subject,
-                    sha256=sha256,
-                    extension=extension,
-                    context_text=f"{url} {context_text}"
-                )
-
-                dest_path = FileClassifier.get_destination_path(
-                    subject=subject,
-                    extension=extension,
-                    clean_filename=clean_filename
-                )
-
-                # Save file to disk
-                dest_path.write_bytes(content)
-
-                # Log to database
-                self.db.save_harvested_file(
-                    sha256=sha256,
-                    original_url=url,
-                    file_name=clean_filename,
-                    file_type=extension,
-                    subject=subject,
-                    file_size=len(content),
-                    local_path=str(dest_path),
-                    source_domain=domain
-                )
+            # Deduplication Check
+            if self.db.is_hash_seen(sha256):
                 self.db.record_url_visited(url, 200)
+                return None
 
-                return dest_path, subject, sha256
+            # Detect subject (via URL context + deep document byte inspection)
+            subject = forced_subject or FileClassifier.detect_subject_from_bytes(
+                content=content,
+                extension=extension,
+                text_context=f"{url} {context_text}"
+            )
+
+            # Extract raw file name
+            raw_filename = Path(parsed.path).name or f"document{extension}"
+            clean_filename = FileClassifier.sanitize_filename(
+                raw_name=raw_filename,
+                subject=subject,
+                sha256=sha256,
+                extension=extension,
+                context_text=f"{url} {context_text}"
+            )
+
+            dest_path = FileClassifier.get_destination_path(
+                subject=subject,
+                extension=extension,
+                clean_filename=clean_filename
+            )
+
+            # Save file to disk
+            dest_path.write_bytes(content)
+
+            # Log to database
+            self.db.save_harvested_file(
+                sha256=sha256,
+                original_url=url,
+                file_name=clean_filename,
+                file_type=extension,
+                subject=subject,
+                file_size=len(content),
+                local_path=str(dest_path),
+                source_domain=domain
+            )
+            self.db.record_url_visited(url, 200)
+
+            return dest_path, subject, sha256
 
         except Exception as e:
-            # Fail gracefully on network drops or bad SSL handshakes
+            logger.debug(f"Download pipeline error for {url}: {e}")
             return None
+        finally:
+            self.in_flight_urls.discard(url)
 
     def save_html_article_as_txt(
         self,
@@ -158,7 +190,7 @@ class DownloadPipeline:
         if self.db.is_hash_seen(sha256):
             return None
 
-        subject = FileClassifier.detect_subject(f"{url} {title} {context_text}")
+        subject = FileClassifier.detect_subject(f"{url} {title} {context_text} {main_text[:2000]}")
         clean_filename = FileClassifier.sanitize_filename(
             raw_name=title or "exam_questions",
             subject=subject,

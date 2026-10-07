@@ -46,10 +46,15 @@ class BECEMockCrawler:
         netloc = urlparse(url).netloc.lower()
         if not netloc:
             return False
-        # Allow targeted domains, educational subdomains, and media/content CDNs
-        if any(target in netloc for target in TARGET_DOMAINS):
+        host = netloc.split(":")[0]
+        # Allow targeted domains and subdomains
+        if any(host == target or host.endswith("." + target) for target in TARGET_DOMAINS):
             return True
-        if any(ext in netloc for ext in [".gh", "edu", "drive.google.com", "scribd.com"]):
+        # Allow educational and Ghanaian domains
+        if host.endswith((".edu.gh", ".gov.gh", ".org.gh", ".com.gh", ".edu", ".ac.uk")):
+            return True
+        # Allow trusted document storage CDNs
+        if host in {"drive.google.com", "docs.google.com", "mediafire.com", "scribd.com", "www.scribd.com"}:
             return True
         return False
 
