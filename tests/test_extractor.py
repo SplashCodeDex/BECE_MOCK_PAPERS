@@ -148,3 +148,38 @@ def test_export_catalog(temp_extractor, tmp_path):
     from src.question_extractor import JSON_EXPORT_PATH
     assert JSON_EXPORT_PATH.exists()
 
+
+def test_parse_pdf_questions(temp_extractor, tmp_path):
+    import pymupdf
+    pdf_path = tmp_path / "Test_Mock_2024.pdf"
+    doc = pymupdf.open()
+    page = doc.new_page()
+    content = (
+        "2024 BECE MOCK EXAMINATION\n"
+        "PAPER 1 - OBJECTIVE TEST\n"
+        "1. What is an algorithm?\n"
+        "A. A step-by-step procedure\n"
+        "B. A computer virus\n"
+        "C. A programming language\n"
+        "D. A monitor display\n"
+        "2. Which device is used for output?\n"
+        "A. Keyboard\n"
+        "B. Mouse\n"
+        "C. Printer\n"
+        "D. Scanner\n"
+    )
+    # PyMuPDF expects 500+ chars to distinguish from scanned booklets, add padding comments
+    padding = "Instructions: Read all questions carefully before answering. " * 15
+    page.insert_text((50, 50), content + "\n" + padding)
+    doc.save(pdf_path)
+    doc.close()
+
+    questions = temp_extractor.parse_pdf(pdf_path, "Computing_ICT")
+    assert len(questions) == 2
+    assert questions[0]["question_number"] == 1
+    assert "algorithm" in questions[0]["question_text"]
+    assert questions[0]["option_a"] == "A step-by-step procedure"
+    assert questions[1]["question_number"] == 2
+    assert questions[1]["option_c"] == "Printer"
+
+

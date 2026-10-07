@@ -8,6 +8,7 @@ import zipfile
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 import docx
+import pymupdf
 from PIL import Image
 from src.config import DATABASE_PATH, HARVESTED_DIR
 
@@ -520,6 +521,206 @@ class QuestionExtractor:
         save_current_txt_question()
         return questions
 
+    def parse_pdf(self, file_path: Path, subject: str) -> List[Dict[str, Any]]:
+        """Parses Paper 1, Paper 2, marking schemes, and diagrams from digital PDF examination papers."""
+        file_path = Path(file_path)
+        questions: List[Dict[str, Any]] = []
+        try:
+            doc = pymupdf.open(file_path)
+        except Exception as e:
+            logger.debug(f"Failed to open PDF {file_path}: {e}")
+            return []
+
+        # Check if PDF has extractable digital text (skip scanned image booklets)
+        total_chars = sum(len(p.get_text().strip()) for p in doc)
+        if total_chars < 150:
+            logger.info(f"Skipping scanned PDF {file_path.name} (insufficient digital text: {total_chars} chars)")
+            return []
+
+        file_stem = file_path.stem
+        file_hash = hashlib.md5(file_stem.encode("utf-8")).hexdigest()[:8]
+
+        year_match = re.search(r"\b(199\d|20[0-2]\d)\b", file_stem)
+        doc_year = int(year_match.group(1)) if year_match else None
+
+        current_year = doc_year
+        current_paper_type = "Paper 1 - Objective"
+        current_q_num: Optional[int] = None
+        current_q_text: List[str] = []
+        current_options = {"A": "", "B": "", "C": "", "D": ""}
+        current_diagram: Optional[str] = None
+        active_q_year = doc_year
+        active_stimulus: Optional[Dict[str, Any]] = None
+        seen_ids: Set[str] = set()
+
+        def save_current_pdf_question() -> None:
+            nonlocal current_q_num, current_q_text, current_options, current_diagram, active_q_year
+            if current_q_num and (current_q_text or any(current_options.values())):
+                tag = "P1" if "Paper 1" in current_paper_type else ("P2" if "Paper 2" in current_paper_type else "MS")
+                yr = active_q_year or "PDF"
+                q_id = f"{subject}_{yr}_{file_hash}_{tag}_q{current_q_num}"
+
+                counter = 1
+                orig_id = q_id
+                while q_id in seen_ids:
+                    counter += 1
+                    q_id = f"{orig_id}_{counter}"
+                seen_ids.add(q_id)
+
+                full_text = " ".join(current_q_text).strip()
+
+                diag_to_attach = None
+                if active_stimulus and current_q_num in active_stimulus["targets"]:
+                    diag_to_attach = active_stimulus["diagram"]
+                elif current_diagram and any(phrase in full_text.lower() for phrase in ["diagram", "figure", "sketch", "illustration", "below", "above", "shown"]):
+                    diag_to_attach = current_diagram
+
+                questions.append({
+                    "id": q_id,
+                    "subject": subject,
+                    "year": active_q_year,
+                    "paper_type": current_paper_type,
+                    "question_number": current_q_num,
+                    "question_text": full_text,
+                    "option_a": current_options["A"],
+                    "option_b": current_options["B"],
+                    "option_c": current_options["C"],
+                    "option_d": current_options["D"],
+                    "correct_answer": "",
+                    "has_diagram": 1 if diag_to_attach else 0,
+                    "diagram_path": diag_to_attach,
+                    "source_file": file_path.name
+                })
+
+            current_q_num = None
+            current_q_text = []
+            current_options = {"A": "", "B": "", "C": "", "D": ""}
+            current_diagram = None
+
+        for page_idx, page in enumerate(doc):
+            page_diagrams: List[str] = []
+            try:
+                for img_info in page.get_images():
+                    xref = img_info[0]
+                    base_img = doc.extract_image(xref)
+                    w, h = base_img.get("width", 0), base_img.get("height", 0)
+                    raw_bytes = base_img.get("image", b"")
+                    ext = base_img.get("ext", "png")
+
+                    if w >= 80 and h >= 80 and len(raw_bytes) >= 1500 and (w * h) >= 9000:
+                        img_name = f"pdf_{file_stem}_p{page_idx+1}_{xref}.{ext}"
+                        out_path = IMAGES_DIR / img_name
+                        if not out_path.exists():
+                            out_path.write_bytes(raw_bytes)
+                        page_diagrams.append(str(out_path.relative_to(EXTRACTED_DIR.parent)))
+            except Exception:
+                pass
+
+            primary_diagram = page_diagrams[0] if page_diagrams else None
+            text = page.get_text()
+            raw_lines = [l.strip() for l in text.splitlines() if l.strip()]
+
+            # Stimulus pattern detection
+            stim_match = re.search(r"(?:use (?:the )?(?:diagram|figure|sketch|illustration)|figure\s+\d+).*?(?:questions?|q\s*\.?)\s*(\d{1,2})\s*(?:and|to|-|–)\s*(\d{1,2})", text, re.I)
+            if stim_match and primary_diagram:
+                q_start, q_end = int(stim_match.group(1)), int(stim_match.group(2))
+                active_stimulus = {
+                    "diagram": primary_diagram,
+                    "targets": list(range(q_start, q_end + 1))
+                }
+
+            i = 0
+            while i < len(raw_lines):
+                line = raw_lines[i]
+                line_lower = line.lower()
+
+                # Multi-year compilation transitions (WordPub style)
+                ym = re.search(r"\b(199\d|20[0-2]\d)\b", line)
+                if ym and any(term in line_lower for term in ["june", "july", "august", "april", "bece", "past questions"]):
+                    det_year = int(ym.group(1))
+                    if det_year != current_year:
+                        save_current_pdf_question()
+                        current_year = det_year
+
+                # Section transitions
+                if any(term in line_lower for term in ["solutions", "answers", "marking scheme"]):
+                    save_current_pdf_question()
+                    current_paper_type = "Marking Scheme / Solutions"
+                    i += 1
+                    continue
+
+                if any(term in line_lower for term in ["paper 2", "paper two", "section b", "theory", "essay"]) and not any(p1 in line_lower for p1 in ["paper 1", "paper one", "objective"]):
+                    save_current_pdf_question()
+                    current_paper_type = "Paper 2 - Theory"
+                    i += 1
+                    continue
+
+                if any(term in line_lower for term in ["paper 1", "paper one", "objective test", "part i", "part 1"]) and not any(p2 in line_lower for p2 in ["paper 2", "paper two", "solutions"]):
+                    save_current_pdf_question()
+                    current_paper_type = "Paper 1 - Objective"
+                    i += 1
+                    continue
+
+                # Standalone question number: "1." or "1"
+                q_standalone = re.match(r"^(\d{1,2})\s*\.?$", line)
+                if q_standalone and i + 1 < len(raw_lines) and not re.match(r"^[A-D]\s*[\.\)]", raw_lines[i+1], re.I):
+                    save_current_pdf_question()
+                    current_q_num = int(q_standalone.group(1))
+                    active_q_year = current_year
+                    current_diagram = primary_diagram
+                    i += 1
+                    continue
+
+                # Inline question number: "1. What is..." or "Question 1: ..." or "16.Which..."
+                q_inline = re.match(r"^(?:(?:question\s+)?(\d{1,2})\s*[\.\)]|\bquestion\s+(\d{1,2}))\s*(.*)", line, re.I)
+                if q_inline and not re.match(r"^[A-D]\s*[\.\)]", line, re.I):
+                    save_current_pdf_question()
+                    num_str = q_inline.group(1) or q_inline.group(2)
+                    current_q_num = int(num_str)
+                    active_q_year = current_year
+                    current_diagram = primary_diagram
+                    body = q_inline.group(3).strip()
+                    current_q_text = [body] if body else []
+                    i += 1
+                    continue
+
+                # Option matching for Paper 1
+                if "Paper 1" in current_paper_type and current_q_num:
+                    opt_stand = re.match(r"^([A-D])\s*[\.\)]?$", line, re.I)
+                    if opt_stand and i + 1 < len(raw_lines):
+                        opt_let = opt_stand.group(1).upper()
+                        i += 1
+                        if i < len(raw_lines) and raw_lines[i] == ".":
+                            i += 1
+                        if i < len(raw_lines):
+                            current_options[opt_let] = raw_lines[i].strip()
+                            i += 1
+                        continue
+
+                    opt_single = re.match(r"^([A-D])\s*[\.\)]\s*(.+)", line, re.I)
+                    if opt_single:
+                        opt_let = opt_single.group(1).upper()
+                        current_options[opt_let] = opt_single.group(2).strip()
+                        i += 1
+                        continue
+
+                    opt_multi = re.findall(r"([A-D])\s*[\.\)]\s*([^A-D\n]+)", line, re.I)
+                    if len(opt_multi) >= 2:
+                        for o_let, o_txt in opt_multi:
+                            current_options[o_let.upper()] = o_txt.strip()
+                        i += 1
+                        continue
+
+                # Accumulate text
+                if current_q_num:
+                    if not any(ign in line_lower for ign in ["camscanner", "page ", "turn over", "examination council"]):
+                        current_q_text.append(line)
+
+                i += 1
+
+        save_current_pdf_question()
+        return questions
+
     def run_batch_extraction(self) -> int:
         """Runs the complete extraction across all retained exam papers with a clean slate."""
         total_extracted = 0
@@ -549,6 +750,15 @@ class QuestionExtractor:
             if txt_dir.exists():
                 for f in txt_dir.glob("*.txt"):
                     items = self.parse_txt(f, subject)
+                    if items:
+                        self.save_questions_batch(items)
+                        total_extracted += len(items)
+
+            # 3. Parse PDF papers
+            pdf_dir = subject_dir / "pdf"
+            if pdf_dir.exists():
+                for f in pdf_dir.glob("*.pdf"):
+                    items = self.parse_pdf(f, subject)
                     if items:
                         self.save_questions_batch(items)
                         total_extracted += len(items)
