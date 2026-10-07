@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BECE & Mock Papers Hub | Ghana WAEC & GES Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f7f8fa;
+            --surface: #ffffff;
+            --border: #e5e7eb;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --accent: #0f172a;
+            --accent-light: #f1f5f9;
+            --tag-math: #eff6ff;
+            --tag-math-text: #1d4ed8;
+            --tag-comp: #ecfdf5;
+            --tag-comp-text: #047857;
+            --tag-cdt: #fff7ed;
+            --tag-cdt-text: #c2410c;
+            --tag-gen: #f3f4f6;
+            --tag-gen-text: #4b5563;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            line-height: 1.5;
+            padding: 32px 24px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        header {
+            margin-bottom: 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+        }
+        h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--accent); }
+        .subtitle { color: var(--text-muted); font-size: 14px; margin-top: 4px; }
+        
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            background: var(--surface);
+            padding: 6px;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            width: fit-content;
+        }
+        .nav-tab {
+            padding: 8px 18px;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            border-radius: 8px;
+            color: var(--text-muted);
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .nav-tab.active {
+            background: var(--accent);
+            color: #ffffff;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .controls {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 280px;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            background: var(--surface);
+            font-size: 14px;
+            outline: none;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+        .search-box input:focus { border-color: var(--accent); }
+
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .pill-btn {
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            cursor: pointer;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+        }
+        .pill-btn.active {
+            background: var(--accent);
+            color: #fff;
+            border-color: var(--accent);
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            box-shadow: var(--shadow-sm);
+        }
+        .stat-value { font-size: 24px; font-weight: 700; color: var(--accent); }
+        .stat-label { font-size: 12px; color: var(--text-muted); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; }
+
+        /* Grid */
+        .paper-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+        }
+        .paper-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .paper-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .subject-badge {
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        .badge-Mathematics { background: var(--tag-math); color: var(--tag-math-text); }
+        .badge-Computing_ICT { background: var(--tag-comp); color: var(--tag-comp-text); }
+        .badge-CDT_CAD { background: var(--tag-cdt); color: var(--tag-cdt-text); }
+        .badge-General_Unclassified { background: var(--tag-gen); color: var(--tag-gen-text); }
+
+        .format-badge {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: #e2e8f0;
+            color: #334155;
+        }
+        .paper-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+            color: var(--accent);
+            word-break: break-word;
+        }
+        .paper-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 12px;
+        }
+        .btn-download {
+            background: var(--accent);
+            color: #fff;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        .btn-download:hover { opacity: 0.9; }
+
+        /* Questions Bank View */
+        .q-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-sm);
+        }
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        .q-text {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .opt-item {
+            background: var(--accent-light);
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .opt-label { font-weight: 700; margin-right: 6px; }
+        .diagram-preview {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>BECE & Mock Examination Portal</h1>
+                <div class="subtitle">Complete Library & CBT Question Bank for Mathematics, Computing/ICT, and CDT/CAD</div>
+            </div>
+        </header>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="switchView('library')">Resource Library (200 Papers)</button>
+            <button class="nav-tab" onclick="switchView('cbt')">Question Bank & CBT Quiz (257 Questions)</button>
+        </div>
+
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-card">
+                <div class="stat-value" id="statTotalPapers">200</div>
+                <div class="stat-label">Total Exam Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="statMaths">22</div>
+                <div class="stat-label">Mathematics Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="statComp">14</div>
+                <div class="stat-label">Computing / ICT Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="statCDT">16</div>
+                <div class="stat-label">CDT / CAD Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="statQuestions">257</div>
+                <div class="stat-label">Itemized Questions (459 Figs)</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search papers, years, topics, markings..." oninput="handleSearch()">
+            </div>
+            <div class="filter-group" id="subjectFilters">
+                <button class="pill-btn active" onclick="setSubject('ALL')">All Subjects</button>
+                <button class="pill-btn" onclick="setSubject('Mathematics')">Mathematics</button>
+                <button class="pill-btn" onclick="setSubject('Computing_ICT')">Computing/ICT</button>
+                <button class="pill-btn" onclick="setSubject('CDT_CAD')">CDT / CAD</button>
+                <button class="pill-btn" onclick="setSubject('General_Unclassified')">General / Other</button>
+            </div>
+        </div>
+
+        <div id="libraryView">
+            <div class="paper-grid" id="papersContainer"></div>
+        </div>
+
+        <div id="cbtView" style="display:none;">
+            <div id="questionsContainer"></div>
+        </div>
+    </div>
+
+    <script>
+        let papersData = [];
+        let questionsData = [];
+        let currentSubject = 'ALL';
+        let searchQuery = '';
+        let activeTab = 'library';
+
+        async function init() {
+            try {
+                const resCatalog = await fetch('../data/metadata/catalog.json');
+                papersData = await resCatalog.json();
+            } catch(e) {
+                console.error("Could not load catalog.json", e);
+            }
+
+            try {
+                const resQuestions = await fetch('../data/extracted_questions/questions_bank.json');
+                questionsData = await resQuestions.json();
+            } catch(e) {
+                console.error("Could not load questions_bank.json", e);
+            }
+
+            renderPapers();
+            renderQuestions();
+        }
+
+        function switchView(tab) {
+            activeTab = tab;
+            document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+            if (tab === 'library') {
+                document.querySelectorAll('.nav-tab')[0].classList.add('active');
+                document.getElementById('libraryView').style.display = 'block';
+                document.getElementById('cbtView').style.display = 'none';
+            } else {
+                document.querySelectorAll('.nav-tab')[1].classList.add('active');
+                document.getElementById('libraryView').style.display = 'none';
+                document.getElementById('cbtView').style.display = 'block';
+            }
+        }
+
+        function setSubject(subj) {
+            currentSubject = subj;
+            document.querySelectorAll('#subjectFilters .pill-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            renderPapers();
+            renderQuestions();
+        }
+
+        function handleSearch() {
+            searchQuery = document.getElementById('searchInput').value.toLowerCase();
+            renderPapers();
+            renderQuestions();
+        }
+
+        function renderPapers() {
+            const container = document.getElementById('papersContainer');
+            const filtered = papersData.filter(p => {
+                const matchSubj = (currentSubject === 'ALL') || (p.subject === currentSubject);
+                const matchSearch = !searchQuery || p.file_name.toLowerCase().includes(searchQuery) || (p.original_url && p.original_url.toLowerCase().includes(searchQuery));
+                return matchSubj && matchSearch;
+            });
+
+            container.innerHTML = filtered.map(p => {
+                const kb = Math.round(p.file_size / 1024);
+                const relPath = '../data/harvested/' + p.subject + '/' + p.file_type + '/' + p.file_name;
+                return `
+                <div class="paper-card">
+                    <div>
+                        <div class="card-top">
+                            <span class="subject-badge badge-${p.subject}">${p.subject.replace('_', ' ')}</span>
+                            <span class="format-badge">${p.file_type}</span>
+                        </div>
+                        <div class="paper-title">${p.file_name}</div>
+                        <div class="paper-meta">${kb} KB &bull; Source: ${p.source_domain || 'WAEC / GES Hub'}</div>
+                    </div>
+                    <div class="card-bottom">
+                        <span style="font-size:12px;color:var(--text-muted);">${p.created_at ? p.created_at.split('T')[0] : ''}</span>
+                        <a href="${relPath}" target="_blank" class="btn-download">Open / Download</a>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        function renderQuestions() {
+            const container = document.getElementById('questionsContainer');
+            const filtered = questionsData.filter(q => {
+                const matchSubj = (currentSubject === 'ALL') || (q.subject === currentSubject);
+                const matchSearch = !searchQuery || q.question_text.toLowerCase().includes(searchQuery);
+                return matchSubj && matchSearch;
+            });
+
+            container.innerHTML = filtered.map((q, idx) => {
+                const hasOpts = q.option_a || q.option_b;
+                return `
+                <div class="q-card">
+                    <div class="q-header">
+                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; Question ${q.question_number || (idx + 1)}</span>
+                        <span>Source: ${q.source_file}</span>
+                    </div>
+                    <div class="q-text">${q.question_text}</div>
+                    ${q.diagram_path ? `<img src="../data/${q.diagram_path}" class="diagram-preview" alt="Exam Diagram">` : ''}
+                    ${hasOpts ? `
+                    <div class="options-grid">
+                        <div class="opt-item"><span class="opt-label">A.</span> ${q.option_a || '-'}</div>
+                        <div class="opt-item"><span class="opt-label">B.</span> ${q.option_b || '-'}</div>
+                        <div class="opt-item"><span class="opt-label">C.</span> ${q.option_c || '-'}</div>
+                        <div class="opt-item"><span class="opt-label">D.</span> ${q.option_d || '-'}</div>
+                    </div>` : ''}
+                    ${q.correct_answer ? `<div style="font-size:13px;color:var(--tag-comp-text);font-weight:600;">Answer Key: Option ${q.correct_answer}</div>` : ''}
+                </div>`;
+            }).join('');
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>

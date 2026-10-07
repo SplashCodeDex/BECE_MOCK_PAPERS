@@ -1,0 +1,636 @@
+SOURCE URL: https://ghlearner.com/bece/mathematics/exams/cempe-march-2026-mathematics
+TITLE: Solve BECE Mathematics Questions & Answers - CEMPE March 2026
+SUBJECT: Mathematics
+============================================================
+
+Solve BECE Mathematics Questions & Answers - CEMPE March 2026
+1.
+[1]
+BECE mock · Mathematics
+A pencil and 6 erasers cost Gh¢15.00. The pencil cost Gh¢6.00. What is the cost of one eraser?
+A
+Gh¢0.90
+B
+Gh¢2. 50
+C
+Gh¢1. 50
+D
+Gh¢1. 00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Mathematics
+Solve the equation \(10^{2x}=0.000001\)
+A
+-3
+B
+-2
+C
+2
+D
+3
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Mathematics
+If p oranges are sold for q pesewas each, find the total selling price in cedis
+A
+Pq/100
+B
+100pq
+C
+100(p+q)
+D
+P+q/100
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Mathematics
+Which of the basic properties of rational numbers is used in the following experation? \((27x24) +(23x24)=50x24\)
+A
+Commutative
+B
+Associative
+C
+Distributive
+D
+Identity
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Mathematics
+The set p={prime factors of 24} and the set Q ={ prime factors of 35}. List the members of P∪Q
+A
+{2,3,5}
+B
+{3,5,7}
+C
+{2,3,5,7}
+D
+{2,3,5,7,11}
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Mathematics
+Find the median of the numbers 25,57, 17, 33, 73, 81, 42
+A
+33
+B
+42
+C
+57
+D
+73
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Mathematics
+Factorize x (x-2) - 3xy +6y
+A
+(x-2) (x-3y)
+B
+(x-2) (3x-)
+C
+(x-2) (x+3y)
+D
+(x-2) (3x+y)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Mathematics
+If 15-px -x² = 0 find p, when x =3
+A
+-8
+B
+-2
+C
+2
+D
+8
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Mathematics
+Make w the subject of the relation \(\frac{1}{y}= \frac{a}{x} + \frac{b}{w}\)
+A
+by/(x-ay)
+B
+by/(x+ay)
+C
+bxy/(x-ay)
+D
+bxy/(x+ay)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Mathematics
+In the diagram OP || NQ, MSN is a straight line MÔP =53 and SNQ =135°. Find OMS.
+A
+42°
+B
+48°
+C
+75°
+D
+82°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Mathematics
+What is P∩Q in the diagram below?
+A
+{-2≤x<1}
+B
+{-2≤x≤1}
+C
+{x>1}
+D
+{x<-2}
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Mathematics
+A circle of diameter 14cm is cut from a square of side 14cm. Find the remaining area (Take π=22/7)
+A
+42cm²
+B
+84cm²
+C
+105cm²
+D
+126cm²
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Mathematics
+An increase of 20% in Yaa’s salary raised it to Gh¢24000.00. What was her original salary?
+A
+Gh¢4,800.00
+B
+Gh¢19, 000.00
+C
+Gh¢i9, 200.00
+D
+Gh¢20 000.00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Mathematics
+What is the rule for the mapping below?
+A
+y → 2x+2
+B
+y → \(2^x\)
+C
+y → 2x
+D
+y → x+1
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Mathematics
+A car travels at an average speed of 80km/h How far does it travel in 48 minutes?
+A
+36km
+B
+48km
+C
+60km
+D
+64km
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Mathematics
+The exterior angle of a regular polygon is 120°. Find the sum of its interior angles
+A
+60
+B
+180°
+C
+240°
+D
+360°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Mathematics
+By selling a radio for Gh600.00, a man made a loss of 25%. What was the cost of the radio?
+A
+Gh¢1,050.00
+B
+Gh¢950.00
+C
+Gh¢900. 00
+D
+Gh¢800. 00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Mathematics
+The gradient of a gentle hill is 0.5. What is the vertical rise corresponding to a horizontal distance of 160m?
+A
+80m
+B
+60m
+C
+44m
+D
+8m
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Mathematics
+Find the tangent of the angle x in the diagram
+A
+3/5
+B
+3/4
+C
+4/3
+D
+5/3
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Mathematics
+A trader received a commission of 12.5% on sales made in a month. His commission was Gh¢3500.00. Find his total sales for the month
+A
+Gh¢325. 00
+B
+Gh¢3, 975.00
+C
+Gh¢24500. 00
+D
+Gh¢28 000.00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Mathematics
+If r = \( \begin{pmatrix} 3 \\ 1 \end{pmatrix} \) and v = \( \begin{pmatrix} -2 \\ 1 \end{pmatrix} \) evaluate 6(r+2v)
+A
+\( \begin{pmatrix} -1 \\ 3 \end{pmatrix} \)
+B
+\( \begin{pmatrix} -6 \\ 18 \end{pmatrix} \)
+C
+\( \begin{pmatrix} 7 \\ 3 \end{pmatrix} \)
+D
+\( \begin{pmatrix} 6 \\ 18 \end{pmatrix} \)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Mathematics
+If 22% of the length of a rope is 55cm. Find the full length of the rope
+A
+121cm
+B
+250cm
+C
+260cm
+D
+2500cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Mathematics
+How many lines of symmetry does a rectangle have?
+A
+2
+B
+3
+C
+4
+D
+5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Mathematics
+Which properly is illustrated by the statement ax(b+c) =(axb)+ (axc)?
+A
+Commutative
+B
+Inverse
+C
+Distributive
+D
+Associative
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Mathematics
+Solve the equation 13x -2 (3x+4)=22
+A
+30/7
+B
+18/7
+C
+26/7
+D
+2
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Mathematics
+Simplify -27+18-(10-14)-(-2)
+A
+-35
+B
+-11
+C
+-7
+D
+-3
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Mathematics
+Yaa went to the market and bought 500g of meat 850g of eggs and 900g of fish. What is the total weight of the items she bought in kilo grams?
+A
+2.20kg
+B
+2.25kg
+C
+2.35kg
+D
+22.50kg
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Mathematics
+A boy walks on a bearing 060°. Which of the following diagram show his direction?
+A
+[image option A]
+B
+[image option B]
+C
+[image option C]
+D
+[image option D]
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Mathematics
+The point Y (5, 4) is reflected in the y-axis. Find its image
+A
+(-5, 4)
+B
+(5, -4)
+C
+(-4, 5)
+D
+(4, -5)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Mathematics
+Calculate the volume of a cylinder with diameter 14cm and height 10cm. (Take x=22/7)
+A
+220cm³
+B
+440cm³
+C
+1540cm³
+D
+3080cm³
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Mathematics
+The average age of five boys is 16years. The average age of four of them is 18years 6months. What is the age of the fifth boy?
+A
+2years to months
+B
+3years to months
+C
+4 years
+D
+6years
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Mathematics
+Find the value of 9+y² -6y when y= -2
+A
+25
+B
+13
+C
+12
+D
+-7
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Mathematics
+If \( \frac{m+1}{m-2} = r\), express m in terms of r
+A
+m = \( \frac{2r+1}{r-1} \)
+B
+m = \( \frac{2r+1}{r+1} \)
+C
+m = \( \frac{2r-1}{r-1} \)
+D
+m = \( \frac{2r-1}{r+1} \)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Mathematics
+Which of the fractions 3/5, 7/10, 13/20 and 3/4 is the greatest?
+A
+13/20
+B
+7/10
+C
+3/4
+D
+3/5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Mathematics
+Which of the following is a prism?
+A
+Sphere
+B
+Cone
+C
+Tetrahedron
+D
+Cylinder
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Mathematics
+The price of an article was increased by 10%. How many times was the new price greater than the old price?
+A
+10/11
+B
+9/10
+C
+11/10
+D
+10/9
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Mathematics
+What length of carpet 0.75m wide will be required to cover completely the floor of a room which is 15m long and 10m wide?
+A
+25m
+B
+33-3m
+C
+112.5m
+D
+200m
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Mathematics
+Factorize x²-5x+6
+A
+(x+3) (x-2)
+B
+(x-3) (x-2)
+C
+(x+1) (x-6)
+D
+(x+6) (x-1)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Mathematics
+An angle which is more than 90° but less than 180° is.............
+A
+an acute angle
+B
+a right angle
+C
+an obtuse angle
+D
+an reflex angle
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Mathematics
+What is the image of -4 in the mapping x → 2x -9?
+A
+-15
+B
+-17
+C
+15
+D
+17
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[10]
+BECE mock · Mathematics
+1. a. Mrs. Annor was allowed a discount of 12% on a brand-new freezer which cost Gh¢7,430.00. Find the i. discount ii. amount he paid for the freezer
+42.
+[10]
+BECE mock · Mathematics
+1. b. Given that (5x-7)° and (7x+13)° are complementary, find the value of x
+43.
+[10]
+BECE mock · Mathematics
+1. c. Simplify (8x/5) - ((2r-5n)/3)
+44.
+[10]
+BECE mock · Mathematics
+2. a. The sum of the ages of Yaw and Ama is 27. Yaw is 5 years older than Ama. Find the age of Yaw and Ama
+45.
+[10]
+BECE mock · Mathematics
+2. b. Find the solution set of the inequality 6+3(5-2b)-2(b-3)>3, if b has a domain {0,1,2,3,4,5}
+46.
+[10]
+BECE mock · Mathematics
+2. c. If p = ((2x-1),(4)) , q = ((10),(-8)) and r = ((3),(5+y)) find the values of x and y if r = 1/2 q-p.
+47.
+[10]
+BECE mock · Mathematics
+3. a. Find 0.0009 x 0.074 x 0.00006, leaving the answer in standard form.
+48.
+[10]
+BECE mock · Mathematics
+3. b. Simplify √12 + 3/√3
+49.
+[10]
+BECE mock · Mathematics
+3. c. Given that 2/y = a/x + b/u, make x the subject of the relation
+50.
+[10]
+BECE mock · Mathematics
+4. a. A man sold an article for Gh1500.00 and made a profit of 20%, find the cost price of the article
+51.
+[20]
+BECE mock · Mathematics
+The data shows the masses (kg) of 10 baskets full of cassava sent to market by a farmer
+
+ i. Find the ; α. the value of x β. mean mass
+ii. Find the probability of selecting a baskets at random whose mass is prime
+52.
+[10]
+BECE mock · Mathematics
+5. a. A ladder 8 metres long leans against a wall and makes an angle of 60° with the ground. How far from the wall is the foot of the ladder? (Take cos 60°= 0.5)
+53.
+[10]
+BECE mock · Mathematics
+5. b. The ratio of the sheep to goats on a farm is 4:7. If there are 1428 sheep, find the number of goats on the farm.
+54.
+[10]
+BECE mock · Mathematics
+5. c. i. Calculate 1/2 + 5/12 - 2/3 x 4
+55.
+[10]
+BECE mock · Mathematics
+5. c. ii. Evaluate 72.4^2 - 31.4^2
+56.
+[20]
+BECE mock · Mathematics
+6. a. Using a scale of 2cm to 3units on both axe is, draw on a graph sheet two perpendicular axes ox and oy for the interval -10
+More Mathematics
+All Mathematics papers & mocks
+Mathematics topics

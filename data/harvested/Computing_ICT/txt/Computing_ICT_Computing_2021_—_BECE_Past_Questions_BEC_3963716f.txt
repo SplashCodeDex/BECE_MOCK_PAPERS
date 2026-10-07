@@ -1,0 +1,676 @@
+SOURCE URL: https://becezone.com/computing/2021/
+TITLE: Computing 2021 — BECE Past Questions | BECEzone
+SUBJECT: Computing_ICT
+============================================================
+
+Computing 2021 — BECE Past Questions | BECEzone
+Skip to content
+THE WEST AFRICAN EXAMINATIONS COUNCIL GHANA
+Basic Education Certificate Examination
+Computing
+2021
+OBJECTIVE TEST
+Objective Test
+Question
+1
+Computers are classified according to the following features except
+A
+.
+colour.
+B
+.
+purpose.
+C
+.
+size and capacity.
+D
+.
+data transmission.
+Question
+2
+The utility software is one of the basic types of
+A
+.
+system software.
+B
+.
+application software.
+C
+.
+communication software.
+D
+.
+word processing software.
+Question
+3
+The information permanently stored in the Read only Memory chip is called
+A
+.
+liveware.
+B
+.
+malware.
+C
+.
+hardware.
+D
+.
+firmware.
+Question
+4
+The computer device that is used to display information in the softcopy form is the
+A
+.
+mouse.
+B
+.
+printer.
+C
+.
+monitor.
+D
+.
+scanner.
+Question
+5
+Which part of the computer mouse is used for double-clicking?
+A
+.
+Scroll ball.
+B
+.
+Left button.
+C
+.
+Right button.
+D
+.
+Scroll button.
+Question
+6
+Which of the following items is not a storage medium?
+A
+.
+Plotters
+B
+.
+Zip disk
+C
+.
+Hard disk
+D
+.
+Memory stick
+Question
+7
+One byte of data is equal to
+A
+.
+4 bits.
+B
+.
+8 bits.
+C
+.
+16 bits.
+D
+.
+24 bits.
+Question
+8
+The 3.5 inches floppy disk has a storage capacity of
+A
+.
+1.22 MB.
+B
+.
+1.44 MB.
+C
+.
+1.88 MB.
+D
+.
+2.44 MB.
+Question
+9
+To boot a computer system, the user needs
+A
+.
+a printer attached.
+B
+.
+an operating system.
+C
+.
+a virus checking program.
+D
+.
+a word processing application.
+Question
+10
+Which of the following buttons on the Turn Off computer dialogue box will lead a user to a warm booting activity?
+A
+.
+Restart
+B
+.
+Log off
+C
+.
+Turn off
+D
+.
+Hibernate
+Question
+11
+The start button is found on the
+A
+.
+task bar.
+B
+.
+scroll bar.
+C
+.
+status bar.
+D
+.
+system tray.
+Question
+12
+Which of the following items is not a feature on the computer desktop?
+A
+.
+Icon
+B
+.
+Cursor
+C
+.
+Wallpaper
+D
+.
+Screen saver
+Question
+13
+The desktop feature which contains the quick launch button is the
+A
+.
+icon.
+B
+.
+task bar.
+C
+.
+start button.
+D
+.
+control box.
+Question
+14
+Files that are no more needed by the user are sent to
+A
+.
+Recycle Bin.
+B
+.
+My Briefcase.
+C
+.
+My Documents.
+D
+.
+Recent Documents.
+Question
+15
+When a user unintentionally deletes files and folders from the computer hard disk, the user can restore the deleted files and folders from
+A
+.
+Recycle Bin.
+B
+.
+My Pictures.
+C
+.
+My Documents.
+D
+.
+Recent Documents.
+Question
+16
+The two main terms involved in the Information Processing Cycle are
+A
+.
+raw facts and figures.
+B
+.
+data and information.
+C
+.
+raw data and Random Access Memory.
+D
+.
+Random Access Memory and Read Only Memory.
+Question
+17
+Which of the following effects is associated with a computer user as a result of radiation from the monitor?
+A
+.
+Dizziness
+B
+.
+Body pains
+C
+.
+Neck pains
+D
+.
+Eye irritation
+Question
+18
+The following options are possible health problems associated with long term exposure to ICT tools except
+A
+.
+backache.
+B
+.
+toothache.
+C
+.
+wrist pain.
+D
+.
+blur vision.
+Question
+19
+Which of the following activities is a bad practice in the usage of ICT tools?
+A
+.
+Covering the monitor with dust covers after usage.
+B
+.
+Not making or receiving phone calls when charging the phone.
+C
+.
+Unplugging the computer power cable from the socket after switched off.
+D
+.
+Not applying the correct procedure to eject USB flash drive from the computer system unit.
+Question
+20
+ICT tools can be used to promote positive attitude in all the following ways except
+A
+.
+transacting business activities
+B
+.
+teaching and learning in schoolsBest online courses
+C
+.
+sharing of pornographic information
+D
+.
+accessing and retrieving information.
+Question
+21
+The application of science and scientific knowledge in our daily life is termed
+A
+.
+scientific
+B
+.
+technology
+C
+.
+information
+D
+.
+communication
+Question
+22
+The navigation keys on the computer keyboard are also called
+A
+.
+cursor keys.
+B
+.
+numeric keys.
+C
+.
+function keys.
+D
+.
+typewriter keys.
+Question
+23
+Which of the following computer keyboard keys can be used to delete a character?
+A
+.
+Alt key.
+B
+.
+Shift key.
+C
+.
+Enter key.
+D
+.
+Backspace key.
+Question
+24
+During typing lessons, which finger is used to type the letter D?
+A
+.
+Left index finger
+B
+.
+Left middle finger
+C
+.
+Right index finger
+D
+.
+Right middle finger
+Question
+25
+The commands used to move selected text from one location to another in the same document is the
+A
+.
+cut and copy commands.
+B
+.
+copy and edit commands.
+C
+.
+cut and paste commands.
+D
+.
+copy and paste commands.
+Question
+26
+Which of the following keys is used for multiple selection of texts that are not continuous?
+A
+.
+Alt
+B
+.
+Tab
+C
+.
+Ctrl
+D
+.
+Shift
+Question
+27
+To create a space while typing in a Word processing environment, the computer keyboard key used is the
+A
+.
+shift.
+B
+.
+caps lock.
+C
+.
+space bar.
+D
+.
+back space.
+Question
+28
+To underline a selected text in a Word document, the computer keyboard shortcut keys used are
+A
+.
+Alt + U.
+B
+.
+Tab + U.
+C
+.
+Ctrl + U.
+D
+.
+Shift + U.
+Question
+29
+Which of the following options shows the contents of both the standard toolbar and the formatting toolbar?
+A
+.
+Design
+B
+.
+Home tab
+C
+.
+Page layout
+D
+.
+Clipboard group
+Question
+30
+To print a document after previewing, use the
+A
+.
+edit command.
+B
+.
+print command.
+C
+.
+open command.
+D
+.
+save command.
+Question
+31
+Which of the following options is a valid website address?
+A
+.
+htpp://waecgh.org
+B
+.
+hppt://waecgh.org
+C
+.
+hhtp://waecgh.org
+D
+.
+http://waecgh.org
+Question
+32
+A special software that is used to access the internet is called
+A
+.
+web page.
+B
+.
+address bar.
+C
+.
+web browser.
+D
+.
+search engine.
+Question
+33
+In computing, an element or icon that links one document to another in a different document or within the same document is a
+A
+.
+pointer.
+B
+.
+web page.
+C
+.
+hyperlink.
+D
+.
+web browser.
+Question
+34
+Which of the following options is a web browser?
+A
+.
+DOS.
+B
+.
+Windows.
+C
+.
+Internet Explorer.
+D
+.
+Operating systems.
+Question
+35
+The command button that opens up a dialogue box for users to compose an e-mail message is the
+A
+.
+sent button.
+B
+.
+junk button.
+C
+.
+inbox button.
+D
+.
+create button.
+Question
+36
+Which feature of a web browser enables a user to access the latest information from the browser?
+A
+.
+Home
+B
+.
+Refresh
+C
+.
+Forward
+D
+.
+Backward
+Question
+37
+Mathematical calculations in a Spreadsheet application are called
+A
+.
+labels.
+B
+.
+values.
+C
+.
+numbers.
+D
+.
+formulae.
+Question
+38
+Which of the following terms in a Spreadsheet application is identified by a letter and number?
+A
+.
+Row
+B
+.
+Cell
+C
+.
+Range
+D
+.
+Column
+Question
+39
+A selected cell in a Spreadsheet application is the
+A
+.
+name box.
+B
+.
+active cell.
+C
+.
+cell address.
+D
+.
+formula bar.
+Question
+40
+The sign used to prompt a Spreadsheet application that a user is about to apply a formula to a cell is
+A
+.
+-
+B
+.
+\
+C
+.
+/
+D
+.
+=
+THEORY
+ESSAY
+Answer all of Question 1
+Question
+1
+Study Figure 1 carefully and use it to answer questions (a) to (e).
+a) Write the name of the image displayed in Figure 1.  
+ 
+
+b) List three types of applications similar to Figure 1 that can be used to perform the same function as Figure 1 does.   
+
+
+c) Write the name of the parts labeled A, B, and C as shown in Figure 1.   
+
+
+d) Write two skills to be used to access information from the internet in order to avoid unwanted materials.   
+
+
+e) State three advantages of using the internet in education.
+Question
+2
+a) Explain download as used in a computing environment.  
+
+
+    b) List three types of information that may be downloaded from a website. 
+
+
+    c) State one advantage of copying a file from a website into an open word processing application.
+Question
+3
+a) Give two examples of a word processing application.  
+
+
+          b) Complete the table below.
+Question
+4
+a) What is an e-mail account?
+b) Write a good e-mail address to be typed where the username is shown. 
+
+ 
+          c) State why the password typed appears in dots.  
+
+
+          d) Give one reason why the system asked for the password to be typed (again) when creating an e-mail account.
+Question
+5
+a) Explain the following terminologies as used in a Spreadsheet application:  
+
+
+            i) Cell 
+ 
+            ii) Cell address 
+
+         
+         b) State two features of an active cell.  
+
+
+             
+         
+         c) State the data type of the data below as used in a Spreadsheet application.  
+            =SUM(B6:H6)
+Answer three Questions only from this section
+Questions for this section are in the printed paper.

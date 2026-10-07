@@ -1,0 +1,318 @@
+SOURCE URL: https://ghanaeducation.org/2023-bece-ict-questions-final-july-objective-test-mock-questions-and-answers/
+TITLE: 2023 BECE ICT Objective Test Questions and Answers
+SUBJECT: Computing_ICT
+============================================================
+
+2023 BECE ICT Objective Test Questions and Answers
+Skip to content
+News
+0
+2023 BECE ICT Questions (Final July Objective Test Mock Questions and Answers)
+by
+Wisdom K.E Hammond
+·
+August 4, 2023
+2023 BECE ICT Questions (Final July Objective Test Mock Questions and Answers)
+OBJECTIVES
+Answer all questions
+1.The physical material on which a computer keeps data, instructions and
+information is called ………..
+A. cached storage
+B. primary storage
+C secondary storage
+D. tertiary storage
+2. System software is a platform which runs …………………
+A. application software
+B. operating system
+C. source code
+D. utilities
+3. Working with more than one application at the same time is known as ………..
+A double tasking
+B. launching
+C. multitasking
+D running
+4. Given sizes and designs of letters, numbers and symbols that are displayed in a word processing document are referred to as …………
+A. align
+B. bullet
+C. font
+D. indent
+5. The internet is a ………………………
+A. global network of computers
+B. government agency that links computer
+C. software for designing programs
+D. special network of computers in an office.
+6. The intersection of a row and column in a spreadsheet application is called a ……
+A. cell
+B. column
+C. formula
+D. row
+7. All the following are ways of sharing information on the internet except……
+A. facebook
+B. letter writing
+C. twitter
+D. whatsapp
+2023 BECE ICT Questions (Final July Objective Test Mock Questions and Answers)
+8. Which of the following mouse uses light emitting diodes (LED) in place of
+the ball for movement?
+A cordless mouse
+B. mechanical mouse
+C. optical mouse
+D. wireless mouse
+9. Which of the following is not a functional key on the computer
+keyboard?
+A. control key
+B. F1
+C. F10
+D. F12
+10. The start button is found at the ………………….corner on the taskbar.
+A. center
+B. front
+C. left
+D. right
+11. The control button which enlarges a window to cover the desktop is the ………..
+A. close button
+B. maximize button
+C. minimize button
+D. restore button
+12. Which of the following shows the page number, section number of the current
+page in a document?
+A. Drawing toolbar
+B. Menu bar
+C. Status bar
+D. Title bar
+13. Which of these is used to repeat an action after it has been undone in a word document?
+A. File
+B. Redo
+C. Save
+D. Undo
+14. Tahoma, Vardano and Arial are all examples of ……..
+A. font colours
+B. font sizes
+C. font styles
+D. font types
+15. All the following are anti-virus except ……..
+A. Avina
+B. DVD
+C. Norton
+D. D. Panda
+16. The acronym HTML stands for ………..
+A. Hypertext Markup Language
+B. Hypertext Mail Language
+C. Hypertext Medium Language
+D. Hypertext Markup Line
+17. The first page of a website is call …………
+A. home page
+B. network
+C. web page
+D. website
+18. The device used in networks to decide the path or direction along which to send messages is known as………
+A. bridge
+B. gateway
+C. modem
+D. router
+19. All the following are web-browser except …………
+A. MSN
+B. Mozilla firefox
+C. Netscape Navigator
+D. Word Art
+20. Which of the following is a pointing device?
+A Joystick
+B. Keyboard
+C. Pen drive
+D. Zip-drive
+21. An option used to create a new message in E-mail is called ……….
+A. compose
+B. draft
+C. sent
+D. output
+22. Which of these is a typing software that can be used to improve our typing skills?
+A. Data base
+B. Excel
+C. Mavis Beacon
+D. Power Point
+2023 BECE ICT Questions (Final July Objective Test Mock Questions and Answers)
+23. To type the At sign “@” which of the following keys do you press or hold first?
+A. Alt
+B. Ctrl
+C. Shift
+D. Delete
+24. What is the collective name given to the entire keys ranging from F1-F12?
+A. Arrow keys
+B. Functional keys
+C. Future keys
+D. Special purpose keys
+25. The short cut key Ctrl + Z is ………
+A. file
+B. paste
+C. redo
+D. undo
+26. A document printed onto a paper is called …………..
+A. hard copy
+B. first copy
+C. raw copy
+D. soft copy
+27. To undo the previous action in a document, press……
+A. CTRL +Z
+B. CTRL+A
+C. CTRL+C
+D. CTRL + Y
+28. Title bar displays………….
+A. The menu name
+B. List of commands you can use to enter data
+C. Name of the worksheet you are working on
+D. Standard and formatting toolbar
+29. Columns are named by………….. and rows are named by……..
+A. Numbers, alphabets.
+B. Alphabets, numbers
+C. Symbols, numbers
+D. Numbers, symbols
+30. Data entered in an active cell is displayed on the…
+A. Cell name box
+B. Formula bar
+C. Status bar
+D. Menu bar
+31. …… is an online platform which people use to build social networks or social relationship
+with others.
+A. Mobile phone
+B. Telephone calls
+C. Social media
+D. Letter writing
+32. A type of micro blogging where users share text, live videos and more to connect with
+customers is called…?
+A. Pinterest
+B. E-mail
+C. linkedIn
+D. facebook
+33. Which of the following is not an example of
+microblogging?
+A. Youtube
+B. Twitter
+C. Tumblr
+D. Plurk
+34. Computers can be used to diagnosed disease …….
+A. Banks
+B. Schools
+C. Hospitals
+D. Stadium
+35. The……….. is the main circuit board of a microcomputer.
+A. Standalone
+B. Transistor
+C. Motherboard
+D. Keyboard
+36. Which of the following device is used to send data into the computer for processing?
+A. CPU
+B. Output device
+C. Input device
+D. Television
+READ:
+2023 BECE ICT Questions (Final Mock Questions) to watch from Ghana Education News Mock
+37. Primary storage device is also known as and it is considered as volatile because it
+A. stores information temporarily.
+B. External memory
+C. Internal memory
+D. Fixed hard disk drive
+38. All the following are examples of technology tools except……….
+A. Voice recorder
+B. Fax machine
+C. Laptop
+D. Talking drums
+39. The use of scientific knowledge to make work easier or solve problems for humans is called ………..?
+A. ICT tools
+B. Technical skills
+C. Technology tools
+D. Technology
+2023 BECE ICT Questions (Final July Objective Test Mock Questions and Answers)
+40. Which of the following is an example of technology tool used for learning?
+A. Creative Arts
+B. Scrabble
+C. Mathematics
+D. Social studies
+OBJECTIVES
+1.C
+6.A
+11.B
+16.A
+21.C
+26.A
+31.C
+36.C
+2.B
+7.B
+12.C
+17.A
+22.C
+27.A
+32.C
+37.B
+3.A
+8.C
+13.B
+18.D
+23.C
+28.C
+33.A
+38.D
+4.C
+9.A
+14.D
+19.D
+24.B
+29.B
+34.C
+39.A
+5.A
+10.C
+15.B
+20.A
+25.D
+30.B
+35.C
+40.B
+Tags:
+2023 BECE ICT Objective Test Questions
+Wisdom K.E Hammond
+Ghanaeducation.org is founded by
+Wisdom Kojo Eli Hammond
+, a distinguished Ghanaian Edu-Tech Entrepreneur, AI Solutions Developer, and Product Architect with over
+25 years of cross-disciplinary experience
+in education, finance, and digital media. Wisdom is the visionary force behind
+SkulManager
+, Ghana’s premier school management ecosystem, and the Lead Consultant at
+Education-News Consult
+.
+A self-taught innovator, professional Web Designer, and regular columnist on
+GhanaWeb
+, Wisdom engineered
+SkulManager.co
+m
+as the only platform strictly tailored to the
+GES curriculum.
+His technical leadership has redefined educational assessment through a
+hybrid marking ecosystem,
+pioneering the
+BECE and WASSCE Home Mock
+services—a unique fusion of WAEC-trained human examiners and advanced AI marking engines operational since 2022.
+You may also like...
+0
+How To Get Dimples If You Were Not Born With One
+April 23, 2023
+0
+Freezy Macbones Ditches Ghana To Represent UK
+May 19, 2023
+0
+President’s Salary In Ghana: I Will Not Take Salary If I Become A President – Kennedy Agyapong Speaks.
+October 7, 2023
+Leave a Reply
+Cancel reply
+Your email address will not be published.
+Required fields are marked
+*
+Comment
+*
+Name
+*
+Email
+*
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Follow:

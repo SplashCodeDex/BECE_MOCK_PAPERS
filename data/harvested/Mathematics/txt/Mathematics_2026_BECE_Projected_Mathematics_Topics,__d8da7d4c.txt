@@ -1,0 +1,221 @@
+SOURCE URL: https://ghanaeducation.org/2026-bece-projected-mathematics-topics-and-formulas/
+TITLE: 2026 BECE Projected Mathematics Topics, Must-Know Formulas
+SUBJECT: Mathematics
+============================================================
+
+2026 BECE Projected Mathematics Topics, Must-Know Formulas
+Skip to content
+BECE
+0
+2026 BECE Projected Mathematics Topics, Must-Know Formulas: Master These for Grade “1”
+by
+Wisdom K.E Hammond
+·
+February 11, 2026
+Mathematics remains a core pillar for success in the
+BECE
+. With the full implementation of the
+Common Core Programme (CCP)
+, the
+2026 examination
+will place a higher premium on
+problem-solving strategies
+and
+real-life application
+.
+To help candidates navigate the syllabus effectively, we have identified the projected key topics that are frequently tested and aligned with the new inquiry-based goals.
+1. Number and Numeration
+This is the foundation of the entire paper. Students must be proficient in handling:
+Number Bases:
+Operations in various bases, specifically binary.
+Fractions, Decimals, and Percentages:
+Conversion, simplification, and application in word problems.
+Ratio, Proportion & Rates:
+These are among the most frequently tested areas in both Paper 1 and Paper 2.
+Indices and Logarithms:
+Mastering laws of indices and basic logarithmic operations.
+Sets:
+Operations on sets, including union, intersection, and Venn diagrams.
+2. Algebraic Processes
+Algebra often carries significant marks. Focus your revision on:
+Algebraic Expressions and Operations:
+Simplifying terms and factoring.
+Simple Equations and Inequalities:
+Solving linear equations and representing inequalities on a number line.
+Quadratic Equations:
+Solving quadratic expressions through factorization or formulas.
+Linear Functions and Graphs:
+Plotting coordinates and interpreting graphs of linear equations.
+3. Geometry and Trigonometry
+This section tests your spatial awareness and calculation accuracy:
+Lines and Angles:
+Calculating missing angles and understanding properties of parallel lines.
+Polygons:
+Specific focus on triangles and quadrilaterals.
+Circles:
+Mastery of circle theorems and properties.
+Trigonometric Ratios:
+Using Sine, Cosine, and Tangent (SOH CAH TOA) to solve for sides and angles.
+Transformations:
+Understanding translation, rotation, reflection, and enlargement.
+4. Mensuration
+Applied measurement is a core CCP competency:
+Plane Figures:
+Calculating the perimeter and area of shapes like circles and squares.
+Solid Shapes:
+Finding the surface area and volume of solids like cubes, cuboids, cylinders, cones, and spheres.
+Geometric Constructions:
+Precision in drawing using a mathematical set and compass is essential for practical marks.
+5. Statistics and Probability
+The CCP emphasizes “Everyday Mathematics” for informed decision-making:
+Data Presentation:
+Interpreting bar charts, pie charts, line graphs, and histograms.
+Central Tendency:
+Calculating and interpreting the Mean, Median, and Mode.
+Probability:
+Understanding the basic likelihood of everyday events.
+6. Consumer Arithmetic
+These topics bridge classroom learning with real-life financial literacy:
+Interest:
+Understanding Simple and Compound Interest calculations.
+Profit and Loss:
+Solving problems related to buying and selling.
+Discounts and Commission:
+Practical calculations for trade and business scenarios.
+Rates and Taxes:
+Solving applied problems related to daily financial contexts like income tax and utility rates.
+7. Vectors and Matrices
+Newer additions to the standard JHS toolkit:
+Vectors:
+Basic concepts, including vector addition, subtraction, and finding magnitudes.
+Matrices:
+Basic operations and notation (often integrated into advanced algebraic tasks).
+Topic Area
+Actual Formula / Key Rule
+Consumer Arithmetic
+Profit %
+=
+Profit
+Cost Price
+× 100
+Simple Interest (I)
+=
+P × R × T
+100
+Compound Amount (A)
+= P(1 + r/100)
+n
+Mensuration (Plane)
+Circle Area
+= πr
+2
+|
+Circumference
+= 2πr
+Trapezium Area
+= ½(a + b)h
+Triangle Area
+= ½ × base × height
+Mensuration (Solids)
+Cylinder Volume
+= πr
+2
+h |
+C.S.A
+= 2πrh
+Sphere Volume
+=
+4
+⁄
+3
+πr
+3
+|
+Surface Area
+= 4πr
+2
+Cone Volume
+=
+1
+⁄
+3
+πr
+2
+h
+Algebra & Trig
+Pythagoras
+: a
+2
++ b
+2
+= c
+2
+Trig (SOH CAH TOA)
+: sin(θ) = Opp/Hyp | cos(θ) = Adj/Hyp | tan(θ) = Opp/Adj
+Quadratic Formula
+: x =
+-b ± √(b
+2
+– 4ac)
+2a
+Vectors & Stats
+Magnitude of Vector |v|
+= √(x
+2
++ y
+2
+)
+Mean (x̄)
+=
+∑fx
+∑f
+Probability P(E)
+=
+Favourable Outcomes
+Total Outcomes
+Wisdom K.E Hammond
+Ghanaeducation.org is founded by
+Wisdom Kojo Eli Hammond
+, a distinguished Ghanaian Edu-Tech Entrepreneur, AI Solutions Developer, and Product Architect with over
+25 years of cross-disciplinary experience
+in education, finance, and digital media. Wisdom is the visionary force behind
+SkulManager
+, Ghana’s premier school management ecosystem, and the Lead Consultant at
+Education-News Consult
+.
+A self-taught innovator, professional Web Designer, and regular columnist on
+GhanaWeb
+, Wisdom engineered
+SkulManager.co
+m
+as the only platform strictly tailored to the
+GES curriculum.
+His technical leadership has redefined educational assessment through a
+hybrid marking ecosystem,
+pioneering the
+BECE and WASSCE Home Mock
+services—a unique fusion of WAEC-trained human examiners and advanced AI marking engines operational since 2022.
+You may also like...
+4
+2025 BECE Final Computing Projected Topics To Watch
+June 10, 2025
+0
+Grab Beacon of Light Questions and Answers Book Now
+September 26, 2026
+0
+How to Prepare and Answer 2026 BECE Social Studies Questions
+May 4, 2026
+Leave a Reply
+Cancel reply
+Your email address will not be published.
+Required fields are marked
+*
+Comment
+*
+Name
+*
+Email
+*
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Follow:

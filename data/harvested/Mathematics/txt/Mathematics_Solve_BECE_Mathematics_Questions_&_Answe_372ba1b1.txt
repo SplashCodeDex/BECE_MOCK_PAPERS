@@ -1,0 +1,617 @@
+SOURCE URL: https://ghlearner.com/bece/mathematics/exams/gbat-april-2026-mathematics
+TITLE: Solve BECE Mathematics Questions & Answers - GBAT April 2026
+SUBJECT: Mathematics
+============================================================
+
+Solve BECE Mathematics Questions & Answers - GBAT April 2026
+1.
+[1]
+BECE mock · Mathematics
+Seyram has 8 notebooks and 12 exercise books in his bag. What is the probability of picking an exercise book at random from Seyram's bag?
+A
+\(\frac{1}{5}\)
+B
+\(\frac{2}{5}\)
+C
+\(\frac{3}{5}\)
+D
+\(\frac{4}{5}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Mathematics
+If \(7^3 \div 7^{v-1} = \frac{1}{7}\), find the value of \(v\).
+A
+0
+B
+2
+C
+3
+D
+5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Mathematics
+Simplify \(\sqrt{0.49}\).
+A
+\(\frac{3}{5}\)
+B
+\(\frac{7}{10}\)
+C
+1
+D
+\(\sqrt{7}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Mathematics
+Expand and simplify \((2m-5)(m+4)\).
+A
+\(2m^2+3m-20\)
+B
+\(2m^2-4m-20\)
+C
+\(2m^2+3m+28\)
+D
+\(2m^2-4m+28\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Mathematics
+Find the Highest Common Factor (H.C.F) of \(2^3 \times 3^2 \times 5^2\) and \(2^2 \times 5^2 \times 7\).
+A
+\(10^2\)
+B
+10
+C
+5
+D
+1
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Mathematics
+Find the missing numbers in the set below \(\{11, 23, 47, \_, 191, \_\}\).
+A
+85 and 363
+B
+90 and 372
+C
+95 and 383
+D
+98 and 392
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Mathematics
+Find the \(y\)-intercept from the equation of the line \(3y - 9x - 1 = 0\).
+A
+\(\frac{1}{3}\)
+B
+1
+C
+3
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Mathematics
+On a map, \(\frac{1}{3}\) cm represents 6 km. If two towns Ofankor and Pokuase are 10 cm apart on the map, what is the actual distance between them?
+A
+360km
+B
+284km
+C
+180km
+D
+96km
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Mathematics
+Arrange 0.7, 56%, -2.10, and \(\frac{3}{4}\) in descending order.
+A
+-2.10, 56%, 0.7, \(\frac{1}{4}\)
+B
+56%, 0.7, \(\frac{1}{4}\), -2.10
+C
+0.7, \(\frac{3}{4}\), -2.10, 56%
+D
+\(\frac{3}{4}\), 0.7, 56%, -2.10
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Mathematics
+The width of a rectangle is 5 cm, and the length 12cm, find the diagonal of the rectangle.
+A
+13cm
+B
+12cm
+C
+11cm
+D
+9cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Mathematics
+What is the sum of the interior angles of an octagon?
+A
+810°
+B
+920°
+C
+1080°
+D
+1260°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Mathematics
+The lengths of two sugarcanes are in the ratio 5 : 7. If the shorter sugarcane is 85cm. Find the length of the other sugarcane.
+A
+90cm
+B
+99cm
+C
+108cm
+D
+119cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Mathematics
+Convert 5694 ml to litres, leaving your answer in three significant figures.
+A
+4.59 l
+B
+5.69 l
+C
+45.9 l
+D
+56.9 l
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Mathematics
+The points \(G(-1, 4)\) and \(H(3, 7)\) are in a plane, find the length of \(GH\).
+A
+5 units
+B
+6 units
+C
+8 units
+D
+10 units
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Mathematics
+Which of the numbers is 578 less than 8002?
+A
+7424
+B
+7436
+C
+7685
+D
+7892
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Mathematics
+Farida covers a distance of 43.609km each day. Find the total distance Farida will cover in 40 days, correct your answer to the nearest 2 significant figures.
+A
+1600
+B
+1610
+C
+1700
+D
+1710
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Mathematics
+If vector \(e=\binom{4}{4}\), \(g=\binom{8}{2a}\), and \(\frac{1}{2}g=e\), find the value of \(a\).
+A
+-2
+B
+2
+C
+4
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Mathematics
+Find the product of perfect squares less than 10.
+A
+182
+B
+124
+C
+64
+D
+36
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Mathematics
+Which ordered pair is a solution to the equation \(y = 5x - 4\) ?
+A
+(2,5)
+B
+(5,-3)
+C
+(2,6)
+D
+(-1,-7)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Mathematics
+The difference between two fractions is \(\frac{3}{8}\). The least of them is \(\frac{1}{6}\). Find the other fraction.
+A
+\(\frac{13}{24}\)
+B
+\(\frac{17}{24}\)
+C
+\(\frac{5}{8}\)
+D
+\(\frac{3}{4}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Mathematics
+A simple interest of GH¢500.00 is earned on an amount of GH¢15,000.00 for 2 years. Find the rate of interest per annum.
+A
+10%
+B
+8%
+C
+3.54%
+D
+1.67%
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Mathematics
+Simplify \(3^5 \div 18 - 15^0\).
+A
+13.5
+B
+12.5
+C
+10.5
+D
+9.5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Mathematics
+A circular tarpaulin pond has an area of \(616m^2\). Find the circumference of the base of the pond. \([Take \ \pi = \frac{22}{7}]\)
+A
+78 m
+B
+88 m
+C
+98 m
+D
+110m
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Mathematics
+Given that k = 14, what type of angle is (4k − 6)
+A
+Obtuse angle
+B
+Acute angle
+C
+Straight angle
+D
+Right angle
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Mathematics
+Simplify \(\left(\frac{27}{125}\right)^{\frac{1}{3}}\).
+A
+\(\frac{5}{3}\)
+B
+\(\frac{5}{2}\)
+C
+\(\frac{2}{5}\)
+D
+\(\frac{3}{5}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Mathematics
+The median of the ordered set of observations 4, 6, 2b, (3b + 6), 10 and 12 in ascending order is 8. Find the value of b.
+A
+b = 2
+B
+b = 3
+C
+b = 4
+D
+b = 5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Mathematics
+The bearing of Circle from Adabraka is 245°. Find the bearing of Adabraka from Circle.
+A
+055°
+B
+065°
+C
+085°
+D
+095°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Mathematics
+Sedem and Eyram shared some oranges in the ratio 7 : 9. If Sedem had 40 fewer oranges than Eyram, how many oranges did they share?
+A
+280
+B
+300
+C
+320
+D
+340
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Mathematics
+Find the image of -2 under the mapping \(x \mapsto x^2 + 4\).
+A
+-4
+B
+-2
+C
+5
+D
+8
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Mathematics
+If two dice are rolled at once, find the probability of getting a sum of 5.
+A
+\(\frac{1}{6}\)
+B
+\(\frac{1}{9}\)
+C
+\(\frac{3}{18}\)
+D
+\(\frac{3}{24}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Mathematics
+The point P(5, -5) is rotated clockwise about the origin through an angle of 270°. Find the coordinates of its image.
+A
+(-5, 5)
+B
+(5, -5)
+C
+(5, 5)
+D
+(-5, -5)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Mathematics
+A table is 160m away from the foot of a vertical wall. The angle of depression of the table from the top of the wall is 45°. Find the height of the wall. [ Take tan(45°) = 1]
+A
+80m
+B
+96m
+C
+120m
+D
+160m
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Mathematics
+Calculate \((6.5 \times 10^{-3}) \times (3.3 \times 10^{4})\), leave your answer in standard form.
+A
+\(2.145 \times 10^{-3}\)
+B
+\(3.215 \times 10^{-2}\)
+C
+\(2.145 \times 10^{2}\)
+D
+\(3.215 \times 10^{3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Mathematics
+Find the truth set of \(\frac{1}{6}(2k - 2)=\frac{2}{5}(-2)\).
+A
+\(\{k:k=-\frac{7}{5}\}\)
+B
+\(\{k:k=-\frac{3}{5}\}\)
+C
+\(\{k:k=-1\}\)
+D
+\(\{k:k=-3\}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Mathematics
+Given that \(s^2-r^2=(s+r)(s-r)\), calculate \(25.8^2-5.8^2\).
+A
+632
+B
+708
+C
+786
+D
+814
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Mathematics
+What is the median of a set of factors of 72 less than 20?
+A
+18
+B
+12
+C
+8
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Mathematics
+If \((x, y) \mapsto (5x, 3y)\), find the image of \(\left(-2\frac{2}{5}, 3\frac{1}{3}\right)\) under same mapping.
+A
+(10, -12)
+B
+(-12, 10)
+C
+(-5, -8)
+D
+(5, 8)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Mathematics
+The pie chart below shows the distribution of weight (in kg) of items bought by Elinam. Find the fraction that represents Vegetables.
+A
+\(\frac{1}{6}\)
+B
+\(\frac{1}{3}\)
+C
+\(\frac{4}{9}\)
+D
+\(\frac{5}{9}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Mathematics
+The pie chart below shows the distribution of weight (in kg) of items bought by Elinam. What is the value of the angle of Vegetables?
+A
+70°
+B
+65°
+C
+60°
+D
+55°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Mathematics
+A heptagon has three of its interior angles to be congruent, the remaining angles are as follows: 125°, 105° and 100°. Find the value of one congruent angle.
+A
+115°
+B
+140°
+C
+170°
+D
+190°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[15]
+BECE mock · Mathematics
+1. In a town, workers are into farming, fishing or both. The number of workers who are into fishing are four and a half times the number of workers who are into farming. Those who are into both occupations are half of those who are into farming, if the number of workers who are into one occupation is 45. (a) Illustrate the information on a Venn Diagram. (b) Find the number of workers who are into (i) Fishing (ii) Farming (c) What is the total number of workers who are in both occupations?
+42.
+[5]
+BECE mock · Mathematics
+2. (a) A regular polygon has each of its interior angles as 140°. How many sides does the polygon have?
+43.
+[10]
+BECE mock · Mathematics
+A chop box has a length of 6cm, a breadth of 4cm and a height of 11cm. (i) Illustrate with a diagram the net of the chop box. (ii) Find the total surface area of the chop box.
+44.
+[5]
+BECE mock · Mathematics
+2. (c) Evaluate (3n−8)/(n+3m) − 1/(n²m) given that n = −1 and m = 4.
+45.
+[5]
+BECE mock · Mathematics
+3. (a) From the top of a vertical electric pole, the angle of depression of a mango on the horizontal ground is 60°. If the mango is 10m away from the base of the pole, find, correct to 1 decimal place, the height of the pole. [Take tan(60°) = 1.73]
+46.
+[5]
+BECE mock · Mathematics
+3. (b) Find the value of m, given that (m − 3)³ × (m − 3)⁴ = 5⁷.
+47.
+[5]
+BECE mock · Mathematics
+3. (c) Simplify 4½ − 8/3 of (5/6 + 1/2).
+48.
+[5]
+BECE mock · Mathematics
+4. (a) If the vector a = (4, −1) and b = (3x − 6, 3) are perpendicular, find the value of x.
+49.
+[5]
+BECE mock · Mathematics
+4. (b) Three bells toll at intervals of 20 minutes, 32 minutes and 40 minutes respectively. If they all toll together at 09:00 am, when next do they toll together again?
+50.
+[5]
+BECE mock · Mathematics
+Find the values of a and b in the figure below.
+51.
+[10]
+BECE mock · Mathematics
+Using a pair of compasses and a ruler only, construct a hexagon ABCDEF, such that |AB| = 7cm. (b) If G is the centre of the hexagon, measure ∠AGB. (c) Measure ∠EGD, ∠BGC and ∠CGD and compare the angles.
+52.
+[15]
+BECE mock · Mathematics
+The school prefect of ByGrace International School is investigating how learners rate his performance. He prepared a five-point Likert scale, administered to primary learners. The rating is as follows: Excellent – 1, Very Good – 2, Good – 3, Fair – 4, Poor – 5. The result obtained is as shown below. (a) Draw a bar graph to represent the information. (b) How many learners are in the primary department of the school? (c) If those who partook in the exercise represented 80% of the total learners in the school, find the total number of learners in the school.
+More Mathematics
+All Mathematics papers & mocks
+Mathematics topics

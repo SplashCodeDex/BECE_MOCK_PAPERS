@@ -1,0 +1,782 @@
+SOURCE URL: https://becezone.com/mathematics/2017/
+TITLE: Mathematics 2017 — BECE Past Questions | BECEzone
+SUBJECT: Mathematics
+============================================================
+
+Mathematics 2017 — BECE Past Questions | BECEzone
+Skip to content
+THE WEST AFRICAN EXAMINATIONS COUNCIL GHANA
+Basic Education Certificate Examination
+Mathematics
+2017
+OBJECTIVE TEST
+Objective Test
+Question
+1
+If Q = {1,3,5,7,9,10,11,13,15} and T = {1,2,3,5,6,7,10,11,12}, find Q ∪ T.
+A
+.
+{1,2,3,5,7,10,11}
+B
+.
+{1,3,5,7,9,11,13,15}
+C
+.
+{1,2,3,4,5,6,7,8,9,10,11,12,13}
+D
+.
+{1,2,3,5,6,7,9,10,11,12,13,15}
+Question
+2
+If 21:2x = 7:12, find the value of x.
+A
+.
+10
+B
+.
+12
+C
+.
+15
+D
+.
+18
+Question
+3
+Given that,
+2
+p
+1
+​
+=
+8
+1
+​
+find the value of p.
+A
+.
+4
+B
+.
+3
+C
+.
+2
+D
+.
+1
+Question
+4
+Simplify 3q x 12pq.
+A
+.
+15pq²
+B
+.
+15p²q
+C
+.
+36pq²
+D
+.
+36p²q
+Question
+5
+If A = {2,6,8} and B = {4,6,8,10}, which of the following statements is true?
+A
+.
+A ⊂ B
+B
+.
+A ∩ B = {2,6,8}
+C
+.
+A ∪ B = {2,4,6,8,10}
+D
+.
+A ⊃ B
+Question
+6
+Find the product of 4xy⁴ and x²yz.
+A
+.
+4x³y⁴z
+B
+.
+4x³y⁵z
+C
+.
+4x²y⁴z
+D
+.
+4x²y⁴
+Question
+7
+The sum of the interior angles of a regular polygon with 10 sides is:
+A
+.
+144°
+B
+.
+900°
+C
+.
+1,440°
+D
+.
+1,800°
+Question
+8
+Solve:
+2
++
+3
+x
+​
+=
+1
+−
+2
+x
+A
+.
+−
+1
+7
+2
+​
+B
+.
+−
+7
+3
+​
+C
+.
+7
+3
+​
+D
+.
+1
+7
+2
+​
+Question
+9
+The ages of the members of a social club are 20 years, 55 years, 60 years, and 25 years. Find the mean age of the members of the club.
+A
+.
+20 years
+B
+.
+30 years
+C
+.
+40 years
+D
+.
+50 years
+Question
+10
+Evelyn saved GH₵ 35.48 every month for 8 months. How much did she save?
+A
+.
+GH₵ 183.60
+B
+.
+GH₵ 280.63
+C
+.
+GH₵ 283.20
+D
+.
+GH₵ 283.84
+Question
+11
+Evaluate:
+0.041
+0.00492
+​
+A
+.
+0.012
+B
+.
+0.12
+C
+.
+1.2
+D
+.
+12.0
+Question
+12
+A woman deposited an amount of GH₵ 50,000.00 at a bank for 2 years at a rate of 20% per annum. Find the simple interest.
+A
+.
+GH₵ 1,000.00
+B
+.
+GH₵ 2,000.00
+C
+.
+GH₵ 10,000.00
+D
+.
+GH₵ 20,000.00
+Question
+13
+What is the total cost of x shirts at GH₵ 5.00 each and y shirts at GH₵ 1.50 each?
+A
+.
+5x + 1.5y
+B
+.
+5y + 1.5x
+C
+.
+5(x + 1.5y)
+D
+.
+1.5(5x + y)
+Question
+14
+At a meeting attended by 23 people, the females were 7 more than the males. How many males were there?
+A
+.
+8
+B
+.
+15
+C
+.
+16
+D
+.
+30
+Question
+15
+Find the value of x in the diagram.
+A
+.
+28°
+B
+.
+30°
+C
+.
+34°
+D
+.
+60°
+Question
+16
+How many lines of symmetry does a rhombus have?
+A
+.
+2
+B
+.
+3
+C
+.
+4
+D
+.
+5
+Question
+17
+In 1995, 215 boys and 185 girls were admitted into a Senior Secondary School. Find, correct to the nearest whole number, the percentage of girls admitted.
+A
+.
+46%
+B
+.
+47%
+C
+.
+53%
+D
+.
+54%
+Question
+18
+Simplify:
+(
+4
+u
++
+6
+v
+)
+2
+(
+u
+−
+v
+)
+(
+2
+u
++
+3
+v
+)
+​
+A
+.
+(
+u
++
+v
+)
+(
+u
+−
+v
+)
+(
+2
+u
++
+v
+)
+​
+B
+.
+(
+u
++
+2
+v
+)
+(
+u
+−
+v
+)
+(
+u
++
+v
+)
+​
+C
+.
+2
+1
+​
+u
+−
+v
+D
+.
+(
+u
+−
+v
+)
+Question
+19
+Solve 25x + 450 ≤ 3000.
+A
+.
+x ≥ 102
+B
+.
+x ≤ 102
+C
+.
+x ≥ 138
+D
+.
+x ≤ 138
+Question
+20
+Given that
+a
+=
+(
+4
+6
+​
+)
+and
+b
+=
+(
+−
+4
+6
+​
+)
+, find a + b.
+A
+.
+(
+0
+0
+​
+)
+B
+.
+(
+−
+8
+12
+​
+)
+C
+.
+(
+8
+−
+12
+​
+)
+D
+.
+(
+8
+0
+​
+)
+Question
+21
+Mr. Agyekum has 11 of the GH₵ 20.00 notes, 15 of the GH₵ 10.00 notes, and 6 of the GH₵ 5.00 notes. How much does Mr. Agyekum have altogether?
+A
+.
+GH₵ 280.00
+B
+.
+GH₵ 320.00
+C
+.
+GH₵ 360.00
+D
+.
+GH₵ 400.00
+Question
+22
+A man travelled a distance of 1.5 km in 30 minutes. What distance can he cover in 50 minutes, travelling at the same speed?
+A
+.
+2.2 km
+B
+.
+2.5 km
+C
+.
+2.8 km
+D
+.
+3.2 km
+Question
+23
+In the diagram, UVW is an isosceles triangle. |UV| = |UW| and angle VUW = 70°. Find angle UVW.
+A
+.
+70°
+B
+.
+60°
+C
+.
+55°
+D
+.
+35°
+Question
+24
+Arrange the following in descending order:
+20
+7
+​
+, (\frac{7}{25} \), (\frac{37}{100} \), (\frac{1}{4} \)
+A
+.
+(\frac{37}{100} \),(\frac{7}{20} \), (\frac{7}{25} \), (\frac{1}{4} \)
+B
+.
+(\frac{1}{4} \),(\frac{7}{25} \),(\frac{7}{20} \), (\frac{37}{100} \)
+C
+.
+(\frac{37}{100} \),(\frac{7}{20} \),(\frac{1}{4} \),(\frac{7}{25} \)
+D
+.
+(\frac{7}{25} \),(\frac{1}{4} \) ,(\frac{7}{20} \), (\frac{37}{100} \)
+Question
+25
+The point D (4,3) is reflected in the y-axis. Find the coordinates of its image.
+A
+.
+(-4,-3)
+B
+.
+(-3,4)
+C
+.
+(-4,3)
+D
+.
+(3,-4)
+Question
+26
+Simplify:
+7
+2
+1
+​
+×
+(
+4
+1
+​
+÷
+2
+1
+​
+)
+−
+4
+1
+​
+A
+.
+2
+7
+​
+B
+.
+16
+11
+​
+C
+.
+32
+7
+​
+D
+.
+2
+1
+​
+Question
+27
+Divide 64.5 by 0.015, leaving the answer in standard form.
+A
+.
+4.3 x 104
+B
+.
+4.3 x 103
+C
+.
+4.3 x 102
+D
+.
+4.3 x 10
+Question
+28
+The point Q(-2,3) is rotated anticlockwise about the origin through an angle of 90°. Find the coordinates of its image.
+A
+.
+(-3,-2)
+B
+.
+(-3,2)
+C
+.
+(3,-2)
+D
+.
+(3,2)
+Question
+29
+Elias bought five books. Their mean price was GH₵ 3.25. The total cost for four of the books was GH₵ 11.75. What was the cost of the fifth book?
+A
+.
+GH₵ 3.50
+B
+.
+GH₵ 4.00
+C
+.
+GH₵ 4.20
+D
+.
+GH₵ 4.50
+Question
+30
+Tins of milk each of volume 77 cm3 and weight 170 g were packed into an empty carton of volume 1540 cm3 and weight 500 g. How many tins of milk can be packed to fill the carton?
+A
+.
+2
+B
+.
+3
+C
+.
+20
+D
+.
+22
+Question
+31
+Tins of milk each of volume 77 cm3 and weight 170 g were packed into an empty carton of volume 1540 cm3 and weight 500 g. What is the weight of the carton when packed with the tins of milk?
+A
+.
+2.06 kg
+B
+.
+2.94 kg
+C
+.
+3.90 kg
+D
+.
+8.50 kg
+Question
+32
+A piece of cloth is 8.4 m long. If 30 cm is needed to sew a napkin, how many napkins can be sewn from this piece of cloth?
+A
+.
+20
+B
+.
+25
+C
+.
+28
+D
+.
+30
+Question
+33
+Express (\frac{10}{32} \) as a decimal fraction.
+A
+.
+0.3200
+B
+.
+0.3125
+C
+.
+0.3676
+D
+.
+0.3222
+Question
+34
+A match box contains 40 sticks. If 15 of them are spoilt, find the probability that a stick chosen at random is not spoilt?
+A
+.
+5
+3
+​
+B
+.
+8
+3
+​
+C
+.
+8
+5
+​
+D
+.
+5
+2
+​
+Question
+35
+The number of pupils who attended hospital from eight classes on a particular day are: 1, 5, 3, 1, 7, 5, 1, 1. Find the median number.
+A
+.
+1
+B
+.
+2
+C
+.
+3
+D
+.
+4
+Question
+36
+The number of pupils who attended hospital from eight classes on a particular day are: 1, 5, 3, 1, 7, 5, 1, 1. What is the modal number?
+A
+.
+1
+B
+.
+4
+C
+.
+5
+D
+.
+7
+Question
+37
+The number of pupils who attended hospital from eight classes on a particular day are: 1, 5, 3, 1, 7, 5, 1, 1. Calculate the mean.
+A
+.
+2
+B
+.
+3
+C
+.
+4
+D
+.
+5
+Question
+38
+The distance from the centre of a circle to any point on it is called:
+A
+.
+circumference.
+B
+.
+diameter.
+C
+.
+radius.
+D
+.
+sector.
+Question
+39
+Express 1352 as a product of prime factors.
+A
+.
+23 x 133
+B
+.
+23 x 132
+C
+.
+22 x 133
+D
+.
+22 x 132
+Question
+40
+Which of the following statements about sets is true?
+A
+.
+Every set is a subset of the null set.
+B
+.
+The universal set is the subset of the null set.
+C
+.
+The intersection of two sets is always the null set.
+D
+.
+The universal set is the union of all its subsets.

@@ -1,0 +1,750 @@
+SOURCE URL: https://becezone.com/mathematics/2015/
+TITLE: Mathematics 2015 — BECE Past Questions | BECEzone
+SUBJECT: Mathematics
+============================================================
+
+Mathematics 2015 — BECE Past Questions | BECEzone
+Skip to content
+THE WEST AFRICAN EXAMINATIONS COUNCIL GHANA
+Basic Education Certificate Examination
+Mathematics
+2015
+OBJECTIVE TEST
+Objective Test
+Question
+1
+List the members of the set Q = {Prime factors of 30}
+A
+.
+{2,3,5}
+B
+.
+{2,6,10}
+C
+.
+{3,5,15}
+D
+.
+{3,6,15}
+Question
+2
+Given that set P = {m,n,o,p}, find the number of subsets of P.
+A
+.
+4
+B
+.
+8
+C
+.
+10
+D
+.
+16
+Question
+3
+If M = {Multiples of 4 between 10 and 25} and N = {even numbers between 11 and 23}, find M∪N.
+A
+.
+{12,16,20}
+B
+.
+{14,18,22}
+C
+.
+{12,14,16,18,22}
+D
+.
+{12,14,16,18,20,22,24}
+Question
+4
+What is the place value of 7 in 24.376?
+A
+.
+Unit
+B
+.
+Ten
+C
+.
+Tenth
+D
+.
+Hundredth
+Question
+5
+Find the Highest Common Factor of 24, 42 and 72
+A
+.
+4
+B
+.
+6
+C
+.
+7
+D
+.
+12
+Question
+6
+Express 1205 as a number in base 10.
+A
+.
+25
+B
+.
+27
+C
+.
+32
+D
+.
+35
+Question
+7
+If p × q × r = 1197, and p = 19, q = 3, find r.
+A
+.
+21
+B
+.
+49
+C
+.
+57
+D
+.
+61
+Question
+8
+How many integers are within the interval -5 < x < 7?
+A
+.
+10
+B
+.
+11
+C
+.
+12
+D
+.
+13
+Question
+9
+Divide 1.612 by 0.4.
+A
+.
+4.3
+B
+.
+4.03
+C
+.
+0.403
+D
+.
+0.43
+Question
+10
+Arrange the following fractions in ascending order:
+8
+5
+​
+,
+20
+11
+​
+,
+10
+7
+​
+.
+A
+.
+8
+5
+​
+,
+20
+11
+​
+,
+10
+7
+​
+B
+.
+10
+7
+​
+,
+8
+5
+​
+,
+20
+11
+​
+C
+.
+20
+11
+​
+,
+8
+5
+​
+,
+10
+7
+​
+D
+.
+8
+5
+​
+,
+10
+7
+​
+,
+20
+11
+​
+Question
+11
+Abena spent
+5
+1
+​
+of her money on sweets,
+7
+4
+​
+on provisions and the rest on gari. What fraction of her money did she spend on gari?
+A
+.
+35
+2
+​
+B
+.
+35
+13
+​
+C
+.
+35
+8
+​
+D
+.
+35
+5
+​
+Question
+12
+If 5 boys took 14 days to cultivate a piece of land, how long will it take 7 boys working at the same rate to cultivate the land?
+A
+.
+14 days
+B
+.
+12 days
+C
+.
+10 days
+D
+.
+8 days
+Question
+13
+A man invested GH₵800.00 in a bank at a simple interest rate of 5% per annum. Find his total amount in the bank at the end of one year.
+A
+.
+GH₵840.00
+B
+.
+GH₵860.00
+C
+.
+GH₵900.00
+D
+.
+GH₵960.00
+Question
+14
+John sold a car for GH₵60,000.00 and made a profit of 20%. What is the cost price of the car?
+A
+.
+GH₵48,000.00
+B
+.
+GH₵50,000.00
+C
+.
+GH₵72,000.00
+D
+.
+GH₵132,000.00
+Question
+15
+What is the value of x if
+1
+0
+x
+=
+1000
+?
+A
+.
+1
+B
+.
+2
+C
+.
+3
+D
+.
+4
+Question
+16
+Express 625.13 in standard form.
+A
+.
+6.2513 × 10⁻²
+B
+.
+6.2513 × 10⁻⁴
+C
+.
+6.2513 × 10²
+D
+.
+6.2513 × 10⁴
+Question
+17
+Find the median of the numbers 17,12,15,16,8,18,13 and 14.
+A
+.
+8
+B
+.
+12
+C
+.
+14.5
+D
+.
+15.5
+Question
+18
+The ages in years of 10 children at a party are 2,3,3,3,4,4,5,5,5 and 6. If a child is chosen at random, what is the probability that he or she is not less than 5 years old?
+A
+.
+3
+2
+​
+B
+.
+12
+5
+​
+C
+.
+10
+3
+​
+D
+.
+2
+1
+​
+Question
+19
+Expand (2x + y)(2x - y).
+A
+.
+2x² - y²
+B
+.
+4x² - y²
+C
+.
+2x² + 4xy - y²
+D
+.
+4x² + 4xy - y²
+Question
+20
+Find the value of n, if 25.003 = (2 x 10) + (5 x 1) + (3 x n)
+A
+.
+0.001
+B
+.
+0.011
+C
+.
+0.01
+D
+.
+0.1
+Question
+21
+Evaluate (3m)² - 3m², when m = 2.
+A
+.
+12
+B
+.
+18
+C
+.
+20
+D
+.
+24
+Question
+22
+A wrist watch is priced GH₵2,000.00. A shopkeeper allows a discount of 2% on the cost price.
+Find the discount on 20 of such wrist watches.
+A
+.
+GH₵500.00
+B
+.
+GH₵600.00
+C
+.
+GH₵800.00
+D
+.
+GH₵1,000.00
+Question
+23
+Find the value of m if 4(m + 4) = -8.
+A
+.
+-6
+B
+.
+-2
+C
+.
+2
+D
+.
+6
+Question
+24
+Find the rule for the following mapping:
+x 1 2 3 4 5
+↓ ↓ ↓ ↓ ↓  ↓
+y 1 4 9 16 25
+A
+.
+y → x + 2
+B
+.
+y → 2x
+C
+.
+y → x²
+D
+.
+y → 2x + 2
+Question
+25
+How many vertices has a cuboid?
+A
+.
+6
+B
+.
+7
+C
+.
+8
+D
+.
+14
+Question
+26
+The circumference of a circle is 440 m. Find the area of the circle.
+[
+Take
+π
+=
+7
+22
+​
+]
+A
+.
+14,400 m²
+B
+.
+15,400 m²
+C
+.
+16,400 m²
+D
+.
+18,000 m²
+Question
+27
+What name is given to a triangle which has all its sides equal?
+A
+.
+Isosceles triangle
+B
+.
+Scalene triangle
+C
+.
+Equilateral triangle
+D
+.
+Right-angle triangle
+Question
+28
+At eight o'clock, which of the following is the angle between the hour and the minute hands of the clock?
+A
+.
+150°
+B
+.
+120°
+C
+.
+90°
+D
+.
+60°
+Question
+29
+A rectangular field 50 m wide and y m long requires 260 m of fencing. Find y.
+A
+.
+15 m
+B
+.
+40 m
+C
+.
+80 m
+D
+.
+105 m
+Question
+30
+Which of the following best describes the statement: "The locus of a point which moves so that its distance from two fixed points are always equal"?
+A
+.
+Bisector of angle
+B
+.
+Perpendicular bisector
+C
+.
+Circle
+D
+.
+Two parallel lines
+Question
+31
+The point K(1,5) is rotated through 90° anti-clockwise about the origin.
+Find the coordinates of the image of K.
+A
+.
+(5, -1)
+B
+.
+(-5, 1)
+C
+.
+(-1, 5)
+D
+.
+(1, -5)
+Question
+32
+Kwame is facing west. Through how many degrees should he turn anti-clockwise to face north?
+A
+.
+90°
+B
+.
+180°
+C
+.
+270°
+D
+.
+360°
+Question
+33
+Given that vectors
+u
+=
+(
+−
+3
+5
+​
+)
+and
+v
+=
+(
+2
+−
+3
+​
+)
+, calculate 2v - u.
+A
+.
+(
+1
+−
+11
+​
+)
+B
+.
+(
+−
+1
+−
+1
+​
+)
+C
+.
+(
+−
+7
+−
+11
+​
+)
+D
+.
+(
+7
+−
+11
+​
+)
+Question
+34
+What is the name of the figure above?
+A
+.
+Cuboid
+B
+.
+Kite
+C
+.
+Triangle
+D
+.
+Pyramid
+Question
+35
+Use the magic square below to answer the question:
+Find the value of F.
+A
+.
+14
+B
+.
+15
+C
+.
+18
+D
+.
+23
+Question
+36
+Find the value of E.
+A
+.
+14
+B
+.
+15
+C
+.
+18
+D
+.
+23
+Question
+37
+Evaluate E + G.
+A
+.
+29
+B
+.
+30
+C
+.
+33
+D
+.
+38
+Question
+38
+The hypotenuse and a side of a right-angled triangle are 13 cm and 5 cm respectively. Find the length of the third side.
+A
+.
+8 cm
+B
+.
+9 cm
+C
+.
+12 cm
+D
+.
+17 cm
+Question
+39
+Find the missing number in the sequence below:
+11, 16, 22, 29, -, 46, 56.
+A
+.
+30
+B
+.
+36
+C
+.
+37
+D
+.
+39
+Question
+40
+A hall which is 20 m long is represented on a diagram as 10 cm long. What is the scale of the diagram?
+A
+.
+1:200
+B
+.
+1:250
+C
+.
+1:400
+D
+.
+1:500

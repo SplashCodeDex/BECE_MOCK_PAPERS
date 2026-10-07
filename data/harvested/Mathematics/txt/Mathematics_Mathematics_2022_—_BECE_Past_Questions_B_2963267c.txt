@@ -1,0 +1,896 @@
+SOURCE URL: https://becezone.com/mathematics/2022/
+TITLE: Mathematics 2022 — BECE Past Questions | BECEzone
+SUBJECT: Mathematics
+============================================================
+
+Mathematics 2022 — BECE Past Questions | BECEzone
+Skip to content
+THE WEST AFRICAN EXAMINATIONS COUNCIL GHANA
+Basic Education Certificate Examination
+Mathematics
+2022
+OBJECTIVE TEST
+Objective Test
+Question
+1
+Express 108 as a product of prime factors.
+A
+.
+2
+2
+×
+3
+3
+B
+.
+2
+3
+×
+3
+2
+C
+.
+2
+×
+3
+4
+D
+.
+2
+3
+×
+3
+Question
+2
+A football match starts at 2.20 p.m. and lasts for 1 hour 50 minutes. At what time will the game end?
+A
+.
+3.10 p.m.
+B
+.
+4.10 p.m.
+C
+.
+5.10 p.m.
+D
+.
+6.10 p.m.
+Question
+3
+Which of the following is not a quadrilateral?
+A
+.
+Rhombus
+B
+.
+Parallelogram
+C
+.
+Rectangle
+D
+.
+Triangle
+Question
+4
+Solve: 5x - (7x - 3) ≤ 9.
+A
+.
+x ≥ -3
+B
+.
+x ≤ -3
+C
+.
+x ≥ -6
+D
+.
+x ≤ 3
+Question
+5
+Simplify
+1
+15
+1
+​
+÷
+2
+10
+1
+​
+A
+.
+2
+15
+1
+​
+B
+.
+63
+12
+​
+C
+.
+63
+25
+​
+D
+.
+7
+4
+​
+Question
+6
+Given that,
+P
+Q
+​
+=
+(
+−
+3
+8
+​
+)
+find,
+QP
+​
+.
+A
+.
+(
+−
+3
+−
+8
+​
+)
+B
+.
+(
+−
+8
+3
+​
+)
+C
+.
+(
+3
+−
+8
+​
+)
+D
+.
+(
+−
+3
+−
+8
+​
+)
+Question
+7
+The point S(4, 3) is reflected in the y-axis, Find the coordinates of the image of S.
+A
+.
+(-3,4)
+B
+.
+(4,-3)
+C
+.
+(3,-4)
+D
+.
+(-4,3)
+Question
+8
+Solve:
+(
+x
+−
+1
+)
+=
+2
+1
+​
+(
+x
++
+2
+)
+A
+.
+4
+B
+.
+1
+2
+1
+​
+C
+.
+1
+3
+1
+​
+D
+.
+0
+Question
+9
+The longest chord of a circle is the
+A
+.
+segment.
+B
+.
+sector.
+C
+.
+circumference.
+D
+.
+diameter.
+Question
+10
+Factorize completely
+x
+y
+−
+x
+m
+−
+m
+y
++
+m
+2
+A
+.
+(m-y)(x-m)
+B
+.
+(x-m)(y-m)
+C
+.
+(m-y)(m-x)
+D
+.
+(y-m)(m-x)
+Question
+11
+Given that P(3,-2) and Q(-2,4) are points in a plane, find the gradient of the line joining P to Q.
+A
+.
+−
+5
+(
+6
+)
+​
+B
+.
+5
+(
+6
+)
+​
+C
+.
+6
+(
+5
+)
+​
+D
+.
+−
+6
+(
+5
+)
+​
+Question
+12
+If
+100
+n
+​
+=
+10.5
+find the value of n.
+A
+.
+0.0105
+B
+.
+0.105
+C
+.
+105
+D
+.
+1050
+Question
+13
+The rule of mapping is x → 2x2 - 1. What number does x = 2 map to?
+A
+.
+9
+B
+.
+8
+C
+.
+7
+D
+.
+3
+Question
+14
+If
+x
+=
+2
+a
+b
+2
+−
+4
+a
+c
+​
+, find x when a = 2, b = -4 and c = -2.
+A
+.
+0
+B
+.
+8
+C
+.
+4
+D
+.
+16
+Question
+15
+Arrange the following fractions from the lowest to the highest:
+5
+3
+​
+,
+4
+1
+​
+,
+3
+2
+​
+A
+.
+4
+1
+​
+,
+5
+3
+​
+,
+3
+2
+​
+B
+.
+3
+2
+​
+,
+4
+1
+​
+,
+5
+3
+​
+C
+.
+3
+2
+​
+,
+5
+3
+​
+,
+4
+1
+​
+D
+.
+5
+3
+​
+,
+4
+1
+​
+,
+3
+2
+​
+Question
+16
+A shop is rented at GH₵ 9.00 per month. How much money is paid in 1½ years?
+A
+.
+GH₵ 162.00
+B
+.
+GH₵ 135.00
+C
+.
+GH₵ 6.00
+D
+.
+GH₵ 13.00
+Question
+17
+A certain number is subtracted from 12 and the result is multiplied by 3. If the answer is 21, find the number.
+A
+.
+6
+B
+.
+8
+C
+.
+5
+D
+.
+4
+Question
+18
+In the diagram, AB is parallel to DE, angle ABC = 81° and angle DCE = 20°.
+Use the information to answer the question below:
+What is the value of x?
+A
+.
+20°
+B
+.
+61°
+C
+.
+81°
+D
+.
+101°
+Question
+19
+Find the value of y.
+A
+.
+20°
+B
+.
+81°
+C
+.
+79°
+D
+.
+101°
+Question
+20
+Adjoa travelled 12km due north and 5km due east. How much far was she from her starting point?
+A
+.
+60km
+B
+.
+17km
+C
+.
+13km
+D
+.
+7km
+Question
+21
+Which of the following is the largest set?
+A
+.
+{Whole numbers}
+B
+.
+{Composite}
+C
+.
+{Natural numbers}
+D
+.
+{Integers}
+Question
+22
+Write 1930.54 in standard form.
+A
+.
+1.93054
+×
+1
+0
+3
+B
+.
+1.93054
+×
+1
+0
+−
+3
+C
+.
+1.93054
+×
+1
+0
+−
+2
+D
+.
+1.93054
+×
+1
+0
+2
+Question
+23
+Expand: (2a - b)(a - b)
+A
+.
+2
+a
+2
++
+3
+ab
+−
+b
+B
+.
+2
+a
+2
+−
+3
+ab
+−
+b
+2
+C
+.
+2
+a
+2
++
+3
+ab
++
+b
+D
+.
+2
+a
+2
+−
+3
+ab
++
+b
+2
+Question
+24
+The stem and leaf plot shows the weights (kg) of cocoa bags weighed in a week.
+Use the information to answer the question below:
+How many bags of cocoa were weighed in the week?
+A
+.
+35
+B
+.
+29
+C
+.
+6
+D
+.
+41
+Question
+25
+What is the median weight of the bags of cocoa?
+A
+.
+62 kg
+B
+.
+65 kg
+C
+.
+61 kg
+D
+.
+68 kg
+Question
+26
+What is the modal weight of the bags of cocoa?
+A
+.
+68 kg
+B
+.
+60 kg
+C
+.
+64 kg
+D
+.
+65 kg
+Question
+27
+If
+a
+=
+(
+−
+2
+−
+3
+​
+)
+and
+b
+=
+(
+−
+2
+3
+​
+)
+,
+f
+in
+d
+a
++
+b
+A
+.
+(
+0
+0
+​
+)
+B
+.
+(
+2
+3
+​
+)
+C
+.
+(
+4
+0
+​
+)
+D
+.
+(
+0
+6
+​
+)
+Question
+28
+For what value of x is 3x = 81?
+A
+.
+2
+B
+.
+27
+C
+.
+4
+D
+.
+9
+Question
+29
+Simplify: -15 - (-20) + (-10).
+A
+.
+-45
+B
+.
+-5
+C
+.
+-25
+D
+.
+5
+Question
+30
+Express
+8
+3
+​
+as a decimal fraction.
+A
+.
+0.429
+B
+.
+0.375
+C
+.
+0.365
+D
+.
+0.625
+Question
+31
+What is the length of the side of a square of area 225 cm²?
+A
+.
+15.00cm
+B
+.
+12.00cm
+C
+.
+11.25cm
+D
+.
+56.25cm
+Question
+32
+What is the probability that a number greater than 5 shows up when a die is thrown?
+A
+.
+5/6
+B
+.
+1/6
+C
+.
+2/3
+D
+.
+1/3
+Question
+33
+Given that 117(12+18) = 117(15+k), find the value of k
+A
+.
+15
+B
+.
+-15
+C
+.
+-30
+D
+.
+30
+Question
+34
+A mother has GH₵ 5.00 and gives each of her 3 children GH₵ 1.50 as pocket money. How much is left for her?
+A
+.
+GH₵ 3.50
+B
+.
+GH₵ 4.50
+C
+.
+GH₵ 0.15
+D
+.
+GH₵ 0.50
+Question
+35
+A car travels 36 kilometres in an hour. Find its speed in metres per second.
+A
+.
+10 m/s-1
+B
+.
+100 m/s-1
+C
+.
+20 m/s-1
+D
+.
+200 m/s-1
+Question
+36
+Peter had GH₵ 200.00 and spent GH₵ 83.00. What percentage of the money is left?
+A
+.
+29.06%
+B
+.
+70.94%
+C
+.
+58.50%
+D
+.
+41.50%
+Question
+37
+If a trader made a profit of 10% in selling a shirt for GH₵ 44.00, find the cost price
+A
+.
+GH₵ 39.60
+B
+.
+GH₵ 38.50
+C
+.
+GH₵ 48.40
+D
+.
+GH₵ 40.00
+Question
+38
+Express 15 : 12 in the form 1 : n.
+A
+.
+1 : 0.8
+B
+.
+1 : 12
+C
+.
+1 : 15
+D
+.
+1 : 1.2
+Question
+39
+The ratio of farmers to children in a village is 13 : 11. If there were 312 farmers in the village, how many children were there?
+A
+.
+264
+B
+.
+143
+C
+.
+48
+D
+.
+169
+Question
+40
+The volume of a cylinder is 40π cm³. If the height of the cylinder is 10 cm, find the base radius
+A
+.
+1 cm
+B
+.
+4 cm
+C
+.
+2 cm
+D
+.
+3 cm

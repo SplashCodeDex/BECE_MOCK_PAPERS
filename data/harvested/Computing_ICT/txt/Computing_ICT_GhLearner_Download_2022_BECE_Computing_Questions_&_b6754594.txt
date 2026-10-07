@@ -1,0 +1,570 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2022/paper-1
+TITLE: Download 2022 BECE Computing Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2022 BECE Computing Questions & Answers (PDF)
+1.
+[1]
+BECE 2022 · Paper 1
+Any hardware device connected to the system unit of a computer is referred to as
+A
+a processing device.
+B
+an input device.
+C
+an output device.
+D
+a peripheral device.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2022 · Paper 1
+Which of the following components has the characteristics of being volatile?
+A
+Random Access Memory
+B
+Flash disk
+C
+Hard disk
+D
+Read Only Memory
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2022 · Paper 1
+The webcam best feeds the computer with data in the form of
+A
+image.
+B
+number.
+C
+text
+D
+audio.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2022 · Paper 1
+The full meaning of the acronym DVD is
+A
+digital video device.
+B
+digital versatile drive.
+C
+digital video drive.
+D
+digital versatile disk.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2022 · Paper 1
+The print command can be issued from the
+A
+edit menu.
+B
+print menu.
+C
+format menu.
+D
+file menu.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2022 · Paper 1
+In a spreadsheet application, the ready mode on the status bar means it is ready to
+A
+accept data onto the worksheet.
+B
+display data on the worksheet.
+C
+calculate the values on the worksheet.
+D
+print the data on the worksheet.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2022 · Paper 1
+The rectangular - shaped viewing area of an application on the screen of a computer that the user works in is referred to as
+A
+computer desktop.
+B
+application window.
+C
+desktop icon.
+D
+graphical user interface.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2022 · Paper 1
+Generally main captions of documents are aligned using the
+A
+align left command.
+B
+justify command.
+C
+align right command.
+D
+center command.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2022 · Paper 1
+Which of the following menu options will take a user to the symbol dialog box in a Word processing application?
+A
+Format
+B
+Insert
+C
+Table
+D
+Tools
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2022 · Paper 1
+The following options are forms of exchange of information except
+A
+messaging.
+B
+e-mail.
+C
+fax.
+D
+software.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2022 · Paper 1
+Which of the following applications will help a user access information from the internet?
+A
+Word
+B
+Access
+C
+Explorer
+D
+Excel
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2022 · Paper 1
+The horizontal bar on top of a window that contains the window's name is called
+A
+vertical scroll bar.
+B
+menu bar.
+C
+horizontal scroll bar.
+D
+title bar.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2022 · Paper 1
+Information should be stored for users to
+A
+delete the file.
+B
+be able to format the data.
+C
+use it in the future.
+D
+process the data.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2022 · Paper 1
+The basic function of the computer mouse is for
+A
+scrolling, clicking and typing.
+B
+clicking, dragging and pointing.
+C
+clicking, typing and moving.
+D
+pointing, typing and dragging.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2022 · Paper 1
+Which of the following options can be used for titles or headings of a worksheet?
+A
+Formula
+B
+Number
+C
+Label
+D
+Value
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2022 · Paper 1
+The default location for saving a text file is
+A
+My documents folder.
+B
+My downloads folder.
+C
+My computer folder.
+D
+My pictures folder.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2022 · Paper 1
+An application window that displays a message for a response between a user and a software is called
+A
+dialog box.
+B
+message box.
+C
+application box.
+D
+window box.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2022 · Paper 1
+Which of the following bars can have its position changed on the desktop?
+A
+Scroll bar
+B
+Menu bar
+C
+Status bar
+D
+Title bar
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2022 · Paper 1
+Which of the following fingers is used to type the letter A during typing?
+A
+Left little finger
+B
+Right middle finder
+C
+Right index finger
+D
+Left index finger
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2022 · Paper 1
+To access information from a website, the user must enter the keywords in the
+A
+browser.
+B
+bookmark.
+C
+search box.
+D
+index page.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2022 · Paper 1
+Which of the following formatting styles is usually applied to a heading of a document?
+A
+Double underline
+B
+Underline
+C
+Italics
+D
+Strikethrough
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2022 · Paper 1
+In computing, raw or unprocessed text or fact is called
+A
+record.
+B
+information.
+C
+data.
+D
+file.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2022 · Paper 1
+A search engine is a type of a computer
+A
+virus.
+B
+software.
+C
+device.
+D
+system.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2022 · Paper 1
+Dragging a file into the recycle bin is the same as
+A
+copying the file.
+B
+pasting the file.
+C
+moving the file.
+D
+deleting the file.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2022 · Paper 1
+Which of the following items tend to attract heavy investment from most organizations?
+A
+Data
+B
+Information
+C
+Software
+D
+Programming
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2022 · Paper 1
+A computer that combines the features of analogue and digital functionalities is known as
+A
+hybrid computer.
+B
+special-purpose computer.
+C
+complex computer.
+D
+multipurpose computer.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2022 · Paper 1
+The process of clicking the left mouse button twice in quick succession on a particular word will
+A
+underline the word.
+B
+italicize the word.
+C
+select the word.
+D
+bold the word.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2022 · Paper 1
+Double-clicking in a Spreadsheet cell makes the cell
+A
+expand.
+B
+active.
+C
+inactive.
+D
+increase.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2022 · Paper 1
+To obtain a constant flow of power into a computer system, the user should use
+A
+voltage stabilizer.
+B
+uninterruptible power supply.
+C
+step-down transformer.
+D
+step-up transformer.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2022 · Paper 1
+The following options are pointing devices in computing except
+A
+touchpad.
+B
+stylus.
+C
+trackball.
+D
+mouse.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2022 · Paper 1
+The exclusive legal right that prohibits unauthorize use of intellectual property is referred to as
+A
+civil right.
+B
+legal right.
+C
+intellectual right.
+D
+copyright.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2022 · Paper 1
+Developers of computer virus can technically be referred to as computer
+A
+specialist.
+B
+users.
+C
+inventors.
+D
+programmers
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2022 · Paper 1
+The electronic application used for financial records is known as
+A
+accounts book.
+B
+grid lines.
+C
+presentation.
+D
+spreadsheet.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2022 · Paper 1
+Which of the following applications is suitable for delivering lessons to students?
+A
+Spreadsheet
+B
+Multimedia
+C
+Messaging
+D
+Word processor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2022 · Paper 1
+The feature of a webpage that allows a user to access frequently visited webpages or websites is referred to as
+A
+history.
+B
+view.
+C
+bookmark.
+D
+tools.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2022 · Paper 1
+The operating System function that enables computer users to do many activities at the same time is known as
+A
+multiprocessing.
+B
+multiprogramming.
+C
+multitasking.
+D
+multiactivity.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2022 · Paper 1
+The arrow cursor is basically used to open
+A
+a hyperlink.
+B
+an application.
+C
+a folder.
+D
+a browser.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2022 · Paper 1
+The term virus as used in computing is a
+A
+software that distorts information in the computer.
+B
+program located on the hard disk drive.
+C
+software that detects missing computer file.
+D
+program that loads when the computer boots.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2022 · Paper 1
+In computing, 8 bits can technically be called a
+A
+Word.
+B
+Byte.
+C
+Bit.
+D
+Nibble.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2022 · Paper 1
+In a Word processing application, header and footer facility can be accessed from the
+A
+view menu.
+B
+tools menu.
+C
+format menu.
+D
+insert menu.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

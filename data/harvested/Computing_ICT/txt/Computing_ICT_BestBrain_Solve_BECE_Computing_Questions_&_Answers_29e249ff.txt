@@ -1,0 +1,721 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/best-brain-feb-2026-computing
+TITLE: Solve BECE Computing Questions & Answers - Best Brain Feb 2026
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Best Brain Feb 2026
+1.
+[1]
+BECE mock · Computing
+In an Excel spreadsheet, column A contains the names of students, and column B is the grades (A, B, C, etc.). Which formula would count the number of students who scored an A?
+A
+=COUNT(A:A, "B")
+B
+=COUNTIF(A:A, "A")
+C
+=COUNTIF(B:B, "A")
+D
+=COUNTIF(A:B, "A")
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+Mixed Reality is a technology that
+A
+blends the real world with the virtual world.
+B
+makes real things look unreal.
+C
+mixes virtual things look real.
+D
+mixes the physical world with the non-physical world.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+Pressing individual key + R opens the
+A
+review dialog box.
+B
+Explorer dialog box.
+C
+references dialog box.
+D
+run dialog box.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+A conceptual framework used to understand and implement network protocols in seven distinct layers is termed as
+A
+subnet.
+B
+intranet.
+C
+OSI model.
+D
+IP address.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+The OSI model layer associated with HTTP is the
+A
+Network Layer.
+B
+Application Layer.
+C
+Physical Layer.
+D
+Micro Layer.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+An assignment statement is a line of code that is used to
+A
+combine variables.
+B
+hold data values.
+C
+assign a value to a variable.
+D
+sort data.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+A machine, programmable by a computer and capable of carrying out complex tasks automatically is called a
+A
+superman.
+B
+robot.
+C
+turbo.
+D
+gemini.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+Best Brain Konsortium wants exclusive ownership over its exam questions and to prevent unauthorized reproduction. The company reserves this right under the
+A
+Copyright Code.
+B
+Provincial Law.
+C
+Property Right.
+D
+Law of Ownership.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+The image above is a
+A
+QR code.
+B
+Number code.
+C
+barcode.
+D
+line code.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+What device is capable of reading the data in the above image?
+A
+Barcode sensor
+B
+Biometric scanner
+C
+Digital scanner
+D
+Barcode scanner
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+Patterns in large datasets are recognized with the use of
+A
+virtual reality.
+B
+augmented reality.
+C
+gamification.
+D
+machine learning.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+Which feature in Microsoft Word allows the user to locate a text in a document?
+A
+Search
+B
+Find
+C
+Select
+D
+Help
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+Which of the following is not a standard Optical Disc?
+A
+CD-R
+B
+CDRW
+C
+DVD-WR
+D
+CD-ROM
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+The keyboard shortcut used to switch between running apps in Windows 10 is
+A
+Ctrl + shift
+B
+Alt + Ctrl
+C
+Ctrl + Tab
+D
+Alt + Tab
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+When machines become smart and are able to solve a task intelligently like humans, it is termed
+A
+machine intelligence.
+B
+natural intelligence.
+C
+artificial intelligence.
+D
+virtual intelligence.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+A node in a computer network is called
+A
+routing.
+B
+versioning.
+C
+OSI model.
+D
+Artificial Intelligence.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+Artificial Intelligence algorithms are used in autonomous vehicles to
+A
+write software code.
+B
+analyze social media data.
+C
+steering cars and avoiding obstacles.
+D
+process financial transactions.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+The step-by-step approach used in solving specific problem is
+A
+sequencing.
+B
+deletion.
+C
+algorithm.
+D
+iteration.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+Convert 15 into binary.
+A
+11112
+B
+11102
+C
+10112
+D
+10102
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+The robotic component that allows the robot to interact with its environment such as movement and manipulation are
+A
+actuators.
+B
+sensors.
+C
+microchip.
+D
+controller.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+In querying an expert system, IF- THEN control structure
+A
+provides information on the use of the system.
+B
+specifies the reason for querying the system.
+C
+provides information about the user of the system.
+D
+specifies condition and action to be taken when the condition is met.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+Which of the following is not among the 7 - layers of the OSI model?
+A
+Network
+B
+Transport
+C
+Presentation
+D
+Security
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+The feature in a word processing application that allows you to copy and apply formatting to text within the document is called
+A
+font effects.
+B
+format painter.
+C
+clipboard.
+D
+Typogrophy.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+Ensuring that only authorized people are allowed access to confidential data is
+A
+encryption
+B
+verification
+C
+authentication
+D
+Integrity
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+Which of the following is not a programming language?
+A
+Java
+B
+Piya
+C
+C++
+D
+Python
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+In a spreadsheet a group of adjacent cells, often containing similar data is called a
+A
+table.
+B
+range.
+C
+column.
+D
+row.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+One disadvantage associated with cloud computing is
+A
+limited storage capacity.
+B
+requiring internet connection.
+C
+high hardware cost.
+D
+limited accessibility.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+The barcode scanner is convenient in the supermarket to help salespersons in
+A
+doing mobile transactions.
+B
+saving contacts details.
+C
+price verification.
+D
+printing invoices and receipts
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+The purpose of using a firewall in a computer network is to
+A
+speed up the internet connection.
+B
+protect the network from any form of unauthorized access.
+C
+store backup data.
+D
+monitor system performance.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+Which memory stores the BIOS settings in a computer?
+A
+RAM
+B
+Cache
+C
+ROM
+D
+HDD
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+Finding and correcting errors in a software code is
+A
+editing.
+B
+executing.
+C
+debugging.
+D
+testing.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+The diagram below is an illustration of a
+A
+QR Code.
+B
+barcode.
+C
+biometric code.
+D
+internet code.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+Which device is typically used by delivery personnel to confirm deliveries?
+A
+GPS navigation device
+B
+Fitness tracker
+C
+Smartphone
+D
+Drone
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+Which of the following is commonly used for transactions in cryptocurrency?
+A
+Mobile Money
+B
+PayPal
+C
+Credit Cards
+D
+Bitcoin
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+Computers are classified into different generations based on
+A
+shape.
+B
+weight.
+C
+size.
+D
+technology.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Computing
+Layer 1 of the OSI model can be associated with
+A
+networking cable.
+B
+hypertext transfer protocol.
+C
+internet protocol
+D
+processor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Computing
+What is the benefit of using an IDE for software development?
+A
+It makes the code run faster
+B
+It automatically generates code without manual input
+C
+It provides a unified environment for coding, testing and debugging
+D
+It eliminates the need for code documentation
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Computing
+The shortcut Ctrl + /- is used to
+A
+add or remove screen colour.
+B
+increase or reduce screen brightness.
+C
+zoom the active screen in or out.
+D
+increase or decrease font size.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Computing
+Which of the following is not a benefit of e-commerce?
+A
+Convenience
+B
+Low prices
+C
+Limited product variety
+D
+Accessibility
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Computing
+In computing, the number 192.168.1.1 is
+A
+IP address
+B
+Network ID
+C
+BIOS version
+D
+OS version
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[2]
+BECE mock · Computing
+A diagram shows this process: Connect external drive → Select file to back up → Paste files onto external drive. Identify the process illustrated in the diagram.
+42.
+[2]
+BECE mock · Computing
+A diagram shows this process: Connect external drive → Select file to back up → Paste files onto external drive. Which MS Word graphic tool is most suitable for representing this process?
+43.
+[2]
+BECE mock · Computing
+A diagram shows this process: Connect external drive → Select file to back up → Paste files onto external drive. Explain why the MS Word graphic tool used for this process is recommended.
+44.
+[5]
+BECE mock · Computing
+A diagram shows this process: Connect external drive → Select file to back up → Paste files onto external drive. Write the steps for creating this process in MS Word using the most suitable graphic tool.
+45.
+[2]
+BECE mock · Computing
+Study the code extract shown. What command is the code written to execute?
+46.
+[3]
+BECE mock · Computing
+Study the code extract shown. Name three programs that can successfully read the code.
+47.
+[2]
+BECE mock · Computing
+Draw the standard flowchart symbol used for a decision.
+48.
+[2]
+BECE mock · Computing
+Draw the standard flowchart symbol used for a process.
+49.
+[2]
+BECE mock · Computing
+Draw the standard flowchart symbol used for input/output.
+50.
+[2]
+BECE mock · Computing
+Draw the standard flowchart symbols for the following in computer programming.
+51.
+[2]
+BECE mock · Computing
+State two differences between strong AI and weak AI.
+52.
+[3]
+BECE mock · Computing
+Complete the MS PowerPoint shape-formatting table by matching each tool to its correct function from this list: Arrange, Outline Color, Shape Fill, Rotate, Text Alignment, Group Shapes.
+53.
+[2]
+BECE mock · Computing
+Explain the difference between network topology and network attached storage.
+54.
+[2]
+BECE mock · Computing
+Distinguish between a peer-to-peer network and a client-server network.
+55.
+[3]
+BECE mock · Computing
+Give three reasons for setting up computer networks.
+56.
+[1]
+BECE mock · Computing
+A spreadsheet shows experiment data. Write a formula for cell D8 to find the average volume change using the SUM function.
+57.
+[1]
+BECE mock · Computing
+A spreadsheet shows experiment data. Write a formula for cell D8 to find the average volume change using the AVERAGE function.
+58.
+[3]
+BECE mock · Computing
+Outline three features of flash memory storage systems.
+59.
+[1]
+BECE mock · Computing
+State the use of the Insert ribbon in Microsoft PowerPoint.
+60.
+[3]
+BECE mock · Computing
+List four elements that can be added to a slide using the Insert ribbon in Microsoft PowerPoint.
+61.
+[2]
+BECE mock · Computing
+Name the labelled parts of this web address:
+62.
+[2]
+BECE mock · Computing
+Counters are widely used in automated systems to keep track of the number of available resources or to ensure that certain conditions are met. State four applications of counters in automated systems.
+63.
+[1]
+BECE mock · Computing
+What are virtual learning environments?
+64.
+[2]
+BECE mock · Computing
+Name four open learning sites usually used in virtual learning environments.
+65.
+[3]
+BECE mock · Computing
+State three ways of caring for optical discs.
+66.
+[2]
+BECE mock · Computing
+Explain the difference between text editing and text formatting.
+67.
+[4]
+BECE mock · Computing
+Classify the following tools under text editing or text formatting: Sort, Thesaurus, Spellchecker, Indent, Bullet, Align.
+68.
+[1]
+BECE mock · Computing
+Describe the operation of splitting a cell in an MS Word table.
+69.
+[1]
+BECE mock · Computing
+Describe the operation of merging a cell in an MS Word table.
+70.
+[1]
+BECE mock · Computing
+Describe the operation of shading a cell in an MS Word table.
+71.
+[1]
+BECE mock · Computing
+Describe the operation of applying a border in an MS Word table.
+72.
+[1]
+BECE mock · Computing
+What is data breach?
+73.
+[1]
+BECE mock · Computing
+List two examples of non-physical data threats.
+74.
+[1]
+BECE mock · Computing
+Explain the contextual tab in Microsoft PowerPoint.
+75.
+[2]
+BECE mock · Computing
+List four contextual tabs available in Microsoft PowerPoint.
+76.
+[3]
+BECE mock · Computing
+Write the steps used to adjust the system time on a Windows 10 computer.
+77.
+[2]
+BECE mock · Computing
+State two differences between an algorithm and a programming language.
+78.
+[2]
+BECE mock · Computing
+Write the following acronyms in full: ANN, RFID, WLAN, PAN.
+More Computing
+All Computing papers & mocks
+Computing topics

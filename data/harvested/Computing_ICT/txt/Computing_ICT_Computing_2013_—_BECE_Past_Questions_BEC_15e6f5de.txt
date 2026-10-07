@@ -1,0 +1,778 @@
+SOURCE URL: https://becezone.com/computing/2013/
+TITLE: Computing 2013 — BECE Past Questions | BECEzone
+SUBJECT: Computing_ICT
+============================================================
+
+Computing 2013 — BECE Past Questions | BECEzone
+Skip to content
+THE WEST AFRICAN EXAMINATIONS COUNCIL GHANA
+Basic Education Certificate Examination
+Computing
+2013
+OBJECTIVE TEST
+Objective Test
+Question
+1
+The flat panel screen is also known as
+A
+.
+CRT
+B
+.
+LCD
+C
+.
+OCR
+D
+.
+VCD
+Question
+2
+The device that the computer uses to keep data is
+A
+.
+input device
+B
+.
+output device
+C
+.
+processing device
+D
+.
+storage device
+Question
+3
+The first key on the computer keyboard is
+A
+.
+Caps Lock
+B
+.
+Delete
+C
+.
+Enter
+D
+.
+Esc
+Question
+4
+In which of the following are the storage devices arranged on the basis of lowest to the highest capacity?
+A
+.
+CD, DVD, Floppy Disk and Hard Disk
+B
+.
+Floppy Disk, Hard Disk, DVD and CD
+C
+.
+Floppy Disk, CD, DVD and Hard Disk
+D
+.
+Floppy Disk, DVD, CD and Hard Disk
+Question
+5
+A pen drive
+A
+.
+inputs information
+B
+.
+puts out information
+C
+.
+retrieves information
+D
+.
+stores information
+Question
+6
+The main storage medium within the system unit of the computer is the
+A
+.
+CD-ROM
+B
+.
+FDD
+C
+.
+HDD
+D
+.
+USB
+Question
+7
+To boot a computer is the same as to
+A
+.
+shut down the computer
+B
+.
+restart the computer
+C
+.
+start the computer
+D
+.
+stop the computer
+Question
+8
+On which bar is the system clock located?
+A
+.
+Menu bar
+B
+.
+Scrollbar
+C
+.
+Task bar
+D
+.
+Toolbar
+Question
+9
+The command button used to exit windows application is the
+A
+.
+close button
+B
+.
+maximize button
+C
+.
+minimize button
+D
+.
+restore button
+Question
+10
+An example of an operating system is
+A
+.
+CALC
+B
+.
+DISK
+C
+.
+DOS
+D
+.
+WORD
+Question
+11
+To copy a file means to
+A
+.
+cut the file from the desktop
+B
+.
+delete the file into recycle bin
+C
+.
+make a duplicate of the file
+D
+.
+remove the file from a folder
+Question
+12
+Programs that perform specific tasks for users are referred to as
+A
+.
+application software
+B
+.
+computer software
+C
+.
+operating software
+D
+.
+system software
+Question
+13
+A group of files are stored in a
+A
+.
+folder
+B
+.
+graphic
+C
+.
+text
+D
+.
+word
+Question
+14
+The operation whereby the computer manipulates data to produce information is known as
+A
+.
+capturing
+B
+.
+processing
+C
+.
+recording
+D
+.
+retrieving
+Question
+15
+Which of the following emits radiation?
+A
+.
+Hard disk
+B
+.
+Keyboard
+C
+.
+Mobile phone
+D
+.
+Speaker
+Question
+16
+The legal right that does not allow people to copy intellectual property without the permission of the original owner is called ..............
+A
+.
+copyright
+B
+.
+freeware
+C
+.
+piracy
+D
+.
+privacy
+Question
+17
+Software that presents lessons in a movie-like manner is referred to as ...........
+A
+.
+multiplicity
+B
+.
+multimedia
+C
+.
+multipurpose
+D
+.
+multitasking
+Question
+18
+The symbols B, I, U are commonly used buttons found on the .............
+A
+.
+drawing toolbar
+B
+.
+formatting toolbar
+C
+.
+menu toolbar
+D
+.
+standard toolbar
+Question
+19
+Right-clicking a mouse on an open window..........
+A
+.
+creates a new document
+B
+.
+opens a file menu
+C
+.
+opens a new window
+D
+.
+opens a context menu if available
+Question
+20
+Which of the following computer keyboard keys is used to delete characters from left to right on-screen?
+A
+.
+alternate
+B
+.
+backspace
+C
+.
+delete
+D
+.
+shift
+Question
+21
+Which of the following computer keys allows the user to type upper case letters?
+A
+.
+Alternate key
+B
+.
+Control key
+C
+.
+Caps Lock key
+D
+.
+Num Lock key
+Question
+22
+Which of the following keys is used for multiple selection of the text that are not continuous?
+A
+.
+Alt
+B
+.
+Ctrl
+C
+.
+Del
+D
+.
+Shift
+Question
+23
+When a user clicks within a selected text by holding down the left mouse button, and then transfers the cursor to a different location within the same document, the text will be
+A
+.
+cut
+B
+.
+moved
+C
+.
+copied
+D
+.
+deleted
+Question
+24
+Which of the following menu titles contains the bullets and numbering command?
+A
+.
+edit menu
+B
+.
+file menu
+C
+.
+format menu
+D
+.
+insert menu
+Question
+25
+In order to apply bold formatting to a section of existing text, the user must first...........
+A
+.
+click on the formatting button
+B
+.
+click the shortcut mouse button
+C
+.
+save the document
+D
+.
+select the section to be formatted
+Question
+26
+The save command is found under which of the following menu buttons?
+A
+.
+edit
+B
+.
+file
+C
+.
+insert
+D
+.
+tools
+Question
+27
+Which of the following command buttons is found on the standard toolbar?
+A
+.
+bold
+B
+.
+bullets
+C
+.
+redo
+D
+.
+undo
+Question
+28
+When a text automatically moves to the next line at the end of a margin in a word processing program, it is referred to as ...............
+A
+.
+text wrap
+B
+.
+word wrap
+C
+.
+text movement
+D
+.
+word movement
+Question
+29
+Which of the following is a tool on the drawing toolbar?
+A
+.
+arrows
+B
+.
+change case
+C
+.
+drop cap
+D
+.
+text direction
+Question
+30
+A rectangle can be drawn in a word processing application using the
+A
+.
+arrow
+B
+.
+circle
+C
+.
+oval
+D
+.
+square
+Question
+31
+The device which is used to produce hard copies from personal computers in schools is
+A
+.
+photocopier
+B
+.
+monitor
+C
+.
+printer
+D
+.
+scanner
+Question
+32
+A computer program that enables users to surf the internet is known as .............
+A
+.
+internet explore
+B
+.
+navigator
+C
+.
+web browser
+D
+.
+internet tool
+Question
+33
+Word processing is used mainly by
+A
+.
+accountants
+B
+.
+artists
+C
+.
+engineers
+D
+.
+secretaries
+Question
+34
+Which of the following devices will enable users to get access to the internet connection?
+A
+.
+keyboard
+B
+.
+modem
+C
+.
+projector
+D
+.
+scanner
+Question
+35
+Transferring data from a remote computer to a local computer is referred to as ..........
+A
+.
+downloading
+B
+.
+link down
+C
+.
+uploading
+D
+.
+link up
+Question
+36
+Specialized programs that assist users to locate information on the internet are called
+A
+.
+agents
+B
+.
+internet browsers
+C
+.
+search engines
+D
+.
+web
+Question
+37
+Which of the following refers to unsolicited e-mails in the form of advertising and chain letters?
+A
+.
+flaming
+B
+.
+inbox
+C
+.
+spam
+D
+.
+web
+Question
+38
+The software responsible for management of the basic operations of the computer is the
+A
+.
+application program
+B
+.
+device drivers
+C
+.
+operating system
+D
+.
+utility program
+Question
+39
+On which of the following toolbars is the print preview button located?
+A
+.
+drawing
+B
+.
+formatting
+C
+.
+header and footer
+D
+.
+standard
+Question
+40
+The intersection of the 8th row and the 7th column in a spreadsheet application will have the cell reference ....
+A
+.
+8G
+B
+.
+G8
+C
+.
+7H
+D
+.
+H7
+THEORY
+ESSAY
+Answer all of Question 1
+Question
+1
+(a) ABC Supermarket has acquired an application to generate cash receipts for goods
+            purchased by its customers as shown in the diagram below.
+            The amount for each item is obtained by multiplying the unit price and quantityof goods
+            purchased. The subtotal is a summation of the amounts obtained for all purchased items.
+            The tax payable is computed at the rate of 10% of the subtotal.
+            The total amount to be paid is the summation of the subtotal and the tax payable on
+            purchased items. 
+
+            Using the diagram below, answer the questions that follow
+(i)
+
+ 
+            Name the application program used in creating the document above. 
+
+            
+            (ii)
+            
+             
+            Identify the part labelled I, II and III. 
+
+            
+            (iii)
+            
+             
+            Provide the formula used in calculating the following cells 
+
+            
+            D2  
+
+            
+            D5  
+
+            
+            D6  
+
+
+            use the diagram below to answer the following questions
+(i)
+          
+           
+          Identify the diagram above. 
+
+          
+          (ii)
+          
+           
+          Name the parts labelled A, B, C, D and E 
+
+          
+          (iii)
+          
+           
+          State one function each of the parts labelled B and C in the diagram in (b). 
+
+          
+          (c)
+          
+           
+          State one function of the diagram identified in (b)(i).
+Question
+2
+(a)
+  
+   
+  State two positive uses and two negative uses of the internet. 
+
+  
+  (b)
+  
+   
+  List four storage media.
+Question
+3
+(a)
+
+ 
+          Explain communication as used in the computer industry. 
+
+          
+          (b)
+          
+           
+          Video conferencing refers to: 
+
+          
+          (c)
+          
+           
+          List two devices associated with video conferencing. 
+
+          
+          (d)
+          
+           
+          State four media for sending and receiving information.
+Question
+4
+(a)
+
+ 
+          In word processing  application, when is it appropriate to use: 
+
+          
+          (i)
+          
+           
+          copy-and-paste; 
+
+          
+          (ii)
+          
+           
+          cut-and-paste; 
+
+          
+          (b)
+          
+           
+          (i)
+          
+           
+          What is a font? 
+
+          
+          (ii)
+          
+           
+          List three font styles
+Question
+5
+(a)
+
+ 
+            What is: 
+
+            
+            (i)
+            
+             
+            Motherboard; 
+
+            
+            (ii)
+            
+             
+            Ergonomics; 
+
+            
+            (iii)
+            
+             
+            Menu bar. 
+
+            
+            (b)
+            
+             
+            What is copyright used for?
+Answer three Questions only from this section
+Questions for this section are in the printed paper.
