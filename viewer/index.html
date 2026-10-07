@@ -442,7 +442,10 @@
             }).join('');
         }
 
-        function renderQuestions() {
+        let questionsLimit = 50;
+
+        function renderQuestions(resetLimit = true) {
+            if (resetLimit) questionsLimit = 50;
             const container = document.getElementById('questionsContainer');
             const filtered = questionsData.filter(q => {
                 const matchSubj = (currentSubject === 'ALL') || (q.subject === currentSubject);
@@ -451,18 +454,22 @@
                     matchType = q.paper_type === 'Paper 1 - Objective';
                 } else if (currentPaperType === 'Paper 2 - Theory') {
                     matchType = q.paper_type === 'Paper 2 - Theory';
+                } else if (currentPaperType === 'SCHEME') {
+                    matchType = q.paper_type.includes('Marking') || q.paper_type.includes('Solution');
                 }
                 const matchSearch = !searchQuery || q.question_text.toLowerCase().includes(searchQuery);
                 return matchSubj && matchType && matchSearch;
             });
 
-            container.innerHTML = filtered.map((q, idx) => {
+            const sliced = filtered.slice(0, questionsLimit);
+            let html = sliced.map((q, idx) => {
                 const isP2 = q.paper_type === 'Paper 2 - Theory';
+                const isScheme = q.paper_type.includes('Marking') || q.paper_type.includes('Solution');
                 const hasOpts = q.option_a || q.option_b;
                 return `
                 <div class="q-card">
                     <div class="q-header">
-                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; <span style="font-weight:600;color:${isP2 ? '#b45309' : '#0284c7'};">${q.paper_type}</span> &bull; Question ${q.question_number || (idx + 1)}</span>
+                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; <span style="font-weight:600;color:${isScheme ? '#166534' : (isP2 ? '#b45309' : '#0284c7')};">${q.paper_type}</span> &bull; Question ${q.question_number || (idx + 1)}</span>
                         <span>Source: ${q.source_file}</span>
                     </div>
                     <div class="q-text" style="white-space: pre-line;">${q.question_text}</div>
@@ -477,6 +484,21 @@
                     ${q.correct_answer ? `<div style="font-size:13px;color:var(--tag-comp-text);font-weight:600;">Answer Key: Option ${q.correct_answer}</div>` : ''}
                 </div>`;
             }).join('');
+
+            if (filtered.length > questionsLimit) {
+                html += `
+                <div style="text-align: center; margin: 24px 0;">
+                    <button onclick="loadMoreQuestions()" class="pill-btn active" style="padding: 12px 28px; font-size: 14px; cursor: pointer;">
+                        Load More Questions (Showing ${sliced.length} of ${filtered.length})
+                    </button>
+                </div>`;
+            }
+            container.innerHTML = html;
+        }
+
+        function loadMoreQuestions() {
+            questionsLimit += 50;
+            renderQuestions(false);
         }
 
         window.onload = init;
