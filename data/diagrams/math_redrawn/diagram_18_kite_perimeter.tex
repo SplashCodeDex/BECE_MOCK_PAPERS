@@ -1,0 +1,23 @@
+\documentclass[tikz,border=15pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.2]
+    % Kite vertices
+    \coordinate (Left) at (-2.6, 0);
+    \coordinate (Top) at (-0.6, 1.8);
+    \coordinate (Bottom) at (-0.6, -1.8);
+    \coordinate (Right) at (4.4, 0);
+    
+    % Draw kite perimeter with sloped labels embedded in the draw path
+    \draw[line width=1.4pt] 
+        (Left) -- node[above=5pt, font=\Large\sffamily\bfseries, sloped] {16 cm} 
+        (Top) -- node[above=5pt, font=\Large\sffamily\bfseries, sloped] {22 cm} 
+        (Right) -- (Bottom) -- cycle;
+    
+    % Subtitle
+    \node[below=14pt, font=\large\sffamily\bfseries] at (0.9, -1.8) {NOT DRAWN TO SCALE};
+    
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,28 @@
+\documentclass[tikz,border=12pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.2]
+    % Universal set rectangle
+    \draw[line width=1.5pt] (-3.4, -2.0) rectangle (3.4, 1.8);
+    
+    % Universal set label above top right in bold sans-serif / math
+    \node[above=3pt, font=\Large\sffamily\bfseries] at (2.4, 1.8) {\boldmath$\mu = 40$};
+    
+    % Two overlapping ellipses
+    \draw[line width=1.3pt] (-1.1, -0.1) ellipse (2.0cm and 1.25cm);
+    \draw[line width=1.3pt] (1.1, -0.1) ellipse (2.0cm and 1.25cm);
+    
+    % Set labels inside top corners of rectangle
+    \node[font=\Large\sffamily\bfseries] at (-2.8, 1.3) {Ga};
+    \node[font=\Large\sffamily\bfseries] at (2.6, 1.3) {Twi};
+    
+    % Regional counts in clean bold sans-serif
+    \node[font=\huge\sffamily\bfseries] at (-1.7, -0.1) {11};
+    \node[font=\huge\sffamily\bfseries] at (0, -0.1) {17};
+    \node[font=\huge\sffamily\bfseries] at (1.7, -0.1) {7};
+    \node[font=\huge\sffamily\bfseries] at (2.7, -1.4) {5};
+    
+\end{tikzpicture}
+\end{document}

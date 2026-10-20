@@ -1,0 +1,23 @@
+\documentclass[tikz,border=12pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows.meta}
+
+\begin{document}
+\begin{tikzpicture}[>=Stealth, scale=1.2]
+    % Number line
+    \draw[thick, <->] (-6.8, 0) -- (0.8, 0);
+    
+    % Ticks and labels
+    \foreach \x in {-6,-5,-4,-3,-2,-1,0} {
+        \draw[thick] (\x, 0.15) -- (\x, -0.15) node[below=3pt, font=\small] {$\x$};
+    }
+    
+    % Ray for x <= -3
+    % Vertical stem from -3 up to height 0.9
+    \draw[very thick] (-3, 0) -- (-3, 0.9);
+    % Solid filled dot at (-3, 0.9)
+    \filldraw[black] (-3, 0.9) circle (3.2pt);
+    % Arrow pointing left
+    \draw[very thick, ->] (-3, 0.9) -- (-6.6, 0.9);
+\end{tikzpicture}
+\end{document}

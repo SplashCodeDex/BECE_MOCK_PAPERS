@@ -1,0 +1,38 @@
+\documentclass[tikz,border=12pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows.meta,calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.2]
+    \pgfmathsetmacro{\ang}{32}
+    \pgfmathsetmacro{\ytop}{2.3}
+    \pgfmathsetmacro{\xtop}{\ytop / tan(\ang)}
+    
+    \coordinate (Ibot) at (0, 0);
+    \coordinate (Itop) at (\xtop, \ytop);
+    
+    % Horizontal parallel lines
+    \draw[thick] (-3.4, \ytop) node[left=3pt, font=\large\sffamily\bfseries] {L} -- (4.4, \ytop) node[right=3pt, font=\large\sffamily\bfseries] {M};
+    \draw[thick] (-3.4, 0) node[left=3pt, font=\large\sffamily\bfseries] {P} -- (4.4, 0) node[right=3pt, font=\large\sffamily\bfseries] {Q};
+    
+    % Parallel indicator arrows
+    \draw[-{Latex[length=3.2mm, width=2.2mm]}] (1.7, \ytop) -- (1.95, \ytop);
+    \draw[-{Latex[length=3.2mm, width=2.2mm]}] (1.7, 0) -- (1.95, 0);
+    
+    % Transversal line extending symmetrically
+    \draw[thick] ($(Ibot) - ({1.3*cos(\ang)}, {1.3*sin(\ang)})$) -- ($(Itop) + ({1.3*cos(\ang)}, {1.3*sin(\ang)})$);
+    
+    % Arc for 148 degrees (obtuse angle at Ibot, from ang to 180)
+    \draw[semithick] ($(Ibot) + (\ang:0.85)$) arc (\ang:180:0.85);
+    \node[font=\bfseries] at (-0.45, 0.32) {$148^\circ$};
+    
+    % Arc for u (acute angle at Ibot, from 0 to ang)
+    \draw[semithick] ($(Ibot) + (0:0.5)$) arc (0:\ang:0.5);
+    \node[font=\large\itshape] at (0.60, 0.17) {$u$};
+    
+    % Arc for v (alternate interior angle under line LM, from 180 to 180+ang = 212)
+    \draw[semithick] ($(Itop) + (180:0.6)$) arc (180:{180+\ang}:0.6);
+    \node[font=\large\itshape] at ({\xtop - 0.38}, {\ytop - 0.12}) {$v$};
+    
+\end{tikzpicture}
+\end{document}
