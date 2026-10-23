@@ -1,0 +1,947 @@
+{
+  "source_file": "user_mock_0201026-27_Mathematics_2026_photos",
+  "year": 2026,
+  "stats": {
+    "extracted": 64,
+    "canonical_new": 62,
+    "canonical_dupes": 2,
+    "occurrences": 64
+  },
+  "by_indicator": {
+    "B9.1.1.1.1": [
+      {
+        "ref": "P2_Q1a",
+        "paper": "P2",
+        "text": "(a) Convert the following and express your answers in standard form: (i) 31 days"
+      }
+    ],
+    "B9.1.4.1.2": [
+      {
+        "ref": "P2_Q1b",
+        "paper": "P2",
+        "text": "(b) Fred earns GH₵ 2500 a month after tax and Eben earns three times as much. Ho"
+      },
+      {
+        "ref": "P2_Q3a",
+        "paper": "P2",
+        "text": "(a) In a day, Mark earns GH₵ 8.25 per hour working for 8 hours. He also earns ov"
+      }
+    ],
+    "B9.4.1.2.2": [
+      {
+        "ref": "P2_Q1c",
+        "paper": "P2",
+        "text": "(c) The following set of data were collected from an interview: 2, 3, (4m − 3), "
+      },
+      {
+        "ref": "P2_Q2b",
+        "paper": "P2",
+        "text": "(b) The mean height of 28 students in a class is 162 cm. A new girl, whose heigh"
+      },
+      {
+        "ref": "P2_Q2d",
+        "paper": "P2",
+        "text": "(d) The table below shows the number of marbles students sent to class for a Mat"
+      },
+      {
+        "ref": "P1_Q7",
+        "paper": "P1",
+        "text": "The mean of the numbers 5, 8, 4, 7 and 2x is 6. Find x."
+      },
+      {
+        "ref": "P1_Q28",
+        "paper": "P1",
+        "text": "The mean of ten numbers is 58. One of the numbers is 40. What is the mean of the"
+      }
+    ],
+    "B9.4.1.1.2": [
+      {
+        "ref": "P2_Q1d",
+        "paper": "P2",
+        "text": "(d) The following are the marks obtained by 20 students in a class examination: "
+      },
+      {
+        "ref": "P2_Q4a",
+        "paper": "P2",
+        "text": "(a) The numbers of pupils in a primary school is given in the table below. Class"
+      }
+    ],
+    "B9.1.3.1.1": [
+      {
+        "ref": "P2_Q2a",
+        "paper": "P2",
+        "text": "(a) (i) Amina had 2½ litres of water and drank 1/3 litres of it. How many litres"
+      },
+      {
+        "ref": "P1_Q12",
+        "paper": "P1",
+        "text": "If n/100 = 10.5, find the value of n."
+      },
+      {
+        "ref": "P1_Q26",
+        "paper": "P1",
+        "text": "Order the fractions 3/8, 1/2, 5/16 from the smallest to the largest."
+      }
+    ],
+    "B9.1.2.1.1": [
+      {
+        "ref": "P2_Q2c",
+        "paper": "P2",
+        "text": "(c) (i) Find x if (−3)^(x−2) = −243. (ii) The water consumption pattern of a com"
+      },
+      {
+        "ref": "P1_Q9",
+        "paper": "P1",
+        "text": "Which of the following is not equivalent to 3 × 3 × 3 × 3 × 3 × 3?"
+      },
+      {
+        "ref": "P1_Q33",
+        "paper": "P1",
+        "text": "The population growth of a given town is given by 2^(2m) where m is in years. Fi"
+      }
+    ],
+    "B9.3.1.1.2": [
+      {
+        "ref": "P2_Q3b",
+        "paper": "P2",
+        "text": "(b) Triangle QPR is a right-angled triangle with the right angle at R. QR = 6 cm"
+      }
+    ],
+    "B9.2.3.1.2": [
+      {
+        "ref": "P2_Q3c",
+        "paper": "P2",
+        "text": "(c) Find the truth set of 6 ≥ 2 − 3x and represent your result on the number lin"
+      }
+    ],
+    "B9.3.2.1.2": [
+      {
+        "ref": "P2_Q3d",
+        "paper": "P2",
+        "text": "(d) Find the area of a semi-circle whose radius is 7 cm. [Take π = 22/7]"
+      },
+      {
+        "ref": "P1_Q5",
+        "paper": "P1",
+        "text": "If the area of a circle is 64π, what is the circumference of the circle?"
+      }
+    ],
+    "B9.2.1.1.1": [
+      {
+        "ref": "P2_Q4b",
+        "paper": "P2",
+        "text": "(b) A straight line has a gradient of 7 and passes through the point P(−2, −3). "
+      }
+    ],
+    "B9.1.3.1.2": [
+      {
+        "ref": "P2_Q4c",
+        "paper": "P2",
+        "text": "(c) Evaluate 2/3 × 1/4 + 2/5 ÷ 14/15"
+      }
+    ],
+    "B9.2.2.1.4": [
+      {
+        "ref": "P2_Q4d",
+        "paper": "P2",
+        "text": "(d) The distance from village A to village B is (x + 2) km and the distance from"
+      },
+      {
+        "ref": "P2_Q6a",
+        "paper": "P2",
+        "text": "(a) Find the area of the shaded region in the figure below. A large rectangle ha"
+      },
+      {
+        "ref": "P2_Q6c",
+        "paper": "P2",
+        "text": "(c) Simplify (25x^(-4)) / (5^(-3) × 10x × t^(-8))"
+      },
+      {
+        "ref": "P1_Q16",
+        "paper": "P1",
+        "text": "Sam has 5xy toffees and Joe has 20xy toffees. How many more toffees has Joe?"
+      },
+      {
+        "ref": "P1_Q17",
+        "paper": "P1",
+        "text": "Which of the following could be used to find x in the diagram below? A rectangle"
+      },
+      {
+        "ref": "P1_Q19",
+        "paper": "P1",
+        "text": "Mina is x years old now. How old will she be in 10 + y years?"
+      }
+    ],
+    "B9.4.2.1.1": [
+      {
+        "ref": "P2_Q5a",
+        "paper": "P2",
+        "text": "(a) In a pen bag, 5 are red, 3 are blue and 2 are green. (i) What is the probabi"
+      }
+    ],
+    "B9.1.2.2.2": [
+      {
+        "ref": "P2_Q5b",
+        "paper": "P2",
+        "text": "(b) Asamoah left Takoradi at 11:13 am and got to Tema at 3:08 pm. How long did t"
+      },
+      {
+        "ref": "P1_Q3",
+        "paper": "P1",
+        "text": "A football match starts at 1:20 pm and lasts for 1 hour 50 minutes. At what time"
+      }
+    ],
+    "B9.1.4.1.3": [
+      {
+        "ref": "P2_Q5c",
+        "paper": "P2",
+        "text": "(c) If a water pump delivers 20 gallons of water per minute and Kofi can only af"
+      },
+      {
+        "ref": "P1_Q6",
+        "paper": "P1",
+        "text": "9 men can complete a piece of work in 51 days. In how many days will 17 men of t"
+      },
+      {
+        "ref": "P1_Q23",
+        "paper": "P1",
+        "text": "A van travels 154 km in 1¾ hours. Find its speed in km/h."
+      }
+    ],
+    "B9.1.1.2.2": [
+      {
+        "ref": "P2_Q5d",
+        "paper": "P2",
+        "text": "(d) In a market of 36 fishmongers, 28 sell mackerel, 18 sell tilapia and 13 of t"
+      }
+    ],
+    "B9.2.3.1.1": [
+      {
+        "ref": "P2_Q6b",
+        "paper": "P2",
+        "text": "(b) Solve 4/(3x) = 7 − 3/x"
+      },
+      {
+        "ref": "P1_Q2",
+        "paper": "P1",
+        "text": "Solve the inequality: 2x + 1 > 9."
+      },
+      {
+        "ref": "P1_Q18",
+        "paper": "P1",
+        "text": "Find the solution set of the inequality 5 − 5(3 − y) ≤ 65, if y is one of the fi"
+      },
+      {
+        "ref": "P1_Q25",
+        "paper": "P1",
+        "text": "If 13x − 12 = 5x + 60, find x."
+      },
+      {
+        "ref": "P1_Q39",
+        "paper": "P1",
+        "text": "Solve for x in the equation 15 − 2x = 6."
+      }
+    ],
+    "B9.3.2.2.2": [
+      {
+        "ref": "P2_Q6d",
+        "paper": "P2",
+        "text": "(d) a = (−4, p) and b = (q, 1). Given a + b = (−1, −8), find the value of p and "
+      },
+      {
+        "ref": "P1_Q21",
+        "paper": "P1",
+        "text": "If vector AB = (3, 5) and vector AC = (−4, 5), find vector BC."
+      }
+    ],
+    "B9.1.2.2.1": [
+      {
+        "ref": "P1_Q1",
+        "paper": "P1",
+        "text": "Find the value of 124.3 + 0.275 + 74.06, correct to one decimal place."
+      },
+      {
+        "ref": "P1_Q14",
+        "paper": "P1",
+        "text": "Evaluate: (0.07 × 0.02) ÷ 14"
+      },
+      {
+        "ref": "P1_Q32",
+        "paper": "P1",
+        "text": "A fly weighs 0.1 kg. How much would 112 flies weigh combined?"
+      }
+    ],
+    "B9.2.3.1.3": [
+      {
+        "ref": "P1_Q4",
+        "paper": "P1",
+        "text": "The sum of three consecutive odd integers is 33. Find the numbers."
+      },
+      {
+        "ref": "P1_Q8",
+        "paper": "P1",
+        "text": "Kojo's age in the next 10 years will be 4 times his age 5 years ago. How old is "
+      }
+    ],
+    "B9.2.2.1.2": [
+      {
+        "ref": "P1_Q10",
+        "paper": "P1",
+        "text": "Find the value of 12x + 9q when x = 11 and q = 3."
+      },
+      {
+        "ref": "P1_Q29",
+        "paper": "P1",
+        "text": "The population of pigs in a certain farm is 5(2x − 3), where x is in months. Fin"
+      }
+    ],
+    "B9.3.1.2.1": [
+      {
+        "ref": "P1_Q11",
+        "paper": "P1",
+        "text": "What is the locus of points that are a fixed distance from a given point?"
+      }
+    ],
+    "B9.3.2.1.4": [
+      {
+        "ref": "P1_Q13",
+        "paper": "P1",
+        "text": "A is the point with coordinates (2, 3). If vector AB = (5, −4), find the coordin"
+      },
+      {
+        "ref": "P1_Q38",
+        "paper": "P1",
+        "text": "Given that P = (3x − 6, 2y + 5), R = (9, 7) and P = R, find the values of x and "
+      }
+    ],
+    "B9.1.1.2.1": [
+      {
+        "ref": "P1_Q15",
+        "paper": "P1",
+        "text": "Which of the following sets is the largest?"
+      }
+    ],
+    "B9.1.4.1.4": [
+      {
+        "ref": "P1_Q20",
+        "paper": "P1",
+        "text": "A line passes through (1, 2) and (4, y). What is the value of y if the gradient "
+      },
+      {
+        "ref": "P1_Q35",
+        "paper": "P1",
+        "text": "The graph below represents the heights a walker reached during a long trail. Whi"
+      },
+      {
+        "ref": "P1_Q36",
+        "paper": "P1",
+        "text": "The graph below represents the heights a walker reached during a long trail. Whi"
+      },
+      {
+        "ref": "P1_Q37",
+        "paper": "P1",
+        "text": "The graph below represents the heights a walker reached during a long trail. In "
+      }
+    ],
+    "B9.1.4.1.1": [
+      {
+        "ref": "P1_Q22",
+        "paper": "P1",
+        "text": "A line passes through points (2, 6) and (4, 12). Find the constant of proportion"
+      }
+    ],
+    "B9.3.2.1.1": [
+      {
+        "ref": "P1_Q24",
+        "paper": "P1",
+        "text": "A hall which is 20 m long is represented on a diagram as 10 cm long. What is the"
+      }
+    ],
+    "B9.3.1.1.1": [
+      {
+        "ref": "P1_Q27",
+        "paper": "P1",
+        "text": "In the triangle below, XY = YZ and angle XYZ = 42°. Find angle YXZ."
+      },
+      {
+        "ref": "P1_Q30",
+        "paper": "P1",
+        "text": "Angle MON and angle PMO are"
+      },
+      {
+        "ref": "P1_Q31",
+        "paper": "P1",
+        "text": "Find the angle MON."
+      }
+    ],
+    "B9.4.1.1.1": [
+      {
+        "ref": "P1_Q34",
+        "paper": "P1",
+        "text": "Which of the following is an example of numerical data?"
+      }
+    ],
+    "B9.1.2.1.4": [
+      {
+        "ref": "P1_Q40",
+        "paper": "P1",
+        "text": "A baker has 12 identical cakes. In how many different ways can he divide them up"
+      }
+    ]
+  },
+  "paper2": [
+    {
+      "qid": "P2_Q1a",
+      "question_number": 1,
+      "text": "(a) Convert the following and express your answers in standard form: (i) 31 days into minutes; (ii) 6 hours into seconds.",
+      "indicator_code": "B9.1.1.1.1"
+    },
+    {
+      "qid": "P2_Q1b",
+      "question_number": 2,
+      "text": "(b) Fred earns GH₵ 2500 a month after tax and Eben earns three times as much. How much is their total income after five years if there are no increases in their earnings?",
+      "indicator_code": "B9.1.4.1.2"
+    },
+    {
+      "qid": "P2_Q1c",
+      "question_number": 3,
+      "text": "(c) The following set of data were collected from an interview: 2, 3, (4m − 3), (3m + 1), 11, 13. If the median in ascending order is 6, find the value of m.",
+      "indicator_code": "B9.4.1.2.2"
+    },
+    {
+      "qid": "P2_Q1d",
+      "question_number": 4,
+      "text": "(d) The following are the marks obtained by 20 students in a class examination: 68, 42, 63, 57, 66, 54, 72, 58, 57, 73, 61, 54, 63, 45, 38, 40, 57, 58, 56, 48. (i) Arrange the marks above on a stem-and-leaf plot in ascending order. (ii) What is the mode? (iii) Determine the median.",
+      "indicator_code": "B9.4.1.1.2"
+    },
+    {
+      "qid": "P2_Q2a",
+      "question_number": 5,
+      "text": "(a) (i) Amina had 2½ litres of water and drank 1/3 litres of it. How many litres of water is she left with? (ii) Find 0.893 × 14.7, correct to 4 decimal places.",
+      "indicator_code": "B9.1.3.1.1"
+    },
+    {
+      "qid": "P2_Q2b",
+      "question_number": 6,
+      "text": "(b) The mean height of 28 students in a class is 162 cm. A new girl, whose height is 149 cm, joins the class. What is the new mean height of the class now?",
+      "indicator_code": "B9.4.1.2.2"
+    },
+    {
+      "qid": "P2_Q2c",
+      "question_number": 7,
+      "text": "(c) (i) Find x if (−3)^(x−2) = −243. (ii) The water consumption pattern of a community is given by 11^(4x−3). If x is in months, find correct to 4 significant figures, the total consumption after 2 months.",
+      "indicator_code": "B9.1.2.1.1"
+    },
+    {
+      "qid": "P2_Q2d",
+      "question_number": 8,
+      "text": "(d) The table below shows the number of marbles students sent to class for a Mathematics lesson. Number of marbles (x): 1, 2, 3, 4, 5, 6. Number of students (f): 4, 5, —, 9, —, 2. f(x): —, —, 42, —, 30, 12. (i) Copy and complete the table. (ii) How many students were in the class? (iii) How many marbles were brought altogether? (iv) What is the highest number of marbles brought by a student?",
+      "indicator_code": "B9.4.1.2.2"
+    },
+    {
+      "qid": "P2_Q3a",
+      "question_number": 9,
+      "text": "(a) In a day, Mark earns GH₵ 8.25 per hour working for 8 hours. He also earns overtime pay, which is 1½ times his regular rate of GH₵ 8.25 for 4 hours. How much pay does he earn altogether in a day?",
+      "indicator_code": "B9.1.4.1.2"
+    },
+    {
+      "qid": "P2_Q3b",
+      "question_number": 10,
+      "text": "(b) Triangle QPR is a right-angled triangle with the right angle at R. QR = 6 cm and PR = 8 cm. The angle at Q is θ. Find (i) |PQ| (ii) tan θ.",
+      "indicator_code": "B9.3.1.1.2"
+    },
+    {
+      "qid": "P2_Q3c",
+      "question_number": 11,
+      "text": "(c) Find the truth set of 6 ≥ 2 − 3x and represent your result on the number line.",
+      "indicator_code": "B9.2.3.1.2"
+    },
+    {
+      "qid": "P2_Q3d",
+      "question_number": 12,
+      "text": "(d) Find the area of a semi-circle whose radius is 7 cm. [Take π = 22/7]",
+      "indicator_code": "B9.3.2.1.2"
+    },
+    {
+      "qid": "P2_Q4a",
+      "question_number": 13,
+      "text": "(a) The numbers of pupils in a primary school is given in the table below. Class One: 35, Two: 45, Three: 24, Four: 33, Five: 23, Six: 20. (i) Draw a pie chart for the data. (ii) What fraction of the pupils are in primary two? (iii) Calculate the percentage of pupils in primary three, four and five altogether, correct to 2 decimal places.",
+      "indicator_code": "B9.4.1.1.2"
+    },
+    {
+      "qid": "P2_Q4b",
+      "question_number": 14,
+      "text": "(b) A straight line has a gradient of 7 and passes through the point P(−2, −3). Find (i) the equation of the line; (ii) the value of k if the point R(k, 4) lies on the line.",
+      "indicator_code": "B9.2.1.1.1"
+    },
+    {
+      "qid": "P2_Q4c",
+      "question_number": 15,
+      "text": "(c) Evaluate 2/3 × 1/4 + 2/5 ÷ 14/15",
+      "indicator_code": "B9.1.3.1.2"
+    },
+    {
+      "qid": "P2_Q4d",
+      "question_number": 16,
+      "text": "(d) The distance from village A to village B is (x + 2) km and the distance from village C to village D is (2x + 1) km. If these distances represent the length and breadth of a rectangular route around the villages, and the total perimeter of the route is 48 km, calculate the value of x.",
+      "indicator_code": "B9.2.2.1.4"
+    },
+    {
+      "qid": "P2_Q5a",
+      "question_number": 17,
+      "text": "(a) In a pen bag, 5 are red, 3 are blue and 2 are green. (i) What is the probability of picking a red pen? (ii) Express the probability of picking a blue pen as a (α) decimal; (β) percentage; (γ) ratio. (iii) If 2 pens are picked in succession without replacement, what is the probability that both are green?",
+      "indicator_code": "B9.4.2.1.1"
+    },
+    {
+      "qid": "P2_Q5b",
+      "question_number": 18,
+      "text": "(b) Asamoah left Takoradi at 11:13 am and got to Tema at 3:08 pm. How long did the journey take?",
+      "indicator_code": "B9.1.2.2.2"
+    },
+    {
+      "qid": "P2_Q5c",
+      "question_number": 19,
+      "text": "(c) If a water pump delivers 20 gallons of water per minute and Kofi can only afford half an hour cost of pumping water to a polytank, how many gallons of water will be pumped into the tank?",
+      "indicator_code": "B9.1.4.1.3"
+    },
+    {
+      "qid": "P2_Q5d",
+      "question_number": 20,
+      "text": "(d) In a market of 36 fishmongers, 28 sell mackerel, 18 sell tilapia and 13 of them sell both. (i) Represent this information on a Venn diagram. (ii) How many in the market are not selling any of the two fishes?",
+      "indicator_code": "B9.1.1.2.2"
+    },
+    {
+      "qid": "P2_Q6a",
+      "question_number": 21,
+      "text": "(a) Find the area of the shaded region in the figure below. A large rectangle has length (5x + 8) and width (6x + 2). Inside it is a smaller unshaded rectangle with length (x + 6) and width (5x).",
+      "indicator_code": "B9.2.2.1.4"
+    },
+    {
+      "qid": "P2_Q6b",
+      "question_number": 22,
+      "text": "(b) Solve 4/(3x) = 7 − 3/x",
+      "indicator_code": "B9.2.3.1.1"
+    },
+    {
+      "qid": "P2_Q6c",
+      "question_number": 23,
+      "text": "(c) Simplify (25x^(-4)) / (5^(-3) × 10x × t^(-8))",
+      "indicator_code": "B9.2.2.1.4"
+    },
+    {
+      "qid": "P2_Q6d",
+      "question_number": 24,
+      "text": "(d) a = (−4, p) and b = (q, 1). Given a + b = (−1, −8), find the value of p and q.",
+      "indicator_code": "B9.3.2.2.2"
+    }
+  ],
+  "paper1": [
+    {
+      "question_number": 1,
+      "text": "Find the value of 124.3 + 0.275 + 74.06, correct to one decimal place.",
+      "option_a": "198.6",
+      "option_b": "198.7",
+      "option_c": "892.0",
+      "option_d": "892.4",
+      "correct_answer": "A",
+      "indicator_code": "B9.1.2.2.1"
+    },
+    {
+      "question_number": 2,
+      "text": "Solve the inequality: 2x + 1 > 9.",
+      "option_a": "x > 3",
+      "option_b": "x > 4",
+      "option_c": "x > 2",
+      "option_d": "x > 1",
+      "correct_answer": "B",
+      "indicator_code": "B9.2.3.1.1"
+    },
+    {
+      "question_number": 3,
+      "text": "A football match starts at 1:20 pm and lasts for 1 hour 50 minutes. At what time will the match end?",
+      "option_a": "4:10 pm",
+      "option_b": "5:10 pm",
+      "option_c": "3:10 pm",
+      "option_d": "6:10 pm",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.2.2.2"
+    },
+    {
+      "question_number": 4,
+      "text": "The sum of three consecutive odd integers is 33. Find the numbers.",
+      "option_a": "9, 11 and 13",
+      "option_b": "7, 9 and 11",
+      "option_c": "11, 13 and 15",
+      "option_d": "13, 15 and 17",
+      "correct_answer": "A",
+      "indicator_code": "B9.2.3.1.3"
+    },
+    {
+      "question_number": 5,
+      "text": "If the area of a circle is 64π, what is the circumference of the circle?",
+      "option_a": "8π",
+      "option_b": "16π",
+      "option_c": "32π",
+      "option_d": "64π",
+      "correct_answer": "B",
+      "indicator_code": "B9.3.2.1.2"
+    },
+    {
+      "question_number": 6,
+      "text": "9 men can complete a piece of work in 51 days. In how many days will 17 men of the same strength finish the same work?",
+      "option_a": "29 days",
+      "option_b": "31 days",
+      "option_c": "27 days",
+      "option_d": "37 days",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.4.1.3"
+    },
+    {
+      "question_number": 7,
+      "text": "The mean of the numbers 5, 8, 4, 7 and 2x is 6. Find x.",
+      "option_a": "6",
+      "option_b": "4",
+      "option_c": "3",
+      "option_d": "2",
+      "correct_answer": "C",
+      "indicator_code": "B9.4.1.2.2"
+    },
+    {
+      "question_number": 8,
+      "text": "Kojo's age in the next 10 years will be 4 times his age 5 years ago. How old is Kojo now?",
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "10",
+      "option_d": "15",
+      "correct_answer": "D",
+      "indicator_code": "B9.2.3.1.3"
+    },
+    {
+      "question_number": 9,
+      "text": "Which of the following is not equivalent to 3 × 3 × 3 × 3 × 3 × 3?",
+      "option_a": "3^6",
+      "option_b": "18",
+      "option_c": "9^3",
+      "option_d": "729",
+      "correct_answer": "B",
+      "indicator_code": "B9.1.2.1.1"
+    },
+    {
+      "question_number": 10,
+      "text": "Find the value of 12x + 9q when x = 11 and q = 3.",
+      "option_a": "148",
+      "option_b": "159",
+      "option_c": "168",
+      "option_d": "172",
+      "correct_answer": "C",
+      "indicator_code": "B9.2.2.1.2"
+    },
+    {
+      "question_number": 11,
+      "text": "What is the locus of points that are a fixed distance from a given point?",
+      "option_a": "A straight line",
+      "option_b": "A circle",
+      "option_c": "An arc",
+      "option_d": "A rectangle",
+      "correct_answer": "B",
+      "indicator_code": "B9.3.1.2.1"
+    },
+    {
+      "question_number": 12,
+      "text": "If n/100 = 10.5, find the value of n.",
+      "option_a": "0.0105",
+      "option_b": "0.105",
+      "option_c": "1050",
+      "option_d": "105",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.3.1.1"
+    },
+    {
+      "question_number": 13,
+      "text": "A is the point with coordinates (2, 3). If vector AB = (5, −4), find the coordinates of B.",
+      "option_a": "(7, −1)",
+      "option_b": "(−3, 7)",
+      "option_c": "(3, −7)",
+      "option_d": "(5, 4)",
+      "correct_answer": "A",
+      "indicator_code": "B9.3.2.1.4"
+    },
+    {
+      "question_number": 14,
+      "text": "Evaluate: (0.07 × 0.02) ÷ 14",
+      "option_a": "0.01",
+      "option_b": "0.001",
+      "option_c": "0.0001",
+      "option_d": "0.011",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.2.2.1"
+    },
+    {
+      "question_number": 15,
+      "text": "Which of the following sets is the largest?",
+      "option_a": "{whole numbers}",
+      "option_b": "{composite numbers}",
+      "option_c": "{natural numbers}",
+      "option_d": "{integers}",
+      "correct_answer": "D",
+      "indicator_code": "B9.1.1.2.1"
+    },
+    {
+      "question_number": 16,
+      "text": "Sam has 5xy toffees and Joe has 20xy toffees. How many more toffees has Joe?",
+      "option_a": "15xy",
+      "option_b": "15x",
+      "option_c": "15y",
+      "option_d": "4xy",
+      "correct_answer": "A",
+      "indicator_code": "B9.2.2.1.4"
+    },
+    {
+      "question_number": 17,
+      "text": "Which of the following could be used to find x in the diagram below? A rectangle has total length 9.7 cm along the top. The bottom edge is made of three parts: 2.1 cm, x cm and 3.4 cm.",
+      "option_a": "Add 2.1 and 3.4, then subtract the sum from 9.7",
+      "option_b": "Add 9.7 and 3.4, then subtract 2.1 from the sum",
+      "option_c": "Subtract 2.1 from 3.4, then subtract the difference from 9.7",
+      "option_d": "Subtract 3.4 from 9.7, then add 2.1 to the difference",
+      "correct_answer": "A",
+      "indicator_code": "B9.2.2.1.4",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 18,
+      "text": "Find the solution set of the inequality 5 − 5(3 − y) ≤ 65, if y is one of the first 6 multiples of 5.",
+      "option_a": "{y: y = 5, 10, 15}",
+      "option_b": "{y: y = 5, 10}",
+      "option_c": "{y: y = 5, 10, 15, 20}",
+      "option_d": "{y: y = 5, 10, 15, 20, 25, 30}",
+      "correct_answer": "C",
+      "indicator_code": "B9.2.3.1.1"
+    },
+    {
+      "question_number": 19,
+      "text": "Mina is x years old now. How old will she be in 10 + y years?",
+      "option_a": "(x − 10 + y) years",
+      "option_b": "(x − 10 − y) years",
+      "option_c": "(x + 10 + y) years",
+      "option_d": "(x + 10 − y) years",
+      "correct_answer": "C",
+      "indicator_code": "B9.2.2.1.4"
+    },
+    {
+      "question_number": 20,
+      "text": "A line passes through (1, 2) and (4, y). What is the value of y if the gradient is −2?",
+      "option_a": "4",
+      "option_b": "−2",
+      "option_c": "0",
+      "option_d": "−4",
+      "correct_answer": "D",
+      "indicator_code": "B9.1.4.1.4"
+    },
+    {
+      "question_number": 21,
+      "text": "If vector AB = (3, 5) and vector AC = (−4, 5), find vector BC.",
+      "option_a": "(7, 10)",
+      "option_b": "(−7, −10)",
+      "option_c": "(7, −10)",
+      "option_d": "(−7, 0)",
+      "correct_answer": "D",
+      "indicator_code": "B9.3.2.2.2"
+    },
+    {
+      "question_number": 22,
+      "text": "A line passes through points (2, 6) and (4, 12). Find the constant of proportionality.",
+      "option_a": "1",
+      "option_b": "2",
+      "option_c": "3",
+      "option_d": "6",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.4.1.1"
+    },
+    {
+      "question_number": 23,
+      "text": "A van travels 154 km in 1¾ hours. Find its speed in km/h.",
+      "option_a": "77 km/h",
+      "option_b": "88 km/h",
+      "option_c": "100 km/h",
+      "option_d": "269 km/h",
+      "correct_answer": "B",
+      "indicator_code": "B9.1.4.1.3"
+    },
+    {
+      "question_number": 24,
+      "text": "A hall which is 20 m long is represented on a diagram as 10 cm long. What is the scale of the diagram?",
+      "option_a": "1:200",
+      "option_b": "1:250",
+      "option_c": "1:400",
+      "option_d": "1:500",
+      "correct_answer": "A",
+      "indicator_code": "B9.3.2.1.1"
+    },
+    {
+      "question_number": 25,
+      "text": "If 13x − 12 = 5x + 60, find x.",
+      "option_a": "−9",
+      "option_b": "−6",
+      "option_c": "9",
+      "option_d": "6",
+      "correct_answer": "C",
+      "indicator_code": "B9.2.3.1.1"
+    },
+    {
+      "question_number": 26,
+      "text": "Order the fractions 3/8, 1/2, 5/16 from the smallest to the largest.",
+      "option_a": "3/8 < 1/2 < 5/16",
+      "option_b": "1/2 < 3/8 < 5/16",
+      "option_c": "5/16 < 3/8 < 1/2",
+      "option_d": "1/2 < 5/16 < 3/8",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.3.1.1"
+    },
+    {
+      "question_number": 27,
+      "text": "In the triangle below, XY = YZ and angle XYZ = 42°. Find angle YXZ.",
+      "option_a": "138°",
+      "option_b": "59°",
+      "option_c": "42°",
+      "option_d": "69°",
+      "correct_answer": "B",
+      "indicator_code": "B9.3.1.1.1",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 28,
+      "text": "The mean of ten numbers is 58. One of the numbers is 40. What is the mean of the other nine?",
+      "option_a": "54",
+      "option_b": "56",
+      "option_c": "58",
+      "option_d": "60",
+      "correct_answer": "D",
+      "indicator_code": "B9.4.1.2.2"
+    },
+    {
+      "question_number": 29,
+      "text": "The population of pigs in a certain farm is 5(2x − 3), where x is in months. Find the population of the pigs in the farm after 4 months.",
+      "option_a": "52",
+      "option_b": "25",
+      "option_c": "30",
+      "option_d": "15",
+      "correct_answer": "B",
+      "indicator_code": "B9.2.2.1.2"
+    },
+    {
+      "question_number": 30,
+      "text": "Angle MON and angle PMO are",
+      "option_a": "vertically opposite angles",
+      "option_b": "alternate angles",
+      "option_c": "corresponding angles",
+      "option_d": "adjacent angles",
+      "correct_answer": "B",
+      "indicator_code": "B9.3.1.1.1",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 31,
+      "text": "Find the angle MON.",
+      "option_a": "48°",
+      "option_b": "52°",
+      "option_c": "58°",
+      "option_d": "65°",
+      "correct_answer": "B",
+      "indicator_code": "B9.3.1.1.1",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 32,
+      "text": "A fly weighs 0.1 kg. How much would 112 flies weigh combined?",
+      "option_a": "1.12 kg",
+      "option_b": "112 kg",
+      "option_c": "11.2 kg",
+      "option_d": "0.112 kg",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.2.2.1"
+    },
+    {
+      "question_number": 33,
+      "text": "The population growth of a given town is given by 2^(2m) where m is in years. Find the time needed for the population to be 4^14.",
+      "option_a": "7",
+      "option_b": "21",
+      "option_c": "14",
+      "option_d": "28",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.2.1.1"
+    },
+    {
+      "question_number": 34,
+      "text": "Which of the following is an example of numerical data?",
+      "option_a": "Eye color",
+      "option_b": "Height in metres",
+      "option_c": "Type of car",
+      "option_d": "Favourite food",
+      "correct_answer": "B",
+      "indicator_code": "B9.4.1.1.1"
+    },
+    {
+      "question_number": 35,
+      "text": "The graph below represents the heights a walker reached during a long trail. Which section of the graph shows the steepest positive gradient?",
+      "option_a": "Section A",
+      "option_b": "Section B",
+      "option_c": "Section H",
+      "option_d": "Section F",
+      "correct_answer": "B",
+      "indicator_code": "B9.1.4.1.4",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 36,
+      "text": "The graph below represents the heights a walker reached during a long trail. Which section of the graph shows the shallowest positive gradient?",
+      "option_a": "Section A",
+      "option_b": "Section B",
+      "option_c": "Section F",
+      "option_d": "Section G",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.4.1.4",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 37,
+      "text": "The graph below represents the heights a walker reached during a long trail. In which section of the graph is the gradient zero?",
+      "option_a": "Section A",
+      "option_b": "Section B",
+      "option_c": "Section D",
+      "option_d": "Section E",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.4.1.4",
+      "has_diagram": 1
+    },
+    {
+      "question_number": 38,
+      "text": "Given that P = (3x − 6, 2y + 5), R = (9, 7) and P = R, find the values of x and y.",
+      "option_a": "x = 1 and y = 5",
+      "option_b": "x = −5 and y = −1",
+      "option_c": "x = 5 and y = 1",
+      "option_d": "x = −1 and y = 5",
+      "correct_answer": "C",
+      "indicator_code": "B9.3.2.1.4"
+    },
+    {
+      "question_number": 39,
+      "text": "Solve for x in the equation 15 − 2x = 6.",
+      "option_a": "−10.5",
+      "option_b": "−4.5",
+      "option_c": "4.5",
+      "option_d": "10.5",
+      "correct_answer": "C",
+      "indicator_code": "B9.2.3.1.1"
+    },
+    {
+      "question_number": 40,
+      "text": "A baker has 12 identical cakes. In how many different ways can he divide them up into equal packets?",
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "7",
+      "correct_answer": "C",
+      "indicator_code": "B9.1.2.1.4"
+    }
+  ]
+}

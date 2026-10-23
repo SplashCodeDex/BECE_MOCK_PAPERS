@@ -107,8 +107,8 @@ class DownloadPipeline:
             # Calculate SHA-256 Hash
             sha256 = hashlib.sha256(content).hexdigest()
 
-            # Deduplication Check
-            if self.db.is_hash_seen(sha256):
+            # Deduplication / permanent reject ledger (survives local file deletion)
+            if self.db.is_content_known(sha256):
                 self.db.record_url_visited(url, 200)
                 return None
 
@@ -118,6 +118,26 @@ class DownloadPipeline:
                 extension=extension,
                 text_context=f"{url} {context_text}"
             )
+
+            # Tombstone non-exam junk so it is never fetched again after delete
+            reject_reason = FileClassifier.reject_reason(
+                content=content,
+                extension=extension,
+                text_context=f"{url} {context_text}",
+                subject=subject,
+            )
+            if reject_reason:
+                self.db.record_rejected_content(
+                    sha256=sha256,
+                    reason=reject_reason,
+                    original_url=url,
+                    file_name=Path(parsed.path).name or "",
+                    file_type=extension,
+                    details=f"subject={subject}; {context_text[:180]}",
+                )
+                self.db.record_url_visited(url, 200)
+                logger.debug(f"Rejected content {sha256[:12]} ({reject_reason}) from {url}")
+                return None
 
             # Extract raw file name
             raw_filename = Path(parsed.path).name or f"document{extension}"
@@ -187,7 +207,18 @@ class DownloadPipeline:
             return None
 
         sha256 = hashlib.sha256(main_text.encode("utf-8")).hexdigest()
-        if self.db.is_hash_seen(sha256):
+        if self.db.is_content_known(sha256):
+            return None
+
+        if not FileClassifier.looks_like_exam_content(main_text):
+            self.db.record_rejected_content(
+                sha256=sha256,
+                reason="no_exam_signals",
+                original_url=url,
+                file_name=title or "",
+                file_type=".txt",
+                details="HTML article without exam signals",
+            )
             return None
 
         subject = FileClassifier.detect_subject(f"{url} {title} {context_text} {main_text[:2000]}")

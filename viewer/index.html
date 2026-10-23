@@ -315,6 +315,9 @@
                 <button class="pill-btn" onclick="setPaperType('Paper 1 - Objective', event)">Paper 1 (Objective)</button>
                 <button class="pill-btn" onclick="setPaperType('Paper 2 - Theory', event)">Paper 2 (Theory / Essay)</button>
                 <button class="pill-btn" onclick="setPaperType('SCHEME', event)">Marking Schemes Only</button>
+                <select id="indicatorSelect" onchange="setIndicator(this.value)" style="padding: 8px 14px; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); font-family: inherit; font-size: 13px; color: var(--accent);">
+                    <option value="ALL">All NaCCA Indicators (B7–B9)</option>
+                </select>
             </div>
         </div>
 
@@ -330,8 +333,10 @@
     <script>
         let papersData = [];
         let questionsData = [];
+        let indicatorsData = [];
         let currentSubject = 'ALL';
         let currentPaperType = 'ALL';
+        let currentIndicator = 'ALL';
         let searchQuery = '';
         let activeTab = 'library';
 
@@ -351,13 +356,25 @@
             }
 
             try {
+                const resInd = await fetch('/api/indicators');
+                if (resInd.ok) {
+                    const indJson = await resInd.json();
+                    indicatorsData = indJson.indicators || [];
+                    populateIndicatorDropdown();
+                }
+            } catch(e) {
+                // Static file mode fallback
+            }
+
+            try {
                 const resQuestions = await fetch('../data/extracted_questions/questions_bank.json');
                 questionsData = await resQuestions.json();
                 if (questionsData.length) {
-                    const p1 = questionsData.filter(q => q.paper_type === 'Paper 1 - Objective').length;
-                    const p2 = questionsData.filter(q => q.paper_type === 'Paper 2 - Theory').length;
+                    const p1 = questionsData.filter(q => (q.paper_type || '').includes('Paper 1')).length;
+                    const p2 = questionsData.filter(q => (q.paper_type || '').includes('Paper 2')).length;
                     document.getElementById('statQuestions').textContent = questionsData.length;
-                    document.getElementById('tabCbtBtn').textContent = `Question Bank (${questionsData.length} Questions: ${p1} P1 &bull; ${p2} P2)`;
+                    document.getElementById('tabCbtBtn').innerHTML = `Question Bank (${questionsData.length} Canonical: ${p1} P1 &bull; ${p2} P2)`;
+                    if (!indicatorsData.length) populateIndicatorDropdown();
                 }
             } catch(e) {
                 console.error("Could not load questions_bank.json", e);
@@ -365,6 +382,21 @@
 
             renderPapers();
             renderQuestions();
+        }
+
+        function populateIndicatorDropdown() {
+            const sel = document.getElementById('indicatorSelect');
+            if (!sel) return;
+            const filteredInds = indicatorsData.filter(i => currentSubject === 'ALL' || i.subject === currentSubject);
+            let opts = `<option value="ALL">All NaCCA Indicators (B7–B9)</option>`;
+            if (filteredInds.length) {
+                opts += filteredInds.map(i => `<option value="${i.code}">${i.code} [${i.subject.replace('_',' ')}] — ${i.substrand_title} (${i.question_count || 0})</option>`).join('');
+            } else {
+                const codes = [...new Set(questionsData.filter(q => currentSubject === 'ALL' || q.subject === currentSubject).map(q => q.indicator_code).filter(Boolean))].sort();
+                opts += codes.map(c => `<option value="${c}">${c}</option>`).join('');
+            }
+            sel.innerHTML = opts;
+            sel.value = currentIndicator;
         }
 
         function switchView(tab) {
@@ -383,11 +415,18 @@
 
         function setSubject(subj, ev) {
             currentSubject = subj;
+            currentIndicator = 'ALL';
             document.querySelectorAll('#subjectFilters .pill-btn').forEach(b => b.classList.remove('active'));
             if (ev && ev.currentTarget) {
                 ev.currentTarget.classList.add('active');
             }
+            populateIndicatorDropdown();
             renderPapers();
+            renderQuestions();
+        }
+
+        function setIndicator(indCode) {
+            currentIndicator = indCode || 'ALL';
             renderQuestions();
         }
 
@@ -449,28 +488,34 @@
             const container = document.getElementById('questionsContainer');
             const filtered = questionsData.filter(q => {
                 const matchSubj = (currentSubject === 'ALL') || (q.subject === currentSubject);
+                const matchInd = (currentIndicator === 'ALL') || (q.indicator_code === currentIndicator) || (q.indicator_code && q.indicator_code.startsWith(currentIndicator + '.'));
                 let matchType = true;
+                const pt = q.paper_type || '';
                 if (currentPaperType === 'Paper 1 - Objective') {
-                    matchType = q.paper_type === 'Paper 1 - Objective';
+                    matchType = pt.includes('Paper 1');
                 } else if (currentPaperType === 'Paper 2 - Theory') {
-                    matchType = q.paper_type === 'Paper 2 - Theory';
+                    matchType = pt.includes('Paper 2');
                 } else if (currentPaperType === 'SCHEME') {
-                    matchType = q.paper_type.includes('Marking') || q.paper_type.includes('Solution');
+                    matchType = pt.includes('Marking') || pt.includes('Solution');
                 }
-                const matchSearch = !searchQuery || q.question_text.toLowerCase().includes(searchQuery);
-                return matchSubj && matchType && matchSearch;
+                const matchSearch = !searchQuery || (q.question_text || '').toLowerCase().includes(searchQuery) || (q.indicator_code || '').toLowerCase().includes(searchQuery);
+                return matchSubj && matchInd && matchType && matchSearch;
             });
 
             const sliced = filtered.slice(0, questionsLimit);
             let html = sliced.map((q, idx) => {
-                const isP2 = q.paper_type === 'Paper 2 - Theory';
-                const isScheme = q.paper_type.includes('Marking') || q.paper_type.includes('Solution');
+                const pt = q.paper_type || 'Exam Question';
+                const isP2 = pt.includes('Paper 2');
+                const isScheme = pt.includes('Marking') || pt.includes('Solution');
                 const hasOpts = q.option_a || q.option_b;
+                const indBadge = q.indicator_code
+                    ? `<span style="background:#e0e7ff;color:#3730a3;padding:2px 8px;border-radius:6px;font-weight:600;font-size:12px;margin-left:8px;">${q.indicator_code}${q.confidence ? ` (${Math.round(q.confidence * 100)}%)` : ''}</span>`
+                    : '';
                 return `
                 <div class="q-card">
                     <div class="q-header">
-                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; <span style="font-weight:600;color:${isScheme ? '#166534' : (isP2 ? '#b45309' : '#0284c7')};">${q.paper_type}</span> &bull; Question ${q.question_number || (idx + 1)}</span>
-                        <span>Source: ${q.source_file}</span>
+                        <span><strong>${q.subject.replace('_', ' ')}</strong> &bull; <span style="font-weight:600;color:${isScheme ? '#166534' : (isP2 ? '#b45309' : '#0284c7')};">${pt}</span> &bull; ${q.id || ('Question ' + (q.question_number || (idx + 1)))}${indBadge}</span>
+                        <span>${q.year ? q.year + ' &bull; ' : ''}Source: ${q.source_file || (q.occurrences && q.occurrences[0] ? q.occurrences[0].source_file : 'Bank')}</span>
                     </div>
                     <div class="q-text" style="white-space: pre-line;">${q.question_text}</div>
                     ${q.diagram_path ? `<img src="../data/${q.diagram_path}" class="diagram-preview" alt="Exam Diagram">` : ''}

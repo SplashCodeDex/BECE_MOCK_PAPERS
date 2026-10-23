@@ -27,6 +27,45 @@ STIMULUS_PATTERNS = [
 ]
 
 
+# Single-glyph Microsoft Symbol / Wingdings Private-Use-Area (U+F000..U+F0FF) Unicode map.
+# Leaves multi-piece 2D Equation Editor bracket drawing glyphs (\uf0e6..\uf0fb) intact so
+# scrambled 2D vertical fraction/matrix blocks remain detectable downstream.
+SYMBOL_PUA_MAP: Dict[str, str] = {
+    "\uf028": "(",
+    "\uf029": ")",
+    "\uf02b": "+",
+    "\uf02d": "-",
+    "\uf03c": "<",
+    "\uf03d": "=",
+    "\uf03e": ">",
+    "\uf053": "∑",
+    "\uf05c": "∴",
+    "\uf06f": "°",
+    "\uf070": "π",
+    "\uf071": "θ",
+    "\uf0a2": "′",
+    "\uf0a3": "≤",
+    "\uf0a7": "•",
+    "\uf0ae": "→",
+    "\uf0b3": "≥",
+    "\uf0b4": "×",
+    "\uf0b7": "•",
+    "\uf0b8": "÷",
+    "\uf0bb": "≈",
+    "\uf0cc": "⊂",
+    "\uf0de": "⇒",
+    "\uf0fc": "✓",
+}
+_SYMBOL_PUA_TRANS = str.maketrans(SYMBOL_PUA_MAP)
+
+
+def decode_symbol_pua(text: Optional[str]) -> str:
+    """Decode single-glyph Microsoft Symbol / Wingdings PUA codepoints into standard Unicode."""
+    if not text:
+        return ""
+    return text.translate(_SYMBOL_PUA_TRANS)
+
+
 class QuestionExtractor:
     """Extracts itemized Paper 1 (Objective) and Paper 2 (Theory) questions, marking schemes, and diagrams."""
 
@@ -73,14 +112,14 @@ class QuestionExtractor:
     def get_paragraph_text(p) -> str:
         """Extracts text in document order across standard text (w:t) and equation (m:t) nodes."""
         nodes = p._p.xpath(".//w:t | .//m:t")
-        return "".join(n.text for n in nodes if n.text).strip()
+        return decode_symbol_pua("".join(n.text for n in nodes if n.text).strip())
 
     @staticmethod
     def table_to_markdown(tbl) -> str:
         """Converts a Word table into a readable markdown table."""
         rows_data = []
         for row in tbl.rows:
-            row_cells = [cell.text.strip().replace("\n", " ") for cell in row.cells]
+            row_cells = [decode_symbol_pua(cell.text.strip().replace("\n", " ")) for cell in row.cells]
             if any(row_cells):
                 rows_data.append(row_cells)
         if not rows_data:
@@ -122,14 +161,14 @@ class QuestionExtractor:
                     img_name = f"{file_stem}_q{q_num}_{r_id}.png"
                     out_path = IMAGES_DIR / img_name
                     im.save(out_path, "PNG")
-                    return str(out_path.relative_to(EXTRACTED_DIR.parent))
+                    return str(out_path.relative_to(EXTRACTED_DIR.parent)).replace("\\", "/")
                 except Exception:
                     if any(t in content_type for t in ["jpeg", "jpg", "png", "webp"]):
                         ext = "jpg" if "jpeg" in content_type else "png"
                         img_name = f"{file_stem}_q{q_num}_{r_id}.{ext}"
                         out_path = IMAGES_DIR / img_name
                         out_path.write_bytes(raw_bytes)
-                        return str(out_path.relative_to(EXTRACTED_DIR.parent))
+                        return str(out_path.relative_to(EXTRACTED_DIR.parent)).replace("\\", "/")
         except Exception as e:
             logger.debug(f"Image extraction error for {file_stem} q{q_num}: {e}")
         return None
@@ -612,12 +651,12 @@ class QuestionExtractor:
                         out_path = IMAGES_DIR / img_name
                         if not out_path.exists():
                             out_path.write_bytes(raw_bytes)
-                        page_diagrams.append(str(out_path.relative_to(EXTRACTED_DIR.parent)))
+                        page_diagrams.append(str(out_path.relative_to(EXTRACTED_DIR.parent)).replace("\\", "/"))
             except Exception:
                 pass
 
             primary_diagram = page_diagrams[0] if page_diagrams else None
-            text = page.get_text()
+            text = decode_symbol_pua(page.get_text())
             raw_lines = [l.strip() for l in text.splitlines() if l.strip()]
 
             # Stimulus pattern detection
@@ -766,9 +805,45 @@ class QuestionExtractor:
         self.export_catalog()
         return total_extracted
 
+    @staticmethod
+    def is_valid_question(q: Dict[str, Any]) -> bool:
+        """Enforces strict quality criteria to reject fragmented lines, broken formulas, and rogue answer keys."""
+        text = q.get("question_text", "").strip()
+        ptype = q.get("paper_type", "")
+
+        # Reject rogue answer-key snippets e.g. "A. circle", "C. situation", "1. A", "A."
+        if re.match(r"^[A-D]\s*[\.\)]?\s*[a-zA-Z0-9\s]{0,15}$", text, re.I):
+            return False
+
+        # Reject table of contents or introductory document lines
+        if any(ign in text.lower() for ign in ["hold down ctrl", "click on a link", "list of papers", "table of contents"]):
+            return False
+
+        # Paper 1 (Objective) MUST have at least 2 non-empty options and a meaningful question stem
+        if "Paper 1" in ptype:
+            opts = [q.get("option_a", "").strip(), q.get("option_b", "").strip(), q.get("option_c", "").strip(), q.get("option_d", "").strip()]
+            valid_opts = [o for o in opts if o]
+            if len(valid_opts) < 2:
+                return False
+            if len(text) < 10:
+                return False
+
+        # Paper 2 (Theory) MUST have meaningful problem text (>= 15 characters)
+        elif "Paper 2" in ptype:
+            if len(text) < 15:
+                return False
+
+        # Solutions / Marking Schemes must have substantive content
+        else:
+            if len(text) < 10:
+                return False
+
+        return True
+
     def save_questions_batch(self, questions: List[Dict[str, Any]]) -> None:
-        """Saves or updates a batch of questions in SQLite database in a single transaction."""
-        if not questions:
+        """Saves or updates a batch of validated questions in SQLite database in a single transaction."""
+        valid_questions = [q for q in questions if self.is_valid_question(q)]
+        if not valid_questions:
             return
         rows = [
             (
@@ -784,10 +859,10 @@ class QuestionExtractor:
                 q["option_d"],
                 q.get("correct_answer", ""),
                 q["has_diagram"],
-                q.get("diagram_path"),
+                q.get("diagram_path").replace("\\", "/") if q.get("diagram_path") else None,
                 q["source_file"],
             )
-            for q in questions
+            for q in valid_questions
         ]
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.executemany(
@@ -802,20 +877,25 @@ class QuestionExtractor:
             )
 
     def save_question(self, q: Dict[str, Any]) -> None:
-        """Saves or updates a single question in SQLite database."""
+        """Saves or updates a single question in SQLite database if valid."""
         self.save_questions_batch([q])
 
-    def export_catalog(self) -> None:
+    def export_catalog(self, json_path: Optional[Path] = None, jsonl_path: Optional[Path] = None) -> None:
         """Exports extracted questions to JSON and JSONL."""
+        out_json = json_path or JSON_EXPORT_PATH
+        out_jsonl = jsonl_path or JSONL_EXPORT_PATH
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
-            rows = conn.execute("SELECT * FROM extracted_questions ORDER BY subject, year, paper_type, question_number;").fetchall()
+            # Check if questions table exists
+            has_q = conn.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='questions';").fetchone()
+            tbl = "questions" if has_q else "extracted_questions"
+            rows = conn.execute(f"SELECT * FROM {tbl} ORDER BY subject, year, paper_type, question_number;").fetchall()
             data = [dict(r) for r in rows]
 
-        with open(JSON_EXPORT_PATH, "w", encoding="utf-8") as f:
+        with open(out_json, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-        with open(JSONL_EXPORT_PATH, "w", encoding="utf-8") as f:
+        with open(out_jsonl, "w", encoding="utf-8") as f:
             for item in data:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
 

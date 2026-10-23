@@ -72,7 +72,23 @@ SEED_URLS: List[str] = [
     "https://becezone.com/bece-past-questions/",
     "https://kuulchat.com/bece-questions",
     "https://bestbrainexams.com/downloads/",
-    "https://gbassessment.com/resources/"
+    "https://gbassessment.com/resources/",
+    # --- Computing / ICT multi-year (gap: bank is 2024-only) ---
+    "https://ghlearner.com/bece/computing/exams",
+    "https://passco.com.gh/bece-past-questions/ict",
+    "https://mickinetsystems.com/bece-ict-past-questions/",
+    "https://ghanaeducation.org/category/ict-questions/",
+    "https://becezone.com/ict/",
+    # --- CDT / Pre-tech / BDT after 2017 (gap: bank stops at 2017) ---
+    "https://mickinetsystems.com/bece-pre-technical-skills-past-questions/",
+    "https://mickinetsystems.com/bece-basic-design-technology-past-questions/",
+    "https://passco.com.gh/bece-past-questions/basic-design-technology",
+    "https://ghanaeducation.org/category/career-technology/",
+    "https://ghlearner.com/bece/career-technology/exams",
+    # --- Maths 2013-2025 gap ---
+    "https://passco.com.gh/bece-past-questions/mathematics",
+    "https://ghlearner.com/bece/mathematics/exams",
+    "https://mickinetsystems.com/bece-mathematics-past-questions/",
 ]
 
 # Common Examination Terms for Relevance Scoring
@@ -96,7 +112,24 @@ DORK_QUERIES: List[str] = [
     'filetype:docx "BECE" "mock" ("maths" OR "computing" OR "career technology")',
     'filetype:pdf "best brain" "mock" "bece" questions',
     'filetype:pdf "gbat" "mock" "bece" marking scheme',
-    'site:drive.google.com/file/d/ ("BECE" OR "mock") ("maths" OR "computing" OR "CDT")'
+    'site:drive.google.com/file/d/ ("BECE" OR "mock") ("maths" OR "computing" OR "CDT")',
+    # --- Computing / ICT multi-year harvest ---
+    'filetype:pdf "BECE" "ICT" "past questions" ghana',
+    'filetype:pdf "BECE" "computing" "2018" OR "2019" OR "2020" OR "2021" OR "2022" OR "2023"',
+    'filetype:pdf "BECE" "computing" "Paper 1" "Paper 2" answers',
+    'site:ghlearner.com (ICT OR computing) (bece OR mock) filetype:pdf',
+    'site:passco.com.gh (ICT OR computing) filetype:pdf',
+    # --- CDT / Pre-tech / BDT after 2017 ---
+    'filetype:pdf "BECE" "pre-technical skills" OR "pre technical" past questions',
+    'filetype:pdf "BECE" "basic design and technology" past questions',
+    'filetype:pdf "BECE" "career technology" mock 2020 OR 2021 OR 2022 OR 2023 OR 2024',
+    'filetype:pdf "home economics" "BECE" past questions ghana',
+    'site:mickinetsystems.com ("pre-technical" OR "basic design" OR "career technology") filetype:pdf',
+    # --- Maths 2013-2025 gap ---
+    'filetype:pdf "BECE" "mathematics" "2018" OR "2019" OR "2020" OR "2021" past questions',
+    'filetype:pdf "BECE" "mathematics" mock "2023" OR "2024" OR "2025" questions',
+    'site:passco.com.gh mathematics BECE filetype:pdf',
+    'site:ghlearner.com mathematics bece filetype:pdf',
 ]
 
 # Crawler Settings

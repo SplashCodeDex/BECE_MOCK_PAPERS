@@ -1,0 +1,20 @@
+\documentclass[tikz,border=15pt]{standalone}
+\usepackage{amsmath,amssymb}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.1]
+  % Set A and Set B ellipses with generous horizontal space
+  \draw[line width=1.4pt] (1.6, 1.4) ellipse (2.2cm and 1.25cm);
+  \draw[line width=1.4pt] (4.6, 1.4) ellipse (2.2cm and 1.25cm);
+
+  % Set Labels
+  \node[above left=2pt, font=\LARGE\sffamily\bfseries] at (-0.5, 2.3) {A};
+  \node[above right=2pt, font=\LARGE\sffamily\bfseries] at (6.7, 2.3) {B};
+
+  % Elements
+  \node[font=\large\bfseries] at (0.8, 1.4) {a, \; c};
+  \node[font=\large\bfseries] at (3.1, 1.4) {d};
+  \node[font=\large\bfseries] at (5.3, 1.4) {b, \; i, \; o, \; u};
+
+\end{tikzpicture}
+\end{document}

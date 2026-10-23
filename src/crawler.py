@@ -6,8 +6,6 @@ from urllib.parse import urljoin, urlparse
 from crawlee.crawlers import (
     BeautifulSoupCrawler,
     BeautifulSoupCrawlingContext,
-    PlaywrightCrawler,
-    PlaywrightCrawlingContext,
 )
 from src.classifier import FileClassifier
 from src.config import (
@@ -146,7 +144,16 @@ class BECEMockCrawler:
 
         return crawler
 
-    def build_stealth_crawler(self) -> PlaywrightCrawler:
+    def build_stealth_crawler(self):
+        # Playwright is optional (stealth mode only) — import when needed.
+        try:
+            from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
+        except ImportError as exc:
+            raise ImportError(
+                "Stealth mode requires Playwright. Install with: "
+                "uv pip install 'crawlee[playwright]' && playwright install chromium"
+            ) from exc
+
         crawler = PlaywrightCrawler(
             max_requests_per_crawl=self.max_requests,
             max_crawl_depth=self.max_depth,

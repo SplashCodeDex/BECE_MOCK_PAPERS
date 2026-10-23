@@ -21,6 +21,69 @@ class FileClassifier:
         ]
         return not any(u in text for u in unwanted)
 
+    EXAM_SIGNALS = (
+        "bece", "mock", "past questions", "pasco", "marking scheme",
+        "paper 1", "paper 2", "objective", "theory", "waec", "ges",
+        "chief examiner", "trial questions", "sample questions", "exam",
+        "questions and answers", "question paper",
+    )
+
+    @classmethod
+    def looks_like_exam_content(cls, text: str) -> bool:
+        t = (text or "").lower()
+        return any(s in t for s in cls.EXAM_SIGNALS)
+
+    @classmethod
+    def reject_reason(
+        cls,
+        content: bytes,
+        extension: str,
+        text_context: str = "",
+        subject: Optional[str] = None,
+    ) -> Optional[str]:
+        """Return a reject reason if this download must NOT be kept, else None.
+
+        Used to permanently tombstone junk (notes, textbooks, wrong papers) so a
+        future crawl never refetches the same bytes after the file is deleted.
+        """
+        sample = text_context
+        ext = (extension or "").lower()
+        if content and ext == ".pdf":
+            try:
+                import pymupdf
+
+                doc = pymupdf.open(stream=content, filetype="pdf")
+                for p in range(min(len(doc), 3)):
+                    sample += " " + doc[p].get_text()
+            except Exception:
+                pass
+        elif content and ext in (".txt", ""):
+            try:
+                sample += " " + content[:4000].decode("utf-8", errors="ignore")
+            except Exception:
+                pass
+        elif content and ext == ".docx":
+            try:
+                import io
+
+                from docx import Document
+
+                doc = Document(io.BytesIO(content))
+                sample += " " + " ".join(p.text for p in doc.paragraphs[:20])
+            except Exception:
+                pass
+
+        if not cls.is_exam_paper_or_scheme(sample):
+            return "not_exam_paper"
+
+        if not cls.looks_like_exam_content(sample):
+            return "no_exam_signals"
+
+        if subject == "General_Unclassified" and not cls.looks_like_exam_content(text_context):
+            return "unclassified_wrong_subject"
+
+        return None
+
     @classmethod
     def detect_subject(cls, text_context: str) -> str:
         """Determines subject based on text context (URL path, title, anchor text, headers)."""

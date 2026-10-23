@@ -143,10 +143,12 @@ def test_export_catalog(temp_extractor, tmp_path):
         "diagram_path": None,
         "source_file": "test.docx"
     })
-    # Export and verify
-    temp_extractor.export_catalog()
-    from src.question_extractor import JSON_EXPORT_PATH
-    assert JSON_EXPORT_PATH.exists()
+    # Export and verify safely to tmp_path to prevent overwriting production data
+    test_json = tmp_path / "test_questions_bank.json"
+    test_jsonl = tmp_path / "test_questions_bank.jsonl"
+    temp_extractor.export_catalog(json_path=test_json, jsonl_path=test_jsonl)
+    assert test_json.exists()
+    assert test_jsonl.exists()
 
 
 def test_parse_pdf_questions(temp_extractor, tmp_path):

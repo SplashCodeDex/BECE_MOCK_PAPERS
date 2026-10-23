@@ -6,3 +6,12 @@ pymupdf>=1.25.0
 python-docx>=1.1.0
 rich>=13.9.0
 pydantic>=2.10.0
+sentence-transformers[image]>=6.1.0
+transformers>=5.20.0
+laya[onnx]>=0.4.8
+onnxruntime>=1.31.0
+sympy>=1.14.0
+pillow>=11.0.0
+numpy>=2.0.0
+
+
